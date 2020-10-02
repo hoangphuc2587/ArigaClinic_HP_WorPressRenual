@@ -13,175 +13,91 @@
 
 <html class="no-js" <?php language_attributes(); ?>>
 
-	<head>
+    <head>
 
-		<meta charset="<?php bloginfo( 'charset' ); ?>">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <meta charset="<?php bloginfo( 'charset' ); ?>">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
 
-		<link rel="profile" href="https://gmpg.org/xfn/11">
+        <link rel="profile" href="https://gmpg.org/xfn/11">
+        <link media="all" href="<?php echo home_url(); ?>/wp-content/themes/twentytwenty/assets/css/autoptimize_e19808f538a9ee2c513ec2f55d2b1c57.css" rel="stylesheet" />
+        <link media="screen and (max-width:771px)" href="<?php echo home_url(); ?>/wp-content/themes/twentytwenty/assets/css/autoptimize_3e5bc943ecdc056dd22f68842d3fac25.css" rel="stylesheet" />
+        <link media="screen and (max-width:991px)" href="<?php echo home_url(); ?>/wp-content/themes/twentytwenty/assets/css/autoptimize_1a66718c7cb7a594dcdfd079b102bdf7.css" rel="stylesheet" />
+        <link media="all" href="<?php echo home_url(); ?>/wp-content/themes/twentytwenty/assets/css/style.css" rel="stylesheet" />
 
-		<?php wp_head(); ?>
+        <link rel="apple-touch-icon" sizes="180x180" href="<?php echo home_url(); ?>/wp-content/uploads/fbrfg/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="<?php echo home_url(); ?>/wp-content/uploads/fbrfg/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="<?php echo home_url(); ?>/wp-content/uploads/fbrfg/favicon-16x16.png">
+        <link rel="manifest" href="<?php echo home_url(); ?>/wp-content/uploads/fbrfg/site.webmanifest">
+        <link rel="mask-icon" href="<?php echo home_url(); ?>/wp-content/uploads/fbrfg/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="<?php echo home_url(); ?>/wp-content/uploads/fbrfg/favicon.ico">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="<?php echo home_url(); ?>/wp-content/uploads/fbrfg/browserconfig.xml">
 
-	</head>
+        <?php //wp_head(); ?>
+        <title>ホーチミンの日系歯科医院のありが歯科　こども矯正歯科、インプラントにも対応しています</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js?ver=4.9.15'></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBI_ctL4EoMtRLUIgnCZmAlQ2JOxpweHGo"></script> <script type="text/javascript">jQuery(function() {
+         jQuery(".zoom").elevateZoom({
+           zoomType : "inner",
+           zoomWindowFadeIn: 500,
+           zoomWindowFadeOut: 500,
+           easing : true
+         });
+         });
+        </script> 
+       
+    </head>
 
-	<body <?php body_class(); ?>>
+    <body <?php body_class(); ?>>
+        <div id="verytop"></div>
+        <?php
+        wp_body_open();
+        ?>
 
-		<?php
-		wp_body_open();
-		?>
-
-		<header id="site-header" class="header-footer-group" role="banner">
-
-			<div class="header-inner section-inner">
-
-				<div class="header-titles-wrapper">
-
-					<?php
-
-					// Check whether the header search is activated in the customizer.
-					$enable_header_search = get_theme_mod( 'enable_header_search', true );
-
-					if ( true === $enable_header_search ) {
-
-						?>
-
-						<button class="toggle search-toggle mobile-search-toggle" data-toggle-target=".search-modal" data-toggle-body-class="showing-search-modal" data-set-focus=".search-modal .search-field" aria-expanded="false">
-							<span class="toggle-inner">
-								<span class="toggle-icon">
-									<?php twentytwenty_the_theme_svg( 'search' ); ?>
-								</span>
-								<span class="toggle-text"><?php _e( 'Search', 'twentytwenty' ); ?></span>
-							</span>
-						</button><!-- .search-toggle -->
-
-					<?php } ?>
-
-					<div class="header-titles">
-
-						<?php
-							// Site title or logo.
-							twentytwenty_site_logo();
-
-							// Site description.
-							twentytwenty_site_description();
-						?>
-
-					</div><!-- .header-titles -->
-
-					<button class="toggle nav-toggle mobile-nav-toggle" data-toggle-target=".menu-modal"  data-toggle-body-class="showing-menu-modal" aria-expanded="false" data-set-focus=".close-nav-toggle">
-						<span class="toggle-inner">
-							<span class="toggle-icon">
-								<?php twentytwenty_the_theme_svg( 'ellipsis' ); ?>
-							</span>
-							<span class="toggle-text"><?php _e( 'Menu', 'twentytwenty' ); ?></span>
-						</span>
-					</button><!-- .nav-toggle -->
-
-				</div><!-- .header-titles-wrapper -->
-
-				<div class="header-navigation-wrapper">
-
-					<?php
-					if ( has_nav_menu( 'primary' ) || ! has_nav_menu( 'expanded' ) ) {
-						?>
-
-							<nav class="primary-menu-wrapper" aria-label="<?php esc_attr_e( 'Horizontal', 'twentytwenty' ); ?>" role="navigation">
-
-								<ul class="primary-menu reset-list-style">
-
-								<?php
-								if ( has_nav_menu( 'primary' ) ) {
-
-									wp_nav_menu(
-										array(
-											'container'  => '',
-											'items_wrap' => '%3$s',
-											'theme_location' => 'primary',
-										)
-									);
-
-								} elseif ( ! has_nav_menu( 'expanded' ) ) {
-
-									wp_list_pages(
-										array(
-											'match_menu_classes' => true,
-											'show_sub_menu_icons' => true,
-											'title_li' => false,
-											'walker'   => new TwentyTwenty_Walker_Page(),
-										)
-									);
-
-								}
-								?>
-
-								</ul>
-
-							</nav><!-- .primary-menu-wrapper -->
-
-						<?php
-					}
-
-					if ( true === $enable_header_search || has_nav_menu( 'expanded' ) ) {
-						?>
-
-						<div class="header-toggles hide-no-js">
-
-						<?php
-						if ( has_nav_menu( 'expanded' ) ) {
-							?>
-
-							<div class="toggle-wrapper nav-toggle-wrapper has-expanded-menu">
-
-								<button class="toggle nav-toggle desktop-nav-toggle" data-toggle-target=".menu-modal" data-toggle-body-class="showing-menu-modal" aria-expanded="false" data-set-focus=".close-nav-toggle">
-									<span class="toggle-inner">
-										<span class="toggle-text"><?php _e( 'Menu', 'twentytwenty' ); ?></span>
-										<span class="toggle-icon">
-											<?php twentytwenty_the_theme_svg( 'ellipsis' ); ?>
-										</span>
-									</span>
-								</button><!-- .nav-toggle -->
-
-							</div><!-- .nav-toggle-wrapper -->
-
-							<?php
-						}
-
-						if ( true === $enable_header_search ) {
-							?>
-
-							<div class="toggle-wrapper search-toggle-wrapper">
-
-								<button class="toggle search-toggle desktop-search-toggle" data-toggle-target=".search-modal" data-toggle-body-class="showing-search-modal" data-set-focus=".search-modal .search-field" aria-expanded="false">
-									<span class="toggle-inner">
-										<?php twentytwenty_the_theme_svg( 'search' ); ?>
-										<span class="toggle-text"><?php _e( 'Search', 'twentytwenty' ); ?></span>
-									</span>
-								</button><!-- .search-toggle -->
-
-							</div>
-
-							<?php
-						}
-						?>
-
-						</div><!-- .header-toggles -->
-						<?php
-					}
-					?>
-
-				</div><!-- .header-navigation-wrapper -->
-
-			</div><!-- .header-inner -->
-
-			<?php
-			// Output the search modal (if it is activated in the customizer).
-			if ( true === $enable_header_search ) {
-				get_template_part( 'template-parts/modal-search' );
-			}
-			?>
-
-		</header><!-- #site-header -->
-
-		<?php
-		// Output the menu modal.
-		get_template_part( 'template-parts/modal-menu' );
+        <nav id="header" class="site-navigation">
+         <div class="container">
+            <div class="row">
+               <div class="site-navigation-inner col-xs-120 no-padding" style="padding:0px">
+                  <div class="navbar navbar-default">
+                     <div class="navbar-header">
+                        <div id="logo-area">
+                           <div id='logo_image'>
+                              <h2 id="logo" style="top:5px; left:0px;"><a href="<?php echo home_url(); ?>/" title="ベトナム ホーチミンでの歯医者(歯科) 虫歯,ホワイトニング,インプラント,歯周病,こども矯正　ありが歯科" data-label="ベトナム ホーチミンでの歯医者(歯科) 虫歯,ホワイトニング,インプラント,歯周病,こども矯正　ありが歯科"><img class="h_logo" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/logo-resized.png?1601524837" alt="ベトナム ホーチミンでの歯医者(歯科) 虫歯,ホワイトニング,インプラント,歯周病,こども矯正　ありが歯科" title="ベトナム ホーチミンでの歯医者(歯科) 虫歯,ホワイトニング,インプラント,歯周病,こども矯正　ありが歯科" /></a></h2>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="pull-right right-menu">
+                        <div class="collapse navbar-collapse">
+                           <ul id="main-menu" class="nav navbar-nav">
+                              <?php                              
+                                  wp_nav_menu(
+                                    array(
+                                      'container'  => '',
+                                      'items_wrap' => '%3$s',
+                                      'theme_location' => '',
+                                    )
+                                  );
+                              ?>                           
+                           </ul>
+                        </div>
+                        <a href="#" class="menu_button"></a>
+                        <div id="global_menu" class="clearfix">
+                           <ul id="menu-mobile" class="menu">
+                              <?php                              
+                                  wp_nav_menu(
+                                    array(
+                                      'container'  => '',
+                                      'items_wrap' => '%3$s',
+                                      'theme_location' => '',
+                                    )
+                                  );
+                              ?>     
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </nav>

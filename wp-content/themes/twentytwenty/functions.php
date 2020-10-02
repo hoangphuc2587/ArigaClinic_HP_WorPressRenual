@@ -754,3 +754,11 @@ function twentytwenty_get_elements_array() {
 	*/
 	return apply_filters( 'twentytwenty_get_elements_array', $elements );
 }
+
+function hide_admin_bar_from_front_end(){
+  if (is_blog_admin()) {
+    return true;
+  }
+  return false;
+}
+add_filter( 'show_admin_bar', 'hide_admin_bar_from_front_end' );
