@@ -18,9 +18,16 @@
         <meta charset="<?php bloginfo( 'charset' ); ?>">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" >
 
-        <link rel="profile" href="https://gmpg.org/xfn/11">
+        <?php 
+        global $post;
+        $post_slug = $post->post_name;        
+        ?>
+        <link rel="profile" href="https://gmpg.org/xfn/11">       
+        <?php if ( $post_slug == "first-visit"):?>
+        <link media="all" href="<?php echo home_url(); ?>/wp-content/themes/twentytwenty/assets/css/autoptimize_742f7556a3c461fdfc23fddade51da38.css" rel="stylesheet" />
+        <?php else:?>
         <link media="all" href="<?php echo home_url(); ?>/wp-content/themes/twentytwenty/assets/css/autoptimize_e19808f538a9ee2c513ec2f55d2b1c57.css" rel="stylesheet" />
-        <link media="screen and (max-width:771px)" href="<?php echo home_url(); ?>/wp-content/themes/twentytwenty/assets/css/autoptimize_3e5bc943ecdc056dd22f68842d3fac25.css" rel="stylesheet" />
+        <?php endif?>              
         <link media="screen and (max-width:991px)" href="<?php echo home_url(); ?>/wp-content/themes/twentytwenty/assets/css/autoptimize_1a66718c7cb7a594dcdfd079b102bdf7.css" rel="stylesheet" />
         <link media="all" href="<?php echo home_url(); ?>/wp-content/themes/twentytwenty/assets/css/style.css" rel="stylesheet" />
 
