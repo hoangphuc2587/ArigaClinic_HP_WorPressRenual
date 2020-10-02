@@ -24,11 +24,11 @@
 
 .footer-menu #menu-footer-pc li{
   width: auto !important;
-  line-height: 25px;
+  line-height: 28px;
 }
 
 .footer-menu #menu-footer-pc .sub-menu{
-  padding-left: 0px;
+  padding-left: 20px;
   position: absolute;
   width: 200px;
 }
@@ -39,6 +39,19 @@
 }
 
 .footer_main .amore-section{
-  padding: 0px 0 90px;
+  padding: 0px 0 100px;
+}
+
+.footer-menu #menu-footer-pc li a span{
+  margin-right: 15px;
+}
+
+.footer-menu #menu-footer-pc .sub-menu span{
+  display: none;
+}
+
+.footer-menu ul li a {
+  padding: 10px 30px;    
+  font-size: 15px;
 }
 

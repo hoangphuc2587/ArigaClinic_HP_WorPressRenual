@@ -10,9 +10,7 @@
  * @subpackage Twenty_Twenty
  * @since Twenty Twenty 1.0
  */
-
-?>
-      <script>jQuery('.heightasviewport').css('height', jQuery(window).height())</script>       
+?>          
       <div id="footer" class="front_mobile_footer">
          <div class="container">
             <div class="row hidden-xs">
@@ -24,6 +22,7 @@
                <div class="col-xs-120 footer_mobile_menu_wrapper">
                   <div id="footer-menu-2" class="footer_mobile_menu clearfix">
                      <ul id="menu-footer" class="menu">
+                       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="<?php echo home_url(); ?>/"><span>|</span>TOP</a></li>
                         <?php                              
                             wp_nav_menu(
                               array(
@@ -54,12 +53,13 @@
                <div class="col-xs-120 no-padding hidden-xs">
                   <div class="footer-menu collapse navbar-collapse">
                      <ul id="menu-footer-pc" class="nav navbar-nav">
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="<?php echo home_url(); ?>/">TOP</a></li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="<?php echo home_url(); ?>/"><span>|</span>TOP</a></li>
                         <?php                              
                             wp_nav_menu(
                               array(
                                 'container'  => '',
                                 'items_wrap' => '%3$s',
+                                'link_before'     => "<span>|</span>",
                                 'theme_location' => '',
                               )
                             );
@@ -231,6 +231,7 @@
          })
          })
          
+          <?php if (get_the_title() == ''):?>
            google.maps.event.addDomListener(window, 'load', function(){
            var geocoder = new google.maps.Geocoder();
          
@@ -252,6 +253,7 @@
          
            })
          })
+         <?php endif;?>  
       </script>
       <script defer src="<?php echo home_url(); ?>/wp-content/themes/twentytwenty/assets/js/autoptimize_b29c772d238f4707fabd394edbc70dfc.js"></script>
 
