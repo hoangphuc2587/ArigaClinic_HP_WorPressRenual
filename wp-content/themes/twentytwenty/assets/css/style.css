@@ -21,3 +21,24 @@
 #main-menu .menu-item-has-children:hover .sub-menu {
   display: block;
 }
+
+.footer-menu #menu-footer-pc li{
+  width: auto !important;
+  line-height: 25px;
+}
+
+.footer-menu #menu-footer-pc .sub-menu{
+  padding-left: 0px;
+  position: absolute;
+  width: 200px;
+}
+
+.footer-menu.navbar-collapse{
+  display: flex !important;
+  justify-content: center;
+}
+
+.footer_main .amore-section{
+  padding: 0px 0 90px;
+}
+

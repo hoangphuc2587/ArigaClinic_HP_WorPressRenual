@@ -32,7 +32,7 @@
                                 'theme_location' => '',
                               )
                             );
-                        ?>  
+                        ?>
                      </ul>
                   </div>                  
                </div>
@@ -41,43 +41,32 @@
          </div>
       </div>
       <div class="hidden-xs footer_main">
-         <div class="container amore-section" style="padding: 60px 0 50px;">
-            <div class="row" style="color:white; width:740px; margin:0 auto;">
+         <div class="container amore-section">
+            <div class="row">
                <div class="col-xs-120 text-center romaji">
                   <div id='footer_logo_text_area'>
-                     <h3 id="footer_logo_text"><a href="https://arigadc.com/">ベトナム ホーチミンでの歯医者(歯科) 虫歯,ホワイトニング,インプラント,歯周病,こども矯正　ありが歯科</a></h3>
+                     <h3 id="footer_logo_text"><img class="h_logo" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/logo-footer.png"/></h3>
                      <h4 id="footer_description"></h4>
                   </div>
                </div>
             </div>
-            <div class="row" style="color:white; width:360px; margin:0 auto;">
-               <div class="col-xs-60 no-padding hidden-xs">
+            <div class="row">
+               <div class="col-xs-120 no-padding hidden-xs">
                   <div class="footer-menu collapse navbar-collapse">
-                     <ul id="menu-%e3%83%a1%e3%83%8b%e3%83%a5%e3%83%bc%ef%bc%91-2" class="nav navbar-nav">
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-143"><a title="初めてのありが歯科" href="https://arigadc.com/first-visit/">初めてのありが歯科</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-142"><a title="Dr.　スタッフ紹介" href="https://arigadc.com/staff/">Dr.　スタッフ紹介</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-141"><a title="歯のお悩みから探す" href="https://arigadc.com/search-from-trouble/">歯のお悩みから探す</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234"><a title="治療費について" href="https://arigadc.com/about-medical-expenses/">治療費について</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-145"><a title="NEWS" href="https://arigadc.com/bloglist/">NEWS</a></li>
+                     <ul id="menu-footer-pc" class="nav navbar-nav">
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="<?php echo home_url(); ?>/">TOP</a></li>
+                        <?php                              
+                            wp_nav_menu(
+                              array(
+                                'container'  => '',
+                                'items_wrap' => '%3$s',
+                                'theme_location' => '',
+                              )
+                            );
+                        ?>  
                      </ul>
                   </div>
-               </div>
-               <div class="col-xs-60 no-padding hidden-xs">
-                  <div class="footer-menu collapse navbar-collapse">
-                     <ul id="menu-%e3%83%a1%e3%83%8b%e3%83%a5%e3%83%90%e3%83%bc%ef%bc%92-1" class="nav navbar-nav">
-                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-147"><a title="マウスピース矯正" href="https://arigadc.com/category/mouthpiece/">マウスピース矯正</a></li>
-                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-148"><a title="保険関連" href="https://arigadc.com/category/insurance/">保険関連</a></li>
-                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-149"><a title="こども矯正" href="https://arigadc.com/category/child-correction/">こども矯正</a></li>
-                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-150"><a title="今からが大切　小児歯科" href="https://arigadc.com/category/important-from-now-on/">今からが大切　小児歯科</a></li>
-                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-151"><a title="歯のお悩みはこちらから" href="https://arigadc.com/category/dental_problems/">歯のお悩みはこちらから</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-233"><a title="治療費について" href="https://arigadc.com/about-medical-expenses/">治療費について</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-564"><a title="審美歯科・ホワイトニング" href="https://arigadc.com/cosmetic_dental_whitening/">審美歯科・ホワイトニング</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-565"><a title="安心インプラント" href="https://arigadc.com/implant/">安心インプラント</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-566 active"><a title="トップページ" href="https://arigadc.com/">トップページ</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-731"><a title="サイトマップ" href="https://arigadc.com/sitemap/">サイトマップ</a></li>
-                     </ul>
-                  </div>
-               </div>
+               </div>               
             </div>
          </div>
          <div class="scrolltotop">
