@@ -20,31 +20,32 @@ get_header();
     </div>
  </div>
 </div>
-
 <div class="container amore-inner-container" style="margin-bottom:0px">
  <div class="row">
    <div class="col-sm-120 col-xs-120 no-padding single-page">
-      <h4><span style="margin-left: 30px;">初めてのホーチミンありが歯科ご来院の流れ</span></h4>
-      <h2><b>【日本語専用】：０９０ - ４１８ - ６４８０ </b></h2><br />
-      <h2><b>【診療時間】</b></h2>
-         <div style="margin-left: 210px;">
-            <table style="width:70%;"> 
-               <tr>
-                  <th style="background-color: #D6C77E;"></th>
-                  <th style="background-color: #D6C77E;">午前</th>
-                  <th style="background-color: #D6C77E;">午後</th>
-               </tr>
-               <tr style="text-align: center;">
-                  <td>月曜~金曜</td>
-                  <td>09:00 ~ 12:00</td>
-                  <td>14:00 ~ 19:00</td>
-               </tr>
-               <tr style="text-align: center;">
-                  <td>土曜</td>
-                  <td>09:00 ~ 12:00</td>
-                  <td>13:00 ~ 17:00</td>
-               </tr>
-            </table>
+      <h4><span style="margin-left: 30px;">電話でのお問い合わせ/予約</span></h4>
+      <div style="margin-left: 40px;"  ><br />
+         <h2><b>【日本語専用】：０９０ - ４１８ - ６４８０ </b></h2><br />
+         <h2><b>【診療時間】</b></h2>
+            <div style="margin-left: 210px;">
+               <table style="width:70%;" > 
+                  <tr>
+                     <th style="background-color: #D6C77E;"></th>
+                     <th style="background-color: #D6C77E; text-align: center;">午前</th>
+                     <th style="background-color: #D6C77E; text-align: center; ">午後</th>
+                  </tr>
+                  <tr style="text-align: center;">
+                     <td>月曜~金曜</td>
+                     <td>09:00 ~ 12:00</td>
+                     <td>14:00 ~ 19:00</td>
+                  </tr>
+                  <tr style="text-align: center;">
+                     <td>土曜</td>
+                     <td>09:00 ~ 12:00</td>
+                     <td>13:00 ~ 17:00</td>
+                  </tr>
+               </table>
+            </div>
          </div>
          <h2>【休診日】</h2>
          <h2><span style="margin-left: 60px;">木曜(午前) / 日曜日</span></h2>
@@ -67,5 +68,4 @@ get_header();
  </div>
 </div>
 </div>
-
 <?php get_footer(); ?>
