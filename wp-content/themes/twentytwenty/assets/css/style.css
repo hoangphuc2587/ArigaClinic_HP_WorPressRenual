@@ -182,6 +182,20 @@ p.info-dr{
   display: none;
 }
 
+ .tbl
+{
+  width: 70% !important;
+  padding-left: 40px !important; 
+}
+
+.text-padding-left{
+  padding-left: 50px !important; 
+}
+
+.padding-left-title{
+  padding-left: 30px !important; 
+}
+
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 767px) {
   .slideshow-container .mySlides img {
@@ -206,4 +220,20 @@ p.info-dr{
   .col-xs-sp{
     display: block;
   }
- } 
+  .support-page h2
+  {
+     font-size: 16px;
+     padding-left: 0px !important; 
+  }
+  .tbl
+  {
+    width: 100% !important;
+  }
+  .text-padding-left{
+     padding-left: 0px !important; 
+  }
+
+  .padding-left-title{
+    padding-left: 10px !important; 
+  }
+ }
