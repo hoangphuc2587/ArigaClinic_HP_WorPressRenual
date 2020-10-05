@@ -193,9 +193,14 @@ p.info-dr{
 }
 
 .padding-left-title{
-  padding-left: 30px !important; 
+  padding-left: 20px !important; 
 }
 
+.support-page .text-address{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-align: center;
+}
+ 
 .pt-20{
   padding-top: 20px;
 }
@@ -222,9 +227,7 @@ p.info-dr{
   padding-top: 100px;
   padding-bottom: 20px;
 }
-
-    
-
+ 
 .expense-page .expense-item .col-sm-110 img{
   position: absolute;
   top: -80px;
@@ -238,8 +241,6 @@ p.info-dr{
 .expense-page .expense-item .row .row{
   padding: 5px 0px;
 }
-
-
 
 
 /* On smaller screens, decrease text size */
