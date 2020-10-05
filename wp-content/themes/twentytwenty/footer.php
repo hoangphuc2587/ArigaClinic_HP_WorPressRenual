@@ -231,7 +231,7 @@
          })
          })
          
-          <?php if (get_the_title() == ''):?>
+          <?php if (is_front_page()):?>
            google.maps.event.addDomListener(window, 'load', function(){
            var geocoder = new google.maps.Geocoder();
          

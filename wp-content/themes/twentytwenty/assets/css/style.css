@@ -60,3 +60,150 @@ header.breadcrumb img
   margin-top: -4px; 
 }
 
+p.info-dr{
+  margin-bottom: 0.5em !important;
+}
+
+.staff-page ul.list-item{
+  margin-left: 20px; 
+  list-style: disc;
+  font-size: 16px
+}
+
+.staff-page h4.circle{
+  padding-left: 20px;
+}
+
+.staff-page .fade{
+  opacity: 1 !important
+}
+
+.staff-page .slider{
+  position: relative;
+  top: unset;
+  left: unset;
+  width: 560px;
+  height: 400px;
+  transition: unset;
+}
+
+.staff-page .img-thumbnail{
+
+}
+
+
+.slideshow-container .mySlides {
+  display: none;
+  text-align: center;
+}
+.slideshow-container .mySlides img {
+  vertical-align: middle;
+  width:600px ;
+  height: 300px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-bottom: 24px;
+}
+
+/* Next & previous buttons */
+.slideshow-container .prev, .slideshow-container .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.slideshow-container .prev {
+  left: 100px;
+}
+/* Position the "next button" to the right */
+.slideshow-container .next {
+  right: 100px;
+  border-radius: 3px 0 0 3px;
+}
+
+.slideshow-container .prev:hover, .slideshow-container .next:hover
+{
+   text-decoration: none;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.staff-page .right-thumbnail{
+   text-align: right;
+}
+
+.activities .item-img{
+   width: 100%;
+   height: 150px;
+   margin-bottom: 25px;
+}
+
+
+.activities .item-text{
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.activities .r-block div.first-item-img {
+  margin-top: 100px;
+}
+
+.col-xs-sp{
+  display: none;
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 767px) {
+  .slideshow-container .mySlides img {
+    max-width: 100%;
+    width: unset;
+    height: 200px;
+  }
+  .slideshow-container .prev {
+  left: 0px;
+  }
+  /* Position the "next button" to the right */
+  .slideshow-container .next {
+    right: 0px;  
+   }
+
+  .staff-page .right-thumbnail{
+   text-align: center;
+  }
+  .col-xs-pc{
+     display: none;
+  }
+  .col-xs-sp{
+    display: block;
+  }
+ } 
