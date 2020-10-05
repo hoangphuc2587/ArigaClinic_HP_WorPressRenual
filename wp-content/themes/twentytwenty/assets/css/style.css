@@ -55,3 +55,8 @@
   font-size: 15px;
 }
 
+header.breadcrumb img
+{
+  margin-top: -4px; 
+}
+
