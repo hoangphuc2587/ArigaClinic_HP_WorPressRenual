@@ -63,7 +63,7 @@ get_header();
             </div>
          </div>
       <h4 class="padding-left-title">住所</h4>
-      <h2 style="text-align: center;">住所：140 Ký Con, Phường Nguyễn Thái Bình, Quận 1, Thành phố Hồ Chí Minh</h2>
+      <h2 class="text-address">住所：140 Ký Con, Phường Nguyễn Thái Bình, Quận 1, Thành phố Hồ Chí Minh</h2>
       <div style="text-align: center;" >
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.564296312543!2d106.69560971480071!3d10.768023792327188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f3fda4c70ff%3A0x41f9fe114ec78365!2zMTQwIEvDvSBDb24sIFBoxrDhu51uZyBOZ3V54buFbiBUaMOhaSBCw6xuaCwgUXXhuq1uIDEsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaA!5e0!3m2!1sja!2s!4v1601649761036!5m2!1sja!2s" width="800" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
       </div>
