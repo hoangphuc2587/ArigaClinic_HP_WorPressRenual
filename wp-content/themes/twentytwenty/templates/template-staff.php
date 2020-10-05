@@ -21,7 +21,7 @@ get_header();
       </div>
    </div>
 </div>
-<div class="container amore-inner-container" style="margin-bottom:120px">
+<div class="container amore-inner-container">
    <div class="row">
       <div class="col-sm-120 col-xs-120 no-padding single-page staff-page">
          <header class="breadcrumb mb20">
@@ -32,9 +32,9 @@ get_header();
             </a>
             <span class="fa fa-chevron-right text-muted" style="font-size:10px">&nbsp;</span> <span>Dr.  スタッフ紹介</span>
          </header>
-         <div class="row article" style="margin:auto 0;">
+         <div class="row article">
             <h3 class="ppt">プロフィール</h3>
-            <div class="row" style="padding-top: 20px">
+            <div class="row pt-20">
                <div class="col-sm-25 col-xs-120">
                   <img class="alignleft wp-image-251 size-thumbnail" src="<?php echo home_url(); ?>/wp-content/uploads/2020/10/IMG_13351-150x150.jpg" alt="" width="150" height="150"/> 
                </div>
