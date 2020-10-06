@@ -203,7 +203,7 @@ get_header();
                           ジルコニアオールセラミックスクラウン
                       </div>
                       <div class="col-sm-35 col-xs-40">
-                          6,600,000d
+                          13,200,000d
                       </div>
                     </div> 
                     <div class="row">
