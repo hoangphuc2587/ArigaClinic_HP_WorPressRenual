@@ -87,11 +87,6 @@ p.info-dr{
   transition: unset;
 }
 
-.staff-page .img-thumbnail{
-
-}
-
-
 .slideshow-container .mySlides {
   display: none;
   text-align: center;
@@ -186,6 +181,7 @@ p.info-dr{
 {
   width: 70% !important;
   padding-left: 40px !important; 
+
 }
 
 .text-padding-left{
@@ -200,7 +196,7 @@ p.info-dr{
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   text-align: center;
 }
- 
+
 .pt-20{
   padding-top: 20px;
 }
@@ -241,15 +237,70 @@ p.info-dr{
 .expense-page .expense-item .row .row{
   padding: 5px 0px;
 }
+.button_share1{
+  margin-left: 5px;
+}
+.button_share {
+  
+  display: block;
+  float: left;
+  padding: 0px 5px;
+  border-radius: 3px;
+  background-color: #ececec;
+  text-decoration: none;
+  font-size: 11px;
+  color: #FFF;
+ }
+ .button_share:hover {
+  color: #efefef;
+ }
+ .facebook {
+  background-color: #3b5998;
+ }
+ .gplus {
+  background-color: #dd4b39;
+ }
+ .twitter {
+  background-color: #55acee;
+ }
+ .stumbleupon {
+  background-color: #eb4924;
+ }
+ .pinterest {
+  background-color: #cc2127;
+ }
+ .linkedin {
+  background-color: #0077b5;
+ }
+ .buffer {
+  background-color: #323b43;
+ }
+ 
+ .single-page th{
+   border: 1px solid black;
+   padding: 0px;
+  
+ }
+ .single-page td{
+   border: 1px solid black;
+   padding: 0px;
+ }
 
-
+ .map{
+  text-align: center; width:700px; margin: 0 auto;
+ }
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 767px) {
+ 
   .slideshow-container .mySlides img {
     max-width: 100%;
     width: unset;
     height: 200px;
   }
+  .map{
+    text-align: center; width:100%;
+   }
+ 
   .slideshow-container .prev {
   left: 0px;
   }
@@ -257,7 +308,7 @@ p.info-dr{
   .slideshow-container .next {
     right: 0px;  
    }
-
+ 
   .staff-page .right-thumbnail{
    text-align: center;
   }
@@ -291,5 +342,6 @@ p.info-dr{
   .expense-page .mt-185{
    margin-top: 100px;
   }
+
 
  }
