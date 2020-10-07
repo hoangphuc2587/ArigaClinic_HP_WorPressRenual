@@ -237,10 +237,10 @@ p.info-dr{
 .expense-page .expense-item .row .row{
   padding: 5px 0px;
 }
-.button_share1{
+.support-page .button_share1{
   margin-left: 5px;
 }
-.button_share {
+.support-page .button_share {
   
   display: block;
   float: left;
@@ -276,17 +276,17 @@ p.info-dr{
   background-color: #323b43;
  }
  
- .single-page th{
+ .support-page th{
    border: 1px solid black;
    padding: 0px;
   
  }
- .single-page td{
+ .support-page td{
    border: 1px solid black;
    padding: 0px;
  }
 
- .map{
+ .support-page .map{
   text-align: center; width:700px; margin: 0 auto;
  }
 /* On smaller screens, decrease text size */
