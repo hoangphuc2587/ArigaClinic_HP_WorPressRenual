@@ -25,7 +25,13 @@ get_header();
  <div class="container amore-inner-container">
     <div class="row">
        <div id="infiniscroll" class="col-xs-120 no-padding">
-          <header class="breadcrumb mb20"> <a href="https://arigadc.com/"><span><img src="<?php echo home_url(); ?>/wp-content/themes/twentytwenty/assets/images/home.png" class="breadcrumb-home"></span></a> <span class="fa fa-chevron-right text-muted" style="font-size:10px">&nbsp;</span> <span>カテゴリ 1</span></header>
+          <header class="breadcrumb mb20">
+          	<a href="<?php echo home_url(); ?>/">
+          		<span>
+          			<img src="<?php echo home_url(); ?>/wp-content/themes/twentytwenty/assets/images/home.png" class="breadcrumb-home">
+          		</span>
+          	</a> 
+          	<span class="fa fa-chevron-right text-muted" style="font-size:10px">&nbsp;</span> <span>カテゴリ 1</span></header>
           <h1>カテゴリ 1</h1>
           <div id="blog-index">
              <div class="row" style="padding-right:15px">
@@ -33,7 +39,7 @@ get_header();
                    <div class="row">
                       <article id="post-1858" class="post-1858 post type-post status-publish format-standard has-post-thumbnail hentry category-51">
                          <div class='col-sm-120 col-xs-60 mb20' style='padding-right:0px'>
-                            <a href="http://dev.arigadc.com/category-1/hello-world/">
+                            <a href="<?php echo home_url(); ?>/category-1/hello-world/">
                                <div class="thumb blog-list-thumb"><img width="310" height="200" src="https://arigadc.com/wp-content/uploads/2020/09/IMG_1967-310x200.jpg" class="attachment-size1 size-size1 wp-post-image" alt="" /></div>
                             </a>
                          </div>
