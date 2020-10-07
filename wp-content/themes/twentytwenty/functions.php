@@ -762,3 +762,147 @@ function hide_admin_bar_from_front_end(){
   return false;
 }
 add_filter( 'show_admin_bar', 'hide_admin_bar_from_front_end' );
+
+
+if ( function_exists( 'add_image_size' ) ) { 
+    add_image_size( 'category-thumb', 310, 200, true ); //300 pixels wide (and unlimited height)    
+}
+
+function is_mobile() {
+
+	$match = 0;
+   
+	$ua = array(
+	  'iPhone', // iPhone
+	  'iPod', // iPod touch
+	  'Android.*Mobile', // 1.5+ Android *** Only mobile
+	  'Windows.*Phone', // *** Windows Phone
+	  'dream', // Pre 1.5 Android
+	  'CUPCAKE', // 1.5+ Android
+	  'BlackBerry', // BlackBerry
+	  'webOS', // Palm Pre Experimental
+	  'incognito', // Other iPhone browser
+	  'webmate' // Other iPhone browser
+	);
+   
+	$pattern = '/' . implode( '|', $ua ) . '/i';
+	$match   = preg_match( $pattern, $_SERVER['HTTP_USER_AGENT'] );
+   
+	if ( $match === 1 ) {
+	  return TRUE;
+	} else {
+	  return FALSE;
+	}
+   
+   }
+
+   // オリジナルの抜粋記事 --------------------------------------------------------------------------------
+function new_excerpt($a) {
+
+ if(has_excerpt()) {
+
+   $base_content = get_the_excerpt();
+   $base_content = str_replace(array("\r\n", "\r", "\n"), "", $base_content);
+   $trim_content = mb_substr($base_content, 0, $a ,"utf-8");
+
+ } else {
+
+   $base_content = get_the_content();
+   $base_content = preg_replace('!<style.*?>.*?</style.*?>!is', '', $base_content);
+   $base_content = preg_replace('!<script.*?>.*?</script.*?>!is', '', $base_content);
+   $base_content = strip_tags($base_content);
+   $trim_content = mb_substr($base_content, 0, $a ,"utf-8");
+   $trim_content = mb_ereg_replace('&nbsp;', '', $trim_content);
+
+ };
+
+if(mb_strlen($trim_content)>($a-1)){
+ echo $trim_content . '…';
+}else{
+ echo $trim_content;
+}
+
+}
+
+function get_desing_plus_option(){
+	global $dp_default_options;
+	return shortcode_atts($dp_default_options, get_option('dp_options', array()));
+}
+add_action( 'wp_ajax_nopriv_load-filter', 'prefix_load_cat_posts' );
+add_action( 'wp_ajax_load-filter', 'prefix_load_cat_posts' );
+function prefix_load_cat_posts () {
+    $cat_id = $_POST['cat'];
+    $paged = $_POST['paged'];
+
+    $options = get_desing_plus_option();
+
+    $search = array(
+      'paged' => $paged,
+      'posts_per_page' => get_option('posts_per_page'),
+      'order' => 'DESC',
+	  'post_status' => array('publish'),
+	  'showposts' => 21,
+    );
+
+    if($cat_id) $search['cat'] = $cat_id;
+
+    $posts = new WP_Query($search);
+
+    ob_start();
+
+//     echo "<div class='ajax-page-separator mb40'><span>PAGE $paged</span></div>";
+    echo "<div class='row mb40' style='padding-right:15px'>";
+
+    $imageFullWidth = true;
+    $x = 2;
+    $counter = -1;
+    if ( $posts->have_posts() ) : ?>
+
+    <?php while ( $posts->have_posts() ) : $posts->the_post();
+                if($posts->current_post == 0 && 2 == 4){ continue; };
+		$counter++;
+		if($counter==0 || $counter%3 !=0){}else{ echo '</div><div class="row mb40" style="padding-right:15px">'; };
+                $x++;
+                if($x % 3) : ?>
+                  <div style="display:none" class="fade-me-in col-sm-38 col-sm-offset-3">
+                    <div class="row">
+                      <article data-paged="<?php echo $paged + 1; ?>" id="post-<?php the_ID(); ?>" <?php post_class('paged'); ?>>
+                        <div class='col-sm-120 col-xs-60' style='padding-right:0px'>
+                          <a href="<?php the_permalink() ?>"><div class="thumb"><?php if ( has_post_thumbnail()) { the_post_thumbnail('size1'); } else { echo '<img src="'; bloginfo('template_url'); echo '/img/common/no_image2.gif" alt="" title="">'; }; ?></div></a>
+                        </div>
+                        <div class='col-sm-120 col-xs-60 mt10'>
+                          <?php if ($options['show_date']) { echo "<span class='fa fa-clock-o'></span><span class='blog-list-timestamp romaji'>&nbsp;" . get_the_date('Y') . '.' . get_the_date('m') . '.' . get_post_time('j') . "</span>　";}; ?>
+                          <?php if ($options['show_category']) { ?><span class="cate"><?php the_category(', '); ?></span><?php }; ?>
+                          <h4 class='blog-list-title'><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h4>
+                          <p class="blog-list-body"><a href="<?php the_permalink() ?>"><?php if(has_excerpt()){ the_excerpt(); }else{ new_excerpt(40); }; ?></a></p>
+                        </div>
+                      </article><!-- #post-## -->
+                    </div>
+                  </div>
+                <?php else : ?>
+                  <div style="display:none" class="fade-me-in col-sm-38">
+                    <div class="row">
+                      <article data-paged="<?php echo $paged + 1; ?>" id="post-<?php the_ID(); ?>" <?php post_class('paged'); ?>>
+                        <div class='col-sm-120 col-xs-60' style='padding-right:0px'>
+                          <a href="<?php the_permalink() ?>"><div class="thumb"><?php if ( has_post_thumbnail()) { the_post_thumbnail('size1'); } else { echo '<img src="'; bloginfo('template_url'); echo '/img/common/no_image2.gif" alt="" title="">'; }; ?></div></a>
+                        </div>
+                        <div class='col-sm-120 col-xs-60 mt10'>
+                          <?php if ($options['show_date']) { echo "<span class='fa fa-clock-o'></span><span class='blog-list-timestamp romaji'>&nbsp;" . get_the_date('Y') . '.' . get_the_date('m') . '.' . get_post_time('j') . "</span>　";}; ?>
+                          <?php if ($options['show_category']) { ?><span class="cate"><?php the_category(', '); ?></span><?php }; ?>
+                          <h4 class='blog-list-title'><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h4>
+                          <p class="blog-list-body"><a href="<?php the_permalink() ?>"><?php if(has_excerpt()){ the_excerpt(); }else{ new_excerpt(40); }; ?></a></p>
+                        </div>
+                      </article><!-- #post-## -->
+                    </div>
+                  </div>
+                <?php endif ?>
+    <?php endwhile; wp_reset_query();
+    endif;
+    echo "</div>";
+
+   $response = ob_get_contents();
+   ob_end_clean();
+
+   echo $response;
+   die(1);
+}
