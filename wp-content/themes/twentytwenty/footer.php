@@ -10,17 +10,6 @@
  * @subpackage Twenty_Twenty
  * @since Twenty Twenty 1.0
  */
-if(is_category()){
-  $category = get_category( get_query_var( 'cat' ) );
-  $cat_id = $category->cat_ID;
-}else{
-  $cat_id= 'null';
-}
-  if( $cat_id ){
-    $cat_id = $cat_id;
-  } else {
-    $cat_id = 'null';
-  }
 ?>          
       <div id="footer" class="front_mobile_footer">
          <div class="container">
@@ -101,31 +90,32 @@ if(is_category()){
       <script type="text/javascript">
          var canLoad = true;
 
-         
+         /**
          function page_ajax_get(){
-                  var page = jQuery('.paged').last().attr('data-paged') || 2;
-              var cat = <?php echo $cat_id; ?>;
-              var ajaxurl = '<?php echo admin_url( 'admin-ajax.php' ); ?>';
-
-              canLoad = false
-              jQuery.ajax({
-                type: 'POST',
-                url: ajaxurl,
-                data: {"action": "load-filter", cat: cat, paged:page },
-                success: function(response) {
-                  if(response.length > 100){
-                    var id = page - 1;
-                    id.toString();
-                    jQuery("#infiniscroll").html(jQuery("#infiniscroll").html() + response);
-                  } else {
-                    jQuery("#pagerlink").html("最終ページ")
-                    jQuery("#pagerbutton").attr("disabled", "disabled")
-                  }
-
-                  setTimeout(function(){ canLoad = true }, 2000)
-                }
-              })
-            }         
+           var page = jQuery('.paged').last().attr('data-paged') || 2;
+           var cat = null;
+           var ajaxurl = 'https://arigadc.com/wp-admin/admin-ajax.php';
+         
+           canLoad = false
+         
+           jQuery.ajax({
+             type: 'POST',
+             url: ajaxurl,
+             data: {"action": "load-filter", cat: cat, paged:page },
+             success: function(response) {
+               if(response.length > 100){
+                 var id = page - 1;
+                 id.toString();
+                 jQuery("#infiniscroll").html(jQuery("#infiniscroll").html() + response);
+               } else {
+                 jQuery("#pagerlink").html("最終ページ")
+                 jQuery("#pagerbutton").attr("disabled", "disabled")
+               }
+         
+               setTimeout(function(){ canLoad = true }, 2000)
+             }
+           })
+         }**/
          
          jQuery(window).load(function(){
          
@@ -241,7 +231,7 @@ if(is_category()){
          })
          })
          
-          <?php if (get_the_title() == ''):?>
+          <?php if (is_front_page()):?>
            google.maps.event.addDomListener(window, 'load', function(){
            var geocoder = new google.maps.Geocoder();
          

@@ -36,13 +36,12 @@ get_header();
     <div class="col-sm-120 col-xs-120 no-padding single-page">
        <header class="breadcrumb mb20"> <a href="<?php echo home_url(); ?>"><span><img src="<?php echo home_url(); ?>/wp-content/themes/twentytwenty/assets/images/home.png" class="breadcrumb-home"></span></a> <span class="fa fa-chevron-right text-muted" style="font-size:10px">&nbsp;</span> <span>初めてのありが歯科</span></header>
        <div class="row article" style="margin:auto 0;">
-          <h3 class="ppt">Welcome ホーチミンのありが歯科へ</h3>
-          <p>ホーチミンのありが歯科では患者様の声に耳を傾け、ご希望やご要望を知る。<br /> 何気ない言動から患者様の真意を知る努力をする。<br /> そして歯科医師としての専門家から意見を述べさせていただき、治療方針を立てる。<br />このような医療人として当たり前の行為をきちんとこなす。<br />これが『<b>ありが歯科スタイル</b>』<br />せっかく治療をするならきちんと綺麗に治して欲しい。
-          <br />ホーチミンのありが歯科では、ご要望にお応えし、患者様に安心して歯科治療をホーチミンで受けていただけるように私たちは努力します。</p>
-          
-          <h4>初めてのホーチミンありが歯科ご来院の流れ</h4>
+          <h3 class="ppt">Welcome ホーチミンのありが歯科へ</h3><br />
+          <p>ホーチミンのありが歯科では患者様の声に耳を傾け、ご希望やご要望を知る。<br /> 何気ない言動から患者様の真意を知る努力をする。<br /> そして歯科医師としての専門家から意見を述べさせていただき、治療方針を立てる。<br />このような医療人として当たり前の行為をきちんとこなす。<br /><br />これが『<b>ありが歯科スタイル</b>』<br /><br />せっかく治療をするならきちんと綺麗に治して欲しい。
+          <br />ホーチミンのありが歯科では、ご要望にお応えし、患者様に安心して歯科治療をホーチミンで受けていただけるように私たちは努力します。</p>        
+          <h4 class="padding-left-title">初めてのホーチミンありが歯科ご来院の流れ</h4>
           <h5>STEP 1　ご予約</h5>
-          <p>お電話 / LINEにてご予約をお願い致します。<br /> <a href="<?php echo home_url(); ?>/support">お電話番号/ LINEの情報はこちら</a></p>
+          <p>お電話 / LINEにてご予約をお願い致します。<br /> <a style="color:#337ab7" href="<?php echo home_url(); ?>/support">お電話番号/ LINEの情報はこちら</a></p>
           <h5>STEP 2　ご来院</h5>
           <p>タクシーには<b>[140 KY CON , QUAN1 , THÀNH PHỐ HỒ CHÍ MINH] </b> (モッ ボーン ムイ キーコン クウォン モッ)とお伝えください。<br /> バイクでお越しの方は、地下にバイク駐車場がありますので、ご利用ください。<br />もし迷われたら、お電話にてタクシー運転手等に指示いたしますので、お電話よろしくお願い致します。</p>
           <h5>STEP 3　受付</h5>
