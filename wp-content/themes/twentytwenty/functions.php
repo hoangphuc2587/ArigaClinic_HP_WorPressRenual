@@ -869,7 +869,7 @@ function prefix_load_cat_posts () {
                     <div class="row">
                       <article data-paged="<?php echo $paged + 1; ?>" id="post-<?php the_ID(); ?>" <?php post_class('paged'); ?>>
                         <div class='col-sm-120 col-xs-60' style='padding-right:0px'>
-                          <a href="<?php the_permalink() ?>"><div class="thumb"><?php if ( has_post_thumbnail()) { the_post_thumbnail('size1'); } else { echo '<img src="'; bloginfo('template_url'); echo '/img/common/no_image2.gif" alt="" title="">'; }; ?></div></a>
+                          <a href="<?php the_permalink() ?>"><div class="thumb"><?php if ( has_post_thumbnail()) { the_post_thumbnail('category-thumb'); } else { echo '<img src="'; bloginfo('template_url'); echo '/img/common/no_image2.gif" alt="" title="">'; }; ?></div></a>
                         </div>
                         <div class='col-sm-120 col-xs-60 mt10'>
                           <?php if ($options['show_date']) { echo "<span class='fa fa-clock-o'></span><span class='blog-list-timestamp romaji'>&nbsp;" . get_the_date('Y') . '.' . get_the_date('m') . '.' . get_post_time('j') . "</span>　";}; ?>
@@ -885,7 +885,7 @@ function prefix_load_cat_posts () {
                     <div class="row">
                       <article data-paged="<?php echo $paged + 1; ?>" id="post-<?php the_ID(); ?>" <?php post_class('paged'); ?>>
                         <div class='col-sm-120 col-xs-60' style='padding-right:0px'>
-                          <a href="<?php the_permalink() ?>"><div class="thumb"><?php if ( has_post_thumbnail()) { the_post_thumbnail('size1'); } else { echo '<img src="'; bloginfo('template_url'); echo '/img/common/no_image2.gif" alt="" title="">'; }; ?></div></a>
+                          <a href="<?php the_permalink() ?>"><div class="thumb"><?php if ( has_post_thumbnail()) { the_post_thumbnail('category-thumb'); } else { echo '<img src="'; bloginfo('template_url'); echo '/img/common/no_image2.gif" alt="" title="">'; }; ?></div></a>
                         </div>
                         <div class='col-sm-120 col-xs-60 mt10'>
                           <?php if ($options['show_date']) { echo "<span class='fa fa-clock-o'></span><span class='blog-list-timestamp romaji'>&nbsp;" . get_the_date('Y') . '.' . get_the_date('m') . '.' . get_post_time('j') . "</span>　";}; ?>
