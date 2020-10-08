@@ -119,7 +119,7 @@ $category = get_category( get_query_var( 'cat' ) );
 	  <?php /* _tk_content_nav( 'nav-below' ); */ ?>
       <?php if(!is_mobile()): ?>
       <div class="col-xs-120 text-center blog-load-btn">
-        <ul class="pager"><li class="button" id="pagerbutton"><a id="pagerlink" onclick="page_ajax_get()"><?php _e('Read more', 'tcd-w'); ?></a></li></ul>
+        <ul class="pager"><li class="button" id="pagerbutton"><a id="pagerlink" onclick="page_ajax_get()"><?php _e('もっと記事を見る', 'tcd-w'); ?></a></li></ul>
       </div>
     </div>
       <?php else: ?>

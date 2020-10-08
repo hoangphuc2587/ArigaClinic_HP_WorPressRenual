@@ -43,7 +43,7 @@ class CategoryFeaturedImage {
 		add_action( 'admin_footer', array( $this, 'load_custom_wp_admin_style' ) );
 		add_filter( 'manage_edit-category_columns', array( $this, 'add_term_columns' ) );
 		add_filter( 'manage_category_custom_column', array( $this, 'add_term_custom_column' ), 10, 3 );
-		add_action( 'wp_insert_post', array( $this, 'update_thumbnail' ), 10, 1 );
+		//add_action( 'wp_insert_post', array( $this, 'update_thumbnail' ), 10, 1 );
 
 	}
 
@@ -144,7 +144,7 @@ class CategoryFeaturedImage {
 					} else {
 						delete_term_meta( $term_id, 'featured_image_id' );
 					}
-					$this->db_save( $term_id, $featured_image_id );
+					//$this->db_save( $term_id, $featured_image_id );
 				}
 			}
 		}
