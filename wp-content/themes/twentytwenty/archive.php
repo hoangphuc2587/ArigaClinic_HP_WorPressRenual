@@ -10,13 +10,12 @@
  */
 
 get_header();
-
+echo 1; die;
 ?>
 
 <main id="site-content" role="main">
 
 	<?php
-echo 'archive';
 	if ( have_posts() ) {
 
 		while ( have_posts() ) {

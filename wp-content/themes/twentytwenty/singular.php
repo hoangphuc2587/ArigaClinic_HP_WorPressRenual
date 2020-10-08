@@ -11,19 +11,9 @@
 
 get_header();
 ?>
-<?php
-    if ( have_posts() ) {
 
-      while ( have_posts() ) {
-        the_post(); 
-      $post_id = get_the_ID();
-      $title_post =  get_the_title($post_id);
-      $url_post = get_permalink($post_id);
-      $categories_post = get_the_category($post_id);
-      $arr_cat_id = array();
-?>
 <div class="main-content">
- <div class="amore-divider romaji" data-parallax="scroll" data-image-src="https://arigadc.com/wp-content/uploads/tcd-w/IMG_245779.jpg">
+ <div class="amore-divider romaji" data-parallax="scroll" data-image-src="<?php echo home_url()?>/wp-content/uploads/tcd-w/IMG_245779.jpg">
     <div class="container">
        <div class="row">
           <div class="col-xs-120">
@@ -35,6 +25,17 @@ get_header();
  <div class="container amore-inner-container">
     <div class="row">
        <div class="col-sm-120 no-left-padding">
+          <?php
+              if ( have_posts() ) {
+
+                while ( have_posts() ) {
+                  the_post(); 
+                $post_id = get_the_ID();
+                $title_post =  get_the_title($post_id);
+                $url_post = get_permalink($post_id);
+                $categories_post = get_the_category($post_id);
+                $arr_cat_id = array();
+          ?>
           <article id="post-1858" class="post-1858 post type-post status-publish format-standard has-post-thumbnail hentry category-51">
              <header class="breadcrumb">
                 <ul id="bread_crumb" class="clearfix">
@@ -75,7 +76,7 @@ get_header();
                 </div>
              </header>
              <div class="entry-content">
-                <?php get_template_part( 'template-parts/share-top');?>
+                <?php get_template_part( 'template-parts/share-top', null, array('title_post' => $title_post, 'url_post' => $url_post));?>
               
                 <div class="entry-content-thumbnail"> 
                  <img src="<?php echo wp_get_attachment_image_src(get_post_thumbnail_id($post_id), 'full')[0];?>" style="margin-bottom:40px">
@@ -84,7 +85,7 @@ get_header();
                 <?php the_content(); ?> 
 
                 <div style="margin-top:30px;">
-                  <?php get_template_part( 'template-parts/share-top');?>
+                  <?php get_template_part( 'template-parts/share-top', null, array('title_post' => $title_post, 'url_post' => $url_post));?>
                 </div>
              </div>
              <footer class="entry-meta">
@@ -113,6 +114,11 @@ get_header();
                 <div class="row hidden-xs"></div>
              </footer>
           </article>
+          <?php
+               }
+            }
+
+          ?>
           <hr/>
           <div id="related_posts">
               <?php              
@@ -171,10 +177,4 @@ get_header();
     </div>
  </div>
 </div>
-<?php
-     }
-  }
-
-?>
-
 <?php get_footer(); ?>

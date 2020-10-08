@@ -765,7 +765,8 @@ add_filter( 'show_admin_bar', 'hide_admin_bar_from_front_end' );
 
 
 if ( function_exists( 'add_image_size' ) ) { 
-    add_image_size( 'category-thumb', 310, 200, true ); //300 pixels wide (and unlimited height)    
+    add_image_size( 'category-thumb', 310, 200, true ); //300 pixels wide (and unlimited height)
+    add_image_size( 'relative-thumb', 120, 120, true );
 }
 
 function is_mobile() {
