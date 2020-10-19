@@ -22,7 +22,7 @@
         $post_slug = $post->post_name;        
         ?>
         <link rel="profile" href="https://gmpg.org/xfn/11">       
-        <?php if (in_array($post_slug, array("first-visit", "staff","about-medical-expenses", "support"))):?>
+        <?php if (in_array($post_slug, array("first-visit", "staff","about-medical-expenses", "support","promise"))):?>
         <link media="all" href="<?php echo home_url(); ?>/wp-content/themes/twentytwenty/assets/css/autoptimize_742f7556a3c461fdfc23fddade51da38.css" rel="stylesheet" />
         <?php else:?>
         <link media="all" href="<?php echo home_url(); ?>/wp-content/themes/twentytwenty/assets/css/autoptimize_e19808f538a9ee2c513ec2f55d2b1c57.css" rel="stylesheet" />
@@ -64,41 +64,35 @@
         <nav id="header" class="site-navigation">
          <div class="container">
             <div class="row">
-               <div class="site-navigation-inner col-xs-120 no-padding" style="padding:0px">
+               <div class="site-navigation-inner col-xs-120 no-padding" style="padding:0px; ">
                   <div class="navbar navbar-default">
-                     <div class="navbar-header">
-                        <div id="logo-area">
-                           <div id='logo_image'>
-                              <h2 id="logo" style="top:5px; left:0px;"><a href="<?php echo home_url(); ?>/" title="ベトナム ホーチミンでの歯医者(歯科) 虫歯,ホワイトニング,インプラント,歯周病,こども矯正　ありが歯科" data-label="ベトナム ホーチミンでの歯医者(歯科) 虫歯,ホワイトニング,インプラント,歯周病,こども矯正　ありが歯科"><img class="h_logo" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/logo-resized.png?1601524837" alt="ベトナム ホーチミンでの歯医者(歯科) 虫歯,ホワイトニング,インプラント,歯周病,こども矯正　ありが歯科" title="ベトナム ホーチミンでの歯医者(歯科) 虫歯,ホワイトニング,インプラント,歯周病,こども矯正　ありが歯科" /></a></h2>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="pull-right right-menu">
+                    
+                     <div class="pull-none right-menu">
                         <div class="collapse navbar-collapse">
-                           <ul id="main-menu" class="nav navbar-nav">
-                              <?php                              
-                                  wp_nav_menu(
-                                    array(
-                                      'container'  => '',
-                                      'items_wrap' => '%3$s',
-                                      'theme_location' => '',
-                                    )
-                                  );
-                              ?>                           
+                          
+                           <ul id="main-menu" class="nav navbar-nav nav-header">
+                              <li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="http://dev.arigadc.com/first-visit/">初めてのありが歯科</a></li>
+                              <li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a href="http://dev.arigadc.com/staff/">Dr/スタッフ紹介</a></li>
+                              <li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a href="http://dev.arigadc.com/category/">歯の悩み</a></li>
+                              <li>
+                              <a href="<?php echo home_url(); ?>/" title="ベトナム ホーチミンでの歯医者(歯科) 虫歯,ホワイトニング,インプラント,歯周病,こども矯正　ありが歯科" data-label="ベトナム ホーチミンでの歯医者(歯科) 虫歯,ホワイトニング,インプラント,歯周病,こども矯正　ありが歯科"><img class="h_logo" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/Component 1 – 1.png?1601524837" alt="ベトナム ホーチミンでの歯医者(歯科) 虫歯,ホワイトニング,インプラント,歯周病,こども矯正　ありが歯科" title="ベトナム ホーチミンでの歯医者(歯科) 虫歯,ホワイトニング,インプラント,歯周病,こども矯正　ありが歯科" /></a>
+
+                              </li>
+                              <li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="http://dev.arigadc.com/promise/">ありが歯科のお約束</a></li>
+                              <li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-32"><a href="http://dev.arigadc.com/about-medical-expenses/">治療費について</a></li>
+                              <li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="http://dev.arigadc.com/support/">お問い合わせ</a></li>
+                              
                            </ul>
                         </div>
                         <a href="#" class="menu_button"></a>
                         <div id="global_menu" class="clearfix">
                            <ul id="menu-mobile" class="menu">
-                              <?php                              
-                                  wp_nav_menu(
-                                    array(
-                                      'container'  => '',
-                                      'items_wrap' => '%3$s',
-                                      'theme_location' => '',
-                                    )
-                                  );
-                              ?>     
+                           <li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="http://dev.arigadc.com/first-visit/">初めてのありが歯科</a></li>
+                              <li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a href="http://dev.arigadc.com/staff/">Dr/スタッフ紹介</a></li>
+                              <li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a href="http://dev.arigadc.com/category/">歯の悩み</a></li>
+                              <li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="http://dev.arigadc.com/promise/">ありが歯科のお約束</a></li>
+                              <li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-32"><a href="http://dev.arigadc.com/about-medical-expenses/">治療費について</a></li>
+                              <li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="http://dev.arigadc.com/support/">お問い合わせ</a></li>
                            </ul>
                         </div>
                      </div>

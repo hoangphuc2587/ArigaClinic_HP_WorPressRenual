@@ -293,6 +293,48 @@ p.info-dr{
  .support-page .map{
   text-align: center; width:700px; margin: 0 auto;
  }
+ .footer-menu{
+   margin-top: 20px;
+ }
+
+ .nav>li>a{
+  color: white !important;
+ }
+
+ .nav-header>li>a{
+ 
+  color: #6A614A !important;
+ }
+
+
+ .site-navigation{
+   background-color: #F2F0ED;
+   
+ }
+ .h_logo{
+   width: 160px;
+ }
+.footer_main{
+  background-color: #A8A294;
+}
+
+.col-wrap {
+  display: table;
+  width: 100%;
+}
+
+.col {
+  display: table-cell;
+  padding: 1rem
+}
+
+
+#footer{
+  background-color: #A8A294!important; 
+ 
+}
+
+
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 767px) {
  
@@ -346,6 +388,4 @@ p.info-dr{
   .expense-page .mt-185{
    margin-top: 100px;
   }
-
-
  }

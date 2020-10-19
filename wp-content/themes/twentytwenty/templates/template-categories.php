@@ -43,8 +43,9 @@ get_header();
  <div class="container amore-inner-container">
     <div class="row">
        <div id="infiniscroll" class="col-xs-120 no-padding">
-          <header class="breadcrumb mb20"> <a href="https://arigadc.com/"><span><img src="<?php echo home_url(); ?>/wp-content/themes/twentytwenty/assets/images/home.png" class="breadcrumb-home"></span></a> <span class="fa fa-chevron-right text-muted" style="font-size:10px">&nbsp;</span> <span>NEWS</span></header>
-          <h2>NEWS</h2>
+          <header class="breadcrumb mb20"> <a href="https://arigadc.com/"><span><img src="<?php echo home_url(); ?>/wp-content/themes/twentytwenty/assets/images/home.png" class="breadcrumb-home"></span></a> <span class="fa fa-chevron-right text-muted" style="font-size:10px">&nbsp;</span> <span>歯の悩み
+</span></header>
+          <h2>お悩みカテゴリ</h2>
           <div id="blog-index">             
              <div class="row" style="padding-right:15px">              
                 <?php

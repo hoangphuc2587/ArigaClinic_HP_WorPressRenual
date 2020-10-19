@@ -53,46 +53,57 @@ if(is_category()){
       <div class="hidden-xs footer_main">
          <div class="container amore-section">
             <div class="row">
-               <div class="col-xs-120 text-center romaji">
-                  <div id='footer_logo_text_area'>
-                     <h3 id="footer_logo_text"><img class="h_logo" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/logo-footer.png"/></h3>
-                     <h4 id="footer_description"></h4>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
                <div class="col-xs-120 no-padding hidden-xs">
                   <div class="footer-menu collapse navbar-collapse">
                      <ul id="menu-footer-pc" class="nav navbar-nav">
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="<?php echo home_url(); ?>/"><span>|</span>TOP</a></li>
-                        <?php                              
-                            wp_nav_menu(
-                              array(
-                                'container'  => '',
-                                'items_wrap' => '%3$s',
-                                'link_before'     => "<span>|</span>",
-                                'theme_location' => '',
-                              )
-                            );
-                        ?>  
+                     <li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="http://dev.arigadc.com/first-visit/">初めてのありが歯科</a></li>
+                        <li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a href="http://dev.arigadc.com/staff/">Dr/スタッフ紹介</a></li>
+                        <li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a href="http://dev.arigadc.com/category/">歯の悩み</a></li>
+                        <li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-32"><a href="http://dev.arigadc.com/promise/">ありが歯科のお約束</a></li>
+                        <li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="http://dev.arigadc.com/about-medical-expenses/">治療費について</a></li>
+                        <li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="http://dev.arigadc.com/support/">お問い合わせ</a></li>
                      </ul>
                   </div>
                </div>               
             </div>
-         </div>
-         <div class="scrolltotop">
-            <div class="scrolltotop_arrow"><a href="#verytop">&#xe911;</a></div>
-         </div>
-      </div>
-      <div class="copr">
-         <div class="container">
+            <br />
+            <br />
+            <br />     
+            <br />
+                    
+           
+           
+
             <div class="row">
-               <div class="col-sm-60 text-left hidden-xs"> <span class="footer-address">140 Ký Con, Quận 1 THÀNH PHỐ HỒ CHÍ MINH71010</span> <span class="footer-phone">090-418-6480</span></div>
-               <div class="col-sm-60 text-right hidden-xs romaji"> <span class="copyright">Copyright &copy;&nbsp; <a href="https://arigadc.com/">ベトナム ホーチミンでの歯医者(歯科) 虫歯,ホワイトニング,インプラント,歯周病,こども矯正　ありが歯科</a> All Rights Reserved.</span></div>
-               <div class="col-sm-120 text-center visible-xs romaji"> <span class="copyright">&copy;&nbsp; <a href="https://arigadc.com/">ベトナム ホーチミンでの歯医者(歯科) 虫歯,ホワイトニング,インプラント,歯周病,こども矯正　ありが歯科</a> All Rights Reserved.</span></div>
+                    <div class="col-sm-34">
+                    <div style="padding-left: 45px;">
+                  
+                    <a href="<?php echo home_url(); ?>"><img  src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/footer-1.png?1601524837" /></a><br /><br />
+                    <p style=" font-family: Gill Sans; color: #F2F1EF; font-size: 30px;"><img style="width: 30px" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/icon-map.png?1601524837" />090-418-6480</p>
+                    <p style=" font-family: Gill Sans; color: #F2F1EF; font-size: 12px;"><img style="width: 30px" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/icon-phone.png?1601524837" />140 Ký Con, Quận 1 THÀNH PHỐ HỒ CHÍ MINH</p>
+                    <p style=" font-family: YuMincho; color: #F2F1EF; font-size: 12px;"><img style="width: 30px" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/icon-line.png?1601524837" /><img style="width: 100px" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/icon-qr.png?1601524837" />LINEでのご予約</p>
+                  </div>
+                    </div>
+                    <div class="col-sm-56">
+                    <a href="<?php echo home_url(); ?>"><img src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/footer-9.png?1601524837" /></a>
+                    </div>
+                    <div class="col-sm-24">
+                    <div class="nenvang">
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15678.257174442704!2d106.697798!3d10.768024000000002!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f3fda4c70ff%3A0x41f9fe114ec78365!2zMTQwIEvDvSBDb24sIFBoxrDhu51uZyBOZ3V54buFbiBUaMOhaSBCw6xuaCwgUXXhuq1uIDEsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwg44OZ44OI44OK44Og!5e0!3m2!1sja!2sus!4v1601975422919!5m2!1sja!2sus" width="400" height="240" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    <p style=" font-family: Gill Sans; color: #F2F1EF; font-size: 10px;"><img style="width: 30px" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/icon-map.png?1601524837" />140 Ký Con, Quận 1 THÀNH PHỐ HỒ CHÍ MINH</p>
+                    </div>
+                    </div>
+
             </div>
+           
+
+            
+
          </div>
       </div>
+
+ 
       <div id="return_top"> <a href="#header_top" style="bottom: 50px;"><span>PAGE TOP</span></a></div>
 
 		<?php //wp_footer(); ?>

@@ -22,11 +22,9 @@ get_header();
 	 <section>
 		<div class="slider heightasviewport has-background" data-order='0' data-parallax="scroll" data-image-src="https://arigadc.com/wp-content/uploads/tcd-w/top3.jpg"></div>
 		<div class="slider heightasviewport has-background" data-order='1' data-parallax="scroll" data-image-src="https://arigadc.com/wp-content/uploads/tcd-w/city-1557668_19201.jpg"></div>
-		<div class="slider heightasviewport has-background" data-order='2' data-parallax="scroll" data-image-src="https://arigadc.com/wp-content/uploads/tcd-w/top2.png"></div>
+		<div class="slider heightasviewport has-background" data-order='2' data-parallax="scroll" data-image-src="https://arigadc.com/wp-content/uploads/tcd-w/top4.png"></div>
 		<div id="topcover" class="topcover heightasviewport">
-		   <div class="text-center verticalcentersplash amore-welcome-center">
-			  <h2 class="first-h1">日本の『あんしん』歯科治療を<br /> ホーチミンで。<br /> <br /> 私たちはあなたの<br /> ホーチミンのかかりつけ医です。<br /> <br /> <br /></h2>
-		   </div>
+		   
 		</div>
 		<div class="topcover heightasviewport" style="opacity:1;-ms-transform:translate(0px,0px);-webkit-transform:translate(0px,0px);transform:translate(0px,0px);"></div>
 		<div id="top" class="heightasviewport" style="opacity:1; background:transparent">
