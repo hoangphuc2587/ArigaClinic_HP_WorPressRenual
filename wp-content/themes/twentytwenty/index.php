@@ -114,7 +114,7 @@ get_header();
 		
 				<div style="background-color:#F2F0ED; height: 219px;"></div>
 
-				<div style="background-color:#E8E4DC; height: 1054px;">
+				<div style="background-color:#E8E4DC; height: 700px;">
 					<section>
 						<div id="second">
 						<div class="text-center amore-welcome-top">
