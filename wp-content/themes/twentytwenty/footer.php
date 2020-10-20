@@ -33,12 +33,12 @@ if(is_category()){
                <div class="col-xs-120 footer_mobile_menu_wrapper">
                   <div id="footer-menu-2" class="footer_mobile_menu clearfix">
                      <ul id="menu-footer" class="menu">
-                     <li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="http://dev.arigadc.com/first-visit/">初めてのありが歯科</a></li>
-                        <li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a href="http://dev.arigadc.com/staff/">Dr/スタッフ紹介</a></li>
-                        <li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a href="http://dev.arigadc.com/category/">歯の悩み</a></li>
-                        <li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-32"><a href="http://dev.arigadc.com/promise/">ありが歯科のお約束</a></li>
-                        <li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="http://dev.arigadc.com/about-medical-expenses/">治療費について</a></li>
-                        <li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="http://dev.arigadc.com/support/">お問い合わせ</a></li>
+                     <li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="<?php echo home_url(); ?>/first-visit/">初めてのありが歯科</a></li>
+                        <li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a href="<?php echo home_url(); ?>/staff/">Dr/スタッフ紹介</a></li>
+                        <li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a href="<?php echo home_url(); ?>/category/">歯の悩み</a></li>
+                        <li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-32"><a href="<?php echo home_url(); ?>/promise/">ありが歯科のお約束</a></li>
+                        <li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="<?php echo home_url(); ?>/about-medical-expenses/">治療費について</a></li>
+                        <li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="<?php echo home_url(); ?>/support/">お問い合わせ</a></li>
                      </ul>
                   </div>                  
                </div>
@@ -52,12 +52,12 @@ if(is_category()){
                <div class="col-xs-120 no-padding hidden-xs">
                   <div class="footer-menu collapse navbar-collapse">
                      <ul id="menu-footer-pc" class="nav navbar-nav">
-                     <li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="http://dev.arigadc.com/first-visit/">初めてのありが歯科</a></li>
-                        <li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a href="http://dev.arigadc.com/staff/">Dr/スタッフ紹介</a></li>
-                        <li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a href="http://dev.arigadc.com/category/">歯の悩み</a></li>
-                        <li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-32"><a href="http://dev.arigadc.com/promise/">ありが歯科のお約束</a></li>
-                        <li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="http://dev.arigadc.com/about-medical-expenses/">治療費について</a></li>
-                        <li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="http://dev.arigadc.com/support/">お問い合わせ</a></li>
+                     <li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="<?php echo home_url(); ?>/first-visit/">初めてのありが歯科</a></li>
+                        <li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a href="<?php echo home_url(); ?>/staff/">Dr/スタッフ紹介</a></li>
+                        <li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a href="<?php echo home_url(); ?>/category/">歯の悩み</a></li>
+                        <li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-32"><a href="<?php echo home_url(); ?>/promise/">ありが歯科のお約束</a></li>
+                        <li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="<?php echo home_url(); ?>/about-medical-expenses/">治療費について</a></li>
+                        <li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="<?php echo home_url(); ?>/support/">お問い合わせ</a></li>
                      </ul>
                   </div>
                </div>               
