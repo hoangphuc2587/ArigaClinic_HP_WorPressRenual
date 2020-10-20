@@ -293,131 +293,35 @@ p.info-dr{
  .support-page .map{
   text-align: center; width:700px; margin: 0 auto;
  }
- .footer-menu{
-   margin-top: 20px;
- }
 
- .nav>li>a{
-  color: white !important;
- }
-
- .nav-header>li>a{
- 
-  color: #6A614A !important;
- }
-
-
- .site-navigation{
-   background-color: #F2F0ED;
-   
- }
- .h_logo{
-   width: 160px;
- }
-.footer_main{
-  background-color: #A8A294;
+@media only screen and (min-width: 991px){
+  .navbar-collapse {
+    padding-right: 0 !important;
+    background: 0 0 !important;
+    margin-top: 0;
+    padding-left: 0;
+  }
+  .right-menu {
+    margin-right: 0px !important;    
+  }
+  #main-menu>li>a{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .h_logo{
+    margin-top: -20px;
+  }
+  .is-mobile{
+     display: none
+   }
 }
 
-.col-wrap {
-  display: table;
-  width: 100%;
+@media only screen and (max-width: 1024px){
+  #main-menu>li>a {
+    padding-left: 9px;
+    padding-right: 9px;
+  }
 }
-
-.col {
-  display: table-cell;
-  padding: 1rem
-}
-
-
-#footer{
-  background-color: #A8A294!important; 
- 
-}
-
-
-.nut {
-  position: absolute;
-  left: 50%;
-  bottom: 5%;
-  transform: translateX(-50%);
-  z-index: 999;
-}
-.nut ul li {
-  width: 15px;
-  height: 15px;
-  border:1px solid white;
-  display: inline-block;
-  border-radius: 100%;
-  cursor: pointer;
-}
-
-.nut ul li:hover {
-  background-color: white;
-}
-
-.active{
-  background: #8B8679;
-  color: white;
-}
-
-.amore-welcome-top{
-
-  padding: 30px 0 !important;
-
-}
-
-.second-lead .p{
-
-  font-family: YuMincho;
-  font-size: 32px;
-
-}
-
-
-.gillsans-title{
-  font-family: Gill Sans;
-  font-size: 20px; 
-  color: #8B8679;
-}
-.yumincho-title{
-  font-family: YuMincho; 
-  font-size: 32px; 
-  color: #8B8679;
-}
-
-.gillsans-title-white{
-  font-family: Gill Sans;
-  font-size: 20px; 
-  color: white;
-}
-.yumincho-title-while{
-  font-family: YuMincho; 
-  font-size: 32px; 
-  color: white;
-}
-
-.css-hr-while{
-  border: 1px solid #FFFFFF;width: 100px;margin-top: 20px;
-}
-
-.css-hr{
-  border: 1px solid #8B8679;width: 100px;margin-top: 20px;
-}
-
-.content-category{
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.glass-img{
-  
-    opacity: 0.5;
-}
-.glass-img:hover{
-  opacity: 1.0;
-}
-
-
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 767px) {
@@ -474,34 +378,4 @@ p.info-dr{
   }
 
 
-  .gillsans-title{
-    font-family: Gill Sans;
-    font-size: 15px; 
-    color: #8B8679;
-  }
-  .yumincho-title{
-    font-family: YuMincho; 
-    font-size: 22px; 
-    color: #8B8679;
-  }
-  
-  .gillsans-title-white{
-    font-family: Gill Sans;
-    font-size: 15px; 
-    color: white;
-  }
-  .yumincho-title-while{
-    font-family: YuMincho; 
-    font-size: 22px; 
-    color: white;
-  }
-
-  .css-hr-while{
-    border: 1px solid #FFFFFF;width: 70px;margin-top: 20px;
-  }
-
-  .css-hr{
-    border: 1px solid #8B8679;width: 70px;margin-top: 20px;
-  }
-  
  }
