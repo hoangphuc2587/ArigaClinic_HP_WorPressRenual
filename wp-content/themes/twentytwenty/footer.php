@@ -33,16 +33,12 @@ if(is_category()){
                <div class="col-xs-120 footer_mobile_menu_wrapper">
                   <div id="footer-menu-2" class="footer_mobile_menu clearfix">
                      <ul id="menu-footer" class="menu">
-                       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="<?php echo home_url(); ?>/"><span>|</span>TOP</a></li>
-                        <?php                              
-                            wp_nav_menu(
-                              array(
-                                'container'  => '',
-                                'items_wrap' => '%3$s',
-                                'theme_location' => '',
-                              )
-                            );
-                        ?>
+                     <li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="http://dev.arigadc.com/first-visit/">初めてのありが歯科</a></li>
+                        <li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a href="http://dev.arigadc.com/staff/">Dr/スタッフ紹介</a></li>
+                        <li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a href="http://dev.arigadc.com/category/">歯の悩み</a></li>
+                        <li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-32"><a href="http://dev.arigadc.com/promise/">ありが歯科のお約束</a></li>
+                        <li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="http://dev.arigadc.com/about-medical-expenses/">治療費について</a></li>
+                        <li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="http://dev.arigadc.com/support/">お問い合わせ</a></li>
                      </ul>
                   </div>                  
                </div>
@@ -70,10 +66,6 @@ if(is_category()){
             <br />
             <br />     
             <br />
-                    
-           
-           
-
             <div class="row">
                     <div class="col-sm-34">
                     <div style="padding-left: 45px;">
@@ -94,12 +86,7 @@ if(is_category()){
                     <p style=" font-family: Gill Sans; color: #F2F1EF; font-size: 10px;"><img style="width: 30px" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/icon-map.png?1601524837" />140 Ký Con, Quận 1 THÀNH PHỐ HỒ CHÍ MINH</p>
                     </div>
                     </div>
-
             </div>
-           
-
-            
-
          </div>
       </div>
 
