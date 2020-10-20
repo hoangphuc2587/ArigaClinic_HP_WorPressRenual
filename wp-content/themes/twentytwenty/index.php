@@ -135,22 +135,22 @@ get_header();
 
 					
 									
-						<div class="col-sm-40"><a href="#">
+						<div class="col-sm-38"><a href="#">
 
 
-						<img class="glass-img" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/embe.png" /></a>
+						<img class="glass-img" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/category-1.png" /></a>
 
 						</div>
 
-						<div class="col-sm-40"><a href="#"><img class="glass-img" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/embe.png" /></a></div>
+						<div class="col-sm-38"><a href="#"><img class="glass-img" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/category-2.png" /></a></div>
 
-						<div class="col-sm-40"><a href="#"><img class="glass-img" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/embe.png" /></a></div>
+						<div class="col-sm-38"><a href="#"><img class="glass-img" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/category-5.png" /></a></div>
 
-						<div class="col-sm-40"><a href="#"><img class="glass-img" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/embe.png" /></a></div>
+						<div class="col-sm-38"><a href="#"><img class="glass-img" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/category-4.png" /></a></div>
 
-						<div class="col-sm-40"><a href="#"><img class="glass-img" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/embe.png" /></a></div>
+						<div class="col-sm-38"><a href="#"><img class="glass-img" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/category-5.png" /></a></div>
 
-						<div class="col-sm-40"><a href="#"><img class="glass-img" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/embe.png" /></a></div>
+						<div class="col-sm-38"><a href="#"><img class="glass-img" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/category-6.png" /></a></div>
 
 					</div>
 
