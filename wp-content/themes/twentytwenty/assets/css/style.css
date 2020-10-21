@@ -1,3 +1,8 @@
+body{
+  background: #F2F0ED;
+  color: #8B8679;
+}
+
 #main-menu .sub-menu {
   display: none;
   position: absolute;
@@ -293,6 +298,117 @@ p.info-dr{
  .support-page .map{
   text-align: center; width:700px; margin: 0 auto;
  }
+
+ .amore-welcome-top {
+    padding: 30px 0;
+ }
+ .top-second{
+    background: #E8E4DC;
+ }
+
+ .amore-welcome-top h2 , .amore-welcome-top h3{
+   color: #8B8679;
+ }
+
+  .amore-welcome-top h3{
+    margin-top: 40px;
+    margin-bottom: 0px;
+    font-size: 24px;
+ }
+
+ .amore-welcome-top h2{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 0px;
+ }
+
+ h3.text-header{
+    color: #8B8679;
+    font-size: 32px;
+    margin-bottom: 60px;
+ }
+
+ h3.text-header span{
+    color: #8B8679;
+    font-size: 22px;
+    font-weight: 700;
+
+ }
+
+ .amore-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #464646;
+    width: 70%;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 5px;
+ }
+
+.amore-section ul{
+    margin-bottom: 0px;
+    list-style: none;
+    margin-left: 40px;
+ }
+ .amore-section ul li span{
+    color: #BAB8B2;
+    font-weight: 700;
+    font-size: 20px;
+    margin-right: 10px;
+ }
+
+ .amore-section ul li a{
+    color: #8B8679;
+    font-size: 20px;
+    text-decoration: none;
+ }
+
+ .top-headline2 {
+    font-size: 25px !important;
+    font-weight: 700;
+}
+
+.greeting-top{
+  padding-top: 60px;
+}
+
+.greeting-top h3{
+    line-height: 40px;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+.greeting-top p{
+  line-height: 27px;
+  margin-top: 50px;
+}
+
+.care-top{
+  background: #8B8679;
+  color: #fff !important;
+}
+
+#fifth .circle{
+  height: 213px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+#fifth .circle img{
+  margin-top: 25px;
+}
+
+#fifth .circle .text-inline{
+  font-size: 18px;
+  font-weight: 700;
+}
+
+#fifth .text-outline{
+  font-size: 16px;
+}
+
+
+ 
 
 
 @media only screen and (min-width: 991px){

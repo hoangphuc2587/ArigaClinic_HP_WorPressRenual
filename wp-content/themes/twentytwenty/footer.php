@@ -274,8 +274,7 @@ if(is_category()){
          
          })
          })
-         
-          <?php if (get_the_title() == 'Top'):?>
+                   
            google.maps.event.addDomListener(window, 'load', function(){
            var geocoder = new google.maps.Geocoder();
          
@@ -297,7 +296,7 @@ if(is_category()){
          
            })
          })
-         <?php endif;?>  
+        
       </script>
       <script defer src="<?php echo home_url(); ?>/wp-content/themes/twentytwenty/assets/js/autoptimize_b29c772d238f4707fabd394edbc70dfc.js"></script>
 
