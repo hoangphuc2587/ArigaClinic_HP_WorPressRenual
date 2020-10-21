@@ -3,6 +3,10 @@ body{
   color: #8B8679;
 }
 
+#footer{
+  background: #F2F0ED;
+}
+
 #main-menu .sub-menu {
   display: none;
   position: absolute;
@@ -335,7 +339,7 @@ p.info-dr{
 
  }
 
- .amore-section {
+ .amore-section-list {
     padding-top: 30px;
     padding-bottom: 30px;
     color: #464646;
@@ -345,31 +349,88 @@ p.info-dr{
     border-radius: 5px;
  }
 
-.amore-section ul{
+.amore-section-list ul{
     margin-bottom: 0px;
     list-style: none;
     margin-left: 40px;
  }
- .amore-section ul li span{
+ .amore-section-list ul li span{
     color: #BAB8B2;
     font-weight: 700;
     font-size: 20px;
     margin-right: 10px;
  }
 
- .amore-section ul li a{
+ .amore-section-list ul li a{
     color: #8B8679;
     font-size: 20px;
     text-decoration: none;
  }
 
  .top-headline2 {
-    font-size: 25px !important;
+    font-size: 20px !important;
     font-weight: 700;
+}
+
+.text-header:after {
+    content: "";
+    position: absolute;
+    width: 75px;
+    border: 1px solid #ccc;
+    left: 47%;
+    top: 72px;
+}
+
+.top-headline-left:after{
+   content: "";
+    position: absolute;
+    width: 75px;
+    border: 1px solid #ccc;
+    left: 8.33333333%;
+    top: 72px;
+}
+
+.top-headline-center:after{
+    content: "";
+    position: absolute;
+    width: 75px;
+    border: 1px solid #ccc;
+    left: 47%;
+    top: 72px;
+}
+
+.title-header-first:after{
+    content: "";
+    position: absolute;
+    width: 90%;
+    border: 1px solid #ccc;
+    left: -160px;
+    top: 93px;
+    z-index: -1;
+}
+
+.title-header-staff:after {
+    content: "";
+    position: absolute;
+    width: 105%;
+    border: 1px solid #ccc;
+    left: 15px;
+    top: 93px;
+    z-index: -1;
+}
+
+.top-headline-category:after{
+    content: "";
+    position: absolute;
+    width: 75px;
+    border: 1px solid #ccc;
+    left: 46.7%;
+    top: 72px;
 }
 
 .greeting-top{
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .greeting-top h3{
@@ -389,9 +450,10 @@ p.info-dr{
 }
 
 #fifth .circle{
-  height: 213px;
+  height: 176px;
   border: 1px solid #fff;
   border-radius: 50%;
+  margin: 0px 20px;
 }
 
 #fifth .circle img{
@@ -399,14 +461,23 @@ p.info-dr{
 }
 
 #fifth .circle .text-inline{
-  font-size: 18px;
+  font-size: 11px;
   font-weight: 700;
 }
 
 #fifth .text-outline{
-  font-size: 16px;
+  font-size: 14px;
 }
 
+.caption-text{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #555;
+    opacity: 0.5;
+    left: 0;
+}
 
  
 
