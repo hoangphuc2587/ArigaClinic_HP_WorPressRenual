@@ -76,18 +76,20 @@
                      <div class="pull-right right-menu">
                         <div class="collapse navbar-collapse">
                            <ul id="main-menu" class="nav navbar-nav">
-                               <li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="http://dev.arigadc.com/first-visit/">初めてのありが歯科</a></li>
-                               <li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a href="http://dev.arigadc.com/staff/">Dr/スタッフ紹介</a></li>
-                               <li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a href="http://dev.arigadc.com/about-medical-expenses/">歯の悩み</a></li>
-                               <li id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32">
-                                <a href="<?php echo home_url(); ?>/" title="ベトナム ホーチミンでの歯医者(歯科) 虫歯,ホワイトニング,インプラント,歯周病,こども矯正　ありが歯科" data-label="ベトナム ホーチミンでの歯医者(歯科) 虫歯,ホワイトニング,インプラント,歯周病,こども矯正　ありが歯科"><img class="h_logo" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/logo.png?1601524837" alt="ベトナム ホーチミンでの歯医者(歯科) 虫歯,ホワイトニング,インプラント,歯周病,こども矯正　ありが歯科" title="ベトナム ホーチミンでの歯医者(歯科) 虫歯,ホワイトニング,インプラント,歯周病,こども矯正　ありが歯科" /></a>
-                               </li> 
-                               <li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32">
-                                  <a href="http://dev.arigadc.com/category/">ありが歯科のお約束</a>
+                                <?php
+                                  $arrMenu  = wp_get_nav_menu_items('main-menu');
+                                  foreach ($arrMenu as $menu) {
+                                ?>
+                                <li id="menu-item-<?php echo $menu->ID; ?>" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-<?php echo $menu->ID; ?>">
+                                  <a href="<?php echo $menu->url; ?>"><?php echo $menu->title;?></a>
+                                </li>  
+                                <?php     if ($menu->title === '歯の悩み') { ?>
+                                <li id="menu-item-0" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-0">    
+                                  <a href="<?php echo home_url(); ?>/" title="ベトナム ホーチミンでの歯医者(歯科) 虫歯,ホワイトニング,インプラント,歯周病,こども矯正　ありが歯科" data-label="ベトナム ホーチミンでの歯医者(歯科) 虫歯,ホワイトニング,インプラント,歯周病,こども矯正　ありが歯科"><img class="h_logo" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/logo.png" alt="ベトナム ホーチミンでの歯医者(歯科) 虫歯,ホワイトニング,インプラント,歯周病,こども矯正　ありが歯科" title="ベトナム ホーチミンでの歯医者(歯科) 虫歯,ホワイトニング,インプラント,歯周病,こども矯正　ありが歯科" /></a>
+                                </li>  
+                                <?php     } ?>
                                  
-                               </li>
-                               <li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="http://dev.arigadc.com/support/">治療費について</a></li>
-                               <li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="http://dev.arigadc.com/support/">お問い合わせ</a></li>
+                                <?php  } ?>
                             </ul>
                         </div>
                         <a href="#" class="menu_button"></a>

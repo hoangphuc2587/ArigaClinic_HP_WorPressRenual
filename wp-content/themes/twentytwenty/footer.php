@@ -32,8 +32,7 @@ if(is_category()){
                <div class="col-xs-120 text-center"></div>
                <div class="col-xs-120 footer_mobile_menu_wrapper">
                   <div id="footer-menu-2" class="footer_mobile_menu clearfix">
-                     <ul id="menu-footer" class="menu">
-                       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="<?php echo home_url(); ?>/"><span>|</span>TOP</a></li>
+                     <ul id="menu-footer" class="menu">                       
                         <?php                              
                             wp_nav_menu(
                               array(
@@ -51,26 +50,17 @@ if(is_category()){
          </div>
       </div>
       <div class="hidden-xs footer_main">
-         <div class="container amore-section">
-            <div class="row">
-               <div class="col-xs-120 text-center romaji">
-                  <div id='footer_logo_text_area'>
-                     <h3 id="footer_logo_text"><img class="h_logo" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/logo-footer.png"/></h3>
-                     <h4 id="footer_description"></h4>
-                  </div>
-               </div>
-            </div>
+         <div class="container amore-section">            
             <div class="row">
                <div class="col-xs-120 no-padding hidden-xs">
                   <div class="footer-menu collapse navbar-collapse">
-                     <ul id="menu-footer-pc" class="nav navbar-nav">
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="<?php echo home_url(); ?>/"><span>|</span>TOP</a></li>
+                     <ul id="menu-footer-pc" class="nav navbar-nav">                        
                         <?php                              
                             wp_nav_menu(
                               array(
                                 'container'  => '',
                                 'items_wrap' => '%3$s',
-                                'link_before'     => "<span>|</span>",
+                                'link_before'     => '',
                                 'theme_location' => '',
                               )
                             );
@@ -79,20 +69,64 @@ if(is_category()){
                   </div>
                </div>               
             </div>
-         </div>
-         <div class="scrolltotop">
-            <div class="scrolltotop_arrow"><a href="#verytop">&#xe911;</a></div>
-         </div>
-      </div>
-      <div class="copr">
-         <div class="container">
             <div class="row">
-               <div class="col-sm-60 text-left hidden-xs"> <span class="footer-address">140 Ký Con, Quận 1 THÀNH PHỐ HỒ CHÍ MINH71010</span> <span class="footer-phone">090-418-6480</span></div>
-               <div class="col-sm-60 text-right hidden-xs romaji"> <span class="copyright">Copyright &copy;&nbsp; <a href="https://arigadc.com/">ベトナム ホーチミンでの歯医者(歯科) 虫歯,ホワイトニング,インプラント,歯周病,こども矯正　ありが歯科</a> All Rights Reserved.</span></div>
-               <div class="col-sm-120 text-center visible-xs romaji"> <span class="copyright">&copy;&nbsp; <a href="https://arigadc.com/">ベトナム ホーチミンでの歯医者(歯科) 虫歯,ホワイトニング,インプラント,歯周病,こども矯正　ありが歯科</a> All Rights Reserved.</span></div>
+               <div class="col-xs-30 text-center romaji">
+                  <div id='footer_logo_text_area'>
+                     <h3 id="footer_logo_text">
+                      <a href="<?php echo home_url(); ?>">
+                       <img class="h_logo" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/logo-footer.png"/>
+                      </a>
+                      </h3>
+                     <h4 id="footer_description"></h4>
+                  </div>
+                  <div class="row">
+                    <div class="col-xs-25 footer-icon-phone">
+                      <img src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/footer_1_1.png">
+                    </div>
+                    <div class="col-xs-95 footer-phone">
+                     <h3 style="">090-418-6480</h3>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xs-25 footer-icon-address">
+                      <img src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/footer_1_2.png">
+                    </div>
+                    <div class="col-xs-95 footer-address-2">
+                     <h3>140 Ký Con, Quận 1 THÀNH PHỐ HỒ CHÍ MINH</h3>
+                    </div>
+                  </div>                  
+                  <div class="row pt-35">
+                    <div class="col-xs-25 footer-icon-line">
+                      <img src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/footer_1_3.png">
+                    </div>
+                    <div class="col-xs-45 footer-icon-pr-code">
+                      <img src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/images_6.png">
+                    </div>
+                    <div class="col-xs-50 footer-pr-code">
+                      <h3>LINEでのご予約</h3>
+                    </div>
+                  </div>
+               </div>
+               <div class="col-xs-60 text-center romaji">
+                   <img src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/footer_1_5.png">
+               </div>
+               <div class="col-xs-30 text-center romaji">
+                  <div id="map-canvas" style="width:100%; height:380px; border:4px solid white; border-radius:2px;"></div>
+                  <div class="row">
+                    <div class="col-xs-25 footer-icon-address">
+                      <img src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/footer_1_2.png">
+                    </div>
+                    <div class="col-xs-95 footer-address-2">
+                     <h3>140 Ký Con, Quận 1 THÀNH PHỐ HỒ CHÍ MINH</h3>
+                    </div>
+                  </div> 
+               </div> 
             </div>
          </div>
-      </div>
+         <!-- <div class="scrolltotop">
+            <div class="scrolltotop_arrow"><a href="#verytop">&#xe911;</a></div>
+         </div> -->
+      </div>    
       <div id="return_top"> <a href="#header_top" style="bottom: 50px;"><span>PAGE TOP</span></a></div>
 
 		<?php //wp_footer(); ?>
@@ -241,7 +275,7 @@ if(is_category()){
          })
          })
          
-          <?php if (get_the_title() == ''):?>
+          <?php if (get_the_title() == 'Top'):?>
            google.maps.event.addDomListener(window, 'load', function(){
            var geocoder = new google.maps.Geocoder();
          

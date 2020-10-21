@@ -34,7 +34,7 @@ get_header();
     <div class="container">
        <div class="row">
           <div class="col-xs-120 no-padding">
-             <h2 class="top-headline" style="margin-top: 50px; margin-bottom: -20px;">ADC NEWS</h2>
+             <h2 class="top-headline" style="margin-top: 50px; margin-bottom: -20px;">歯の悩み</h2>
           </div>
        </div>
     </div>
