@@ -31,7 +31,7 @@ if(is_category()){
             <div class="row visible-xs">
                <div class="col-xs-120 text-center"></div>
                <div class="col-xs-120 footer_mobile_menu_wrapper">
-                  <div id="footer-menu-2" class="footer_mobile_menu clearfix">
+                  <div id="footer-menu-2" class="footer_mobile_menu clearfix" style="width: 100%">
                      <ul id="menu-footer" class="menu">                       
                         <?php                              
                             wp_nav_menu(
@@ -47,6 +47,55 @@ if(is_category()){
                </div>
                <div class="col-xs-120 text-center footer_social_link_wrapper"></div>
             </div>
+
+            <div class="row visible-xs">
+              <div class="col-xs-120 no-padding">
+                  <a href="<?php echo home_url(); ?>">
+                    <img class="h_logo" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/logo-footer.png"/>
+                  </a>
+              </div>
+            </div> 
+
+            <div class="row mt40 visible-xs">
+              <div class="col-xs-20 footer-icon-phone">
+                <img src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/footer_1_1.png">
+              </div>
+              <div class="col-xs-100 footer-phone">
+               <h3 style="">090-418-6480</h3>
+              </div>
+            </div>
+
+            <div class="row visible-xs">
+              <div class="col-xs-20 footer-icon-address">
+                <img src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/footer_1_2.png">
+              </div>
+              <div class="col-xs-100 footer-address-2">
+               <h3>140 Ký Con, Quận 1 THÀNH PHỐ HỒ CHÍ MINH</h3>
+              </div>
+            </div>   
+
+            <div class="row pt-35 visible-xs">
+              <div class="col-xs-20 footer-icon-line">
+                <img src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/footer_1_3.png">
+              </div>
+              <div class="col-xs-50 footer-icon-pr-code">
+                <img src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/images_6.png">
+              </div>
+              <div class="col-xs-50 footer-pr-code">
+                <h3>LINEでのご予約</h3>
+              </div>
+            </div>
+
+            <div class="row mt40 visible-xs">
+              <div class="col-xs-120 no-padding">
+                  <img src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/footer_1_5.png">
+              </div>
+            </div>            
+            <div class="row mt40 visible-xs" style="margin-bottom: 30px">
+              <div class="col-xs-120 no-padding">
+                  <div id="map-canvas-footer" class="visible-xs" style="width:100%; height:380px; border:4px solid white; border-radius:2px;"></div>
+              </div>
+            </div> 
          </div>
       </div>
       <div class="hidden-xs footer_main">
@@ -67,7 +116,7 @@ if(is_category()){
                         ?>  
                      </ul>
                   </div>
-               </div>               
+               </div> 
             </div>
             <div class="row">
                <div class="col-xs-30 text-center romaji">
@@ -315,6 +364,12 @@ if(is_category()){
                    map: map,
                                  position: results[0].geometry.location
                              })
+
+                   var map2 = new google.maps.Map(document.getElementById('map-canvas-footer'), mapOptions)
+               var marker2 = new google.maps.Marker({
+                   map: map2,
+                                 position: results[0].geometry.location
+                             })              
              }
          
            })

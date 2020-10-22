@@ -522,19 +522,15 @@ p.info-dr{
 
 
 .mt10{
-   margin-top-top: 10px;
+   margin-top: 10px;
 }
 
 .mt15{
-   margin-top-top: 15px;
+   margin-top: 15px;
 }
 
 .mt60{
-   margin-top-top: 60px;
-}
-
-.mt60{
-   margin-top-top: 60px;
+   margin-top: 60px;
 }
 
 .col-sm-offset-5-right{
@@ -719,6 +715,7 @@ p.info-dr{
    width: 100%;
    color: #fff;
    font-size: 16px;
+   left: 0;
 }
 
 .category-top .text-content span{
@@ -1117,6 +1114,63 @@ p.info-dr{
 
   .expense-page .mt-185{
    margin-top: 100px;
+  }
+
+  /* top  page*/
+  .news-top .amore-section-list{
+     width: 100%;
+  }
+
+  .news-top .amore-section-list ul{
+    padding: 0 10px;
+  }
+
+  .amore-section-list ul li span, .amore-section-list ul li a{
+     font-size: 14px 
+  }
+
+  #fifth .circle{
+    width: 176px;
+    margin: 0 auto;
+  }
+
+  #fifth .text-outline {
+    margin-bottom: 30px;
+  }
+
+  .amore-welcome-top {
+     padding: 30px 15px;
+  }
+
+  .category-top .no-padding{
+    padding: 0px 15px;
+  }
+
+  .category-top .text-content{
+    top: 70px;
+  }
+
+  .category-top .caption-text {   
+    width: calc(100% - 30px);
+    left: 15px;
+  }
+
+  #sixth {
+    background-image: none !important;
+    background-color: #F2F0ED!important;
+  }
+
+  .footer_mobile_menu ul li{
+    width: 50%;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+  }
+
+  .footer_main , .footer_mobile_menu_wrapper, .footer_social_link_wrapper, .front_mobile_footer{
+    background: #A8A294 !important;
   }
 
 
