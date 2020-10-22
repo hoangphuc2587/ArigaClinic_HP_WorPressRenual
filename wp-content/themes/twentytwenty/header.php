@@ -28,7 +28,7 @@
         <link media="all" href="<?php echo home_url(); ?>/wp-content/themes/twentytwenty/assets/css/autoptimize_e19808f538a9ee2c513ec2f55d2b1c57.css" rel="stylesheet" />
         <?php endif?>              
         <link media="screen and (max-width:991px)" href="<?php echo home_url(); ?>/wp-content/themes/twentytwenty/assets/css/autoptimize_1a66718c7cb7a594dcdfd079b102bdf7.css" rel="stylesheet" />
-        <link media="all" href="<?php echo home_url(); ?>/wp-content/themes/twentytwenty/assets/css/style.css" rel="stylesheet" />
+        <link media="all" href="<?php echo home_url(); ?>/wp-content/themes/twentytwenty/assets/css/style.css?<?php echo strtotime(date('Y-m-d His'));?>" rel="stylesheet" />
 
         <link rel="apple-touch-icon" sizes="180x180" href="<?php echo home_url(); ?>/wp-content/uploads/fbrfg/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="<?php echo home_url(); ?>/wp-content/uploads/fbrfg/favicon-32x32.png">
