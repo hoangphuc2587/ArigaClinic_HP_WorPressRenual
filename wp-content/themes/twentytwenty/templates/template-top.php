@@ -53,18 +53,27 @@ get_header();
           </div>
        </div>
     </div>
-   </section>
+   </section>   
    <section class="news-top">
     <div id="third" class="container">
        <div class="row">
         <div class="col-xs-120 no-padding">
           <h3 class="text-center text-header"><span class="news-text">知らせ <span>NEWS</span></span></h3>
           <div class="amore-section amore-section-list">
-             <ul>
-                <li><a href="#"><span>2020.12.04</span> 年末年始のお休みについて。</a></li>
-                <li><a href="#"><span>2020.12.04</span> 桜モンテッソーリ（HCM）歯科健診２０１９</a></li>
-                <li><a href="#"><span>2020.12.04</span> なんども虫歯が再発する方へーホーチミンのありが歯科のアドバイス</a></li>
-             </ul>          
+            <?php 
+               $args = array(
+                  'post_status' => array('publish'), 
+                  'posts_per_page' => 3,
+                  'orderby' => 'post_date', 
+                  'order' => 'DESC'
+               );
+               $arrPosts = new WP_query($args);
+            ?>
+            <ul>
+                <?php while ( $arrPosts->have_posts() ) : $arrPosts->the_post(); ?>
+                <li><a href="#"><span><?php echo get_the_date('Y.m.d');?></span> <?php the_title(); ?></a></li>                
+                <?php endwhile; ?>
+            </ul>          
          </div>
         </div>
        </div>
@@ -269,77 +278,38 @@ get_header();
 
          <div class="row">
           <div class="col-sm-120 padding030">
-              <div class="row">
+              <?php
+                $categories = get_categories( array(
+                   'orderby' => 'id',
+                   'order'   => 'ASC',
+                   'hide_empty' => '0',
+                   'posts_per_page' => 6,
+                ));
+                $index = 0;
+              ?>
+              <?php foreach( $categories as $category ) { ?>
+              <?php if ($index === 0 || $index%3 === 0 ){
+                if ($index > 0){
+                  echo '</div>';
+                }
+                echo '<div class="row">';
+              }
+              ?>              
                 <div class="col-sm-40 no-padding">
-                  <a href="#">
-                    <img class="category-img"  src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/category-1.png" />
+                  <a href="<?php echo home_url(); ?>/<?php echo $category->taxonomy ?>/<?php echo $category->slug ?>">
+                    <img class="category-img"  src="<?php echo wp_get_attachment_image_src(get_term_meta($category->term_id, 'featured_image_id', true), 'full')[0];?>" />
                     <div class="caption-text"></div> 
                     <div class="text-center text-content">
-                      安心インプラント治療 <br/>
-                      <span>SAFE IMPLANT</span>
+                      <?php echo $category->name;?> <br/>
+                      <span><?php echo $category->description;?></span>
                     </div> 
                   </a>
                 </div>
-
-                <div class="col-sm-40 no-padding">
-                  <a href="#">
-                    <img class="category-img"  src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/category-2.png" />
-                    <div class="caption-text"></div> 
-                    <div class="text-center text-content">
-                      こども矯正 <br/>
-                      <span>CHAILD ORTHODONTICS</span>
-                    </div> 
-                  </a>
-                </div>
-
-                <div class="col-sm-40 no-padding">
-                  <a href="#">
-                    <img class="category-img"  src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/category-3.png" />
-                    <div class="caption-text"></div> 
-                    <div class="text-center text-content">
-                      保険関連 <br/>
-                      <span>INSURANCE</span>
-                    </div> 
-                  </a>
-                </div>
-              </div>  
-              <div class="row">
-
-                <div class="col-sm-40 no-padding">
-                  <a href="#">
-                    <img class="category-img"  src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/category-4.png" />
-                    <div class="caption-text"></div> 
-                    <div class="text-center text-content">
-                      小児歯科 <br/>
-                      <span>PEDODONTICS</span>
-                    </div> 
-                  </a>
-                </div>
-
-                <div class="col-sm-40 no-padding">
-                  <a href="#">
-                    <img class="category-img"  src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/category-5.png" />
-                    <div class="caption-text"></div> 
-                    <div class="text-center text-content">
-                      マウスピース矯正 <br/>
-                      <span>MOUTH PIECE</span>
-                    </div> 
-                  </a>
-                </div>
-
-
-                <div class="col-sm-40 no-padding">
-                  <a href="#">
-                    <img class="category-img"  src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/category-6.png" />
-                    <div class="caption-text"></div> 
-                    <div class="text-center text-content">
-                      アクセス <br/>
-                      <span>ACCESS</span>
-                    </div> 
-                  </a>
-                </div>
-
-              </div>  
+              <?php
+                 $index++;
+              ?>
+              <?php } ?>
+              </div>
 
           </div>       
          </div>

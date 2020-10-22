@@ -1,13 +1,26 @@
-body{
+@font-face {
+  font-family: 'Yumin';
+  src: url('../fonts/yumin.ttf'); /* IE9 Compat Modes */
+ /* src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       /*url('webfont.woff2') format('woff2'), /* Super Modern Browsers */*/
+       /*url('webfont.woff') format('woff'), /* Pretty Modern Browsers */*/
+       /*url('../fonts/yumin.ttf')  format('truetype'), /* Safari, Android, iOS */*/       */
+}
+
+body.home{
   background: #F2F0ED;
   color: #8B8679;
 }
 
 #footer{
+  background: #fff;
+}
+
+body.home #footer{
   background: #E8E4DC;
 }
 
-.breadcrumb{
+body .breadcrumb{
   background: transparent;
 }
 
@@ -650,6 +663,11 @@ p.info-dr{
     background-color: #000;
     opacity: 0.5;
     left: 0;
+}
+
+
+.category-top a:hover .caption-text{
+   background-color: #8a6d3b; 
 }
 
 .category-top .top-headline-category{
