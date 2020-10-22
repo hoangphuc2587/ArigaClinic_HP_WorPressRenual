@@ -15,9 +15,11 @@ get_header();
    <div id="site-cover"></div>
    <section>
      <div class="slider heightasviewport has-background" data-order='0' data-parallax="scroll" data-image-src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/banner_1.png"></div>
-    <div class="slider heightasviewport has-background" data-order='0' data-parallax="scroll" data-image-src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/top3.jpg"></div>
-    <div class="slider heightasviewport has-background" data-order='1' data-parallax="scroll" data-image-src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/city-1557668_19201.jpg"></div>
-    <div class="slider heightasviewport has-background" data-order='2' data-parallax="scroll" data-image-src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/top2.png"></div>
+    <div class="slider heightasviewport has-background" data-order='1' data-parallax="scroll" data-image-src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/top3.jpg"></div>
+    <div class="slider heightasviewport has-background" data-order='2' data-parallax="scroll" data-image-src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/banner_1.png"></div>
+    <div class="slider heightasviewport has-background" data-order='3' data-parallax="scroll" data-image-src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/city-1557668_19201.jpg"></div>
+    <div class="slider heightasviewport has-background" data-order='4' data-parallax="scroll" data-image-src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/top2.png"></div>
+
     <div id="topcover" class="topcover heightasviewport">
        <div class="text-center verticalcentersplash amore-welcome-center">        
        </div>
@@ -25,6 +27,15 @@ get_header();
     <div class="topcover heightasviewport" style="opacity:1;-ms-transform:translate(0px,0px);-webkit-transform:translate(0px,0px);transform:translate(0px,0px);"></div>
     <div id="top" class="heightasviewport" style="opacity:1; background:transparent">
     </div>
+    <div class="button-slider">
+      <ul>
+          <li class="slider-item-0 active" data-order='0'></li>
+          <li class="slider-item-1" data-order='1'></li>
+          <li class="slider-item-2" data-order='2'></li>
+          <li class="slider-item-3" data-order='3'></li>
+          <li class="slider-item-4" data-order='4'></li>
+      </ul>  
+    </div>  
    </section>
    <section class="top-second">
     <div id="second">
@@ -71,7 +82,7 @@ get_header();
             ?>
             <ul>
                 <?php while ( $arrPosts->have_posts() ) : $arrPosts->the_post(); ?>
-                <li><a href="#"><span><?php echo get_the_date('Y.m.d');?></span> <?php the_title(); ?></a></li>                
+                <li><a href="<?php the_permalink() ?>"><span><?php echo get_the_date('Y.m.d');?></span> <?php the_title(); ?></a></li>                
                 <?php endwhile; ?>
             </ul>          
          </div>
@@ -296,7 +307,7 @@ get_header();
               }
               ?>              
                 <div class="col-sm-40 no-padding">
-                  <a href="<?php echo home_url(); ?>/<?php echo $category->taxonomy ?>/<?php echo $category->slug ?>">
+                  <a href="<?php echo home_url(); ?>/<?php echo $category->taxonomy ?>/<?php echo $category->slug;?>">
                     <img class="category-img"  src="<?php echo wp_get_attachment_image_src(get_term_meta($category->term_id, 'featured_image_id', true), 'full')[0];?>" />
                     <div class="caption-text"></div> 
                     <div class="text-center text-content">

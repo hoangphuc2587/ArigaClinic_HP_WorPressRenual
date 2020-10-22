@@ -68,7 +68,7 @@ get_header();
                    <div class="row">
                       <article id="post-17827" class="post-1787 post type-post status-publish format-standard has-post-thumbnail hentry category-dental_problems category-implant_reatment category-how_to_recover_periodontal_disease category-51">
                          <div class='col-sm-120 col-xs-60 mb20' style='padding-right:0px'>
-                            <a href="<?php echo home_url(); ?>/category/<?php echo $category->category_nicename ?>">
+                            <a href="<?php echo home_url(); ?>/<?php echo $category->taxonomy ?>/<?php echo $category->slug;?>">
                                <!-- <div class="thumb blog-list-thumb"><img width="300" height="200" src="<?php echo(wp_get_attachment_image_src( get_term_meta($category->term_id, 'featured_image_id', true), 'category-thumb' )[0]) ?>" class="attachment-size1 size-size1 wp-post-image" alt="" srcset="<?php echo(wp_get_attachment_image_src( get_term_meta($category->term_id, 'featured_image_id', true), 'category-thumb' )[0]) ?> 300w, <?php echo(wp_get_attachment_image_src( get_term_meta($category->term_id, 'featured_image_id', true), 'category-thumb' )[0]) ?> 272w" sizes="(max-width: 300px) 100vw, 300px" /></div> -->
                                <div class="thumb blog-list-thumb"><img width="300" height="200" src="<?php echo(wp_get_attachment_image_src( get_term_meta($category->term_id, 'featured_image_id', true), 'category-thumb' )[0]) ?>" class="attachment-size1 size-size1 wp-post-image" alt=""  /></div>
                             </a>

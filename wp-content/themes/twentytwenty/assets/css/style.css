@@ -545,6 +545,32 @@ p.info-dr{
   padding-bottom: 40px;
 }
 
+.button-slider{
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.button-slider ul{
+  list-style: none;
+  display: flex;
+}
+
+.button-slider ul li{
+   width: 14px;
+   height: 14px;
+   background: #fff;
+   border-radius: 50%;
+   margin: 0px 10px;
+   cursor: pointer;
+}
+
+.button-slider ul li.active{
+  background: #8B8679;
+}
+
 /* care top */
 .care-top{
   background: #8B8679;
