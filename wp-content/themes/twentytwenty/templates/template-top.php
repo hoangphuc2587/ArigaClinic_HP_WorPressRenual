@@ -54,12 +54,12 @@ get_header();
            <div class="col-sm-30 col-xs-58">
               <h4><img class="mt10" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/top_1_3.png"></h4>
               <h3>サポート一覧</h3>
-              <h2>CONTACT</h2>
+              <h2>SUPPORT</h2>
            </div>
            <div class="col-sm-30 col-xs-58">
               <h4><img class="mt15" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/top_1_4.png"></h4>
               <h3>お問い合わせ</h3>
-              <h2>GREETING</h2>
+              <h2>CONTACT</h2>
            </div>
           </div>
        </div>
