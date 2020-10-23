@@ -70,7 +70,7 @@ if(is_category()){
                 <img src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/footer_1_2.png">
               </div>
               <div class="col-xs-100 footer-address-2">
-               <h3>140 Ký Con, Quận 1 THÀNH PHỐ HỒ CHÍ MINH</h3>
+               <h3>140 Ký Con, Quận 1, Thành Phố Hồ Chí Minh</h3>
               </div>
             </div>   
 
@@ -141,7 +141,7 @@ if(is_category()){
                       <img src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/footer_1_2.png">
                     </div>
                     <div class="col-xs-95 footer-address-2">
-                     <h3>140 Ký Con, Quận 1 THÀNH PHỐ HỒ CHÍ MINH</h3>
+                     <h3>140 Ký Con, Quận 1, Thành Phố Hồ Chí Minh</h3>
                     </div>
                   </div>                  
                   <div class="row pt-35">
@@ -166,7 +166,7 @@ if(is_category()){
                       <img src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/footer_1_2.png">
                     </div>
                     <div class="col-xs-95 footer-address-2">
-                     <h3>140 Ký Con, Quận 1 THÀNH PHỐ HỒ CHÍ MINH</h3>
+                     <h3>140 Ký Con, Quận 1, Thành Phố Hồ Chí Minh</h3>
                     </div>
                   </div> 
                </div> 

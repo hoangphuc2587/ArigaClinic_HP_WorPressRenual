@@ -33,9 +33,9 @@ get_header();
 
                <table class="tbl"> 
                   <tr>
-                     <th style="background-color: #D6C77E;"></th>
-                     <th style="background-color: #D6C77E; text-align: center; ">午前</th>
-                     <th style="background-color: #D6C77E; text-align: center; ">午後</th>
+                     <th style="background-color: #8B8679;"></th>
+                     <th style="background-color: #8B8679; text-align: center;color: #fff">午前</th>
+                     <th style="background-color: #8B8679; text-align: center;color: #fff">午後</th>
                   </tr>
                   <tr style="text-align: center;">
                      <td>月曜~金曜</td>
