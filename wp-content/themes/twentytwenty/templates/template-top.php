@@ -74,6 +74,9 @@ get_header();
             <?php 
                $args = array(
                   'post_status' => array('publish'), 
+                  'meta_key'     => 'show_post_homepage',
+                  'meta_value'   => '',
+                  'meta_compare' => '!=',
                   'posts_per_page' => 3,
                   'orderby' => 'post_date', 
                   'order' => 'DESC'
