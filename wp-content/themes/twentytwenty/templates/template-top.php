@@ -69,7 +69,7 @@ get_header();
     <div id="third" class="container">
        <div class="row">
         <div class="col-xs-120 no-padding">
-          <h3 class="text-center text-header"><span class="news-text">知らせ <span>NEWS</span></span></h3>
+          <h3 class="text-center text-header"><span class="news-text">お知らせ &nbsp;&nbsp;<span>NEWS</span></span></h3>
           <div class="amore-section amore-section-list">
             <?php 
                $args = array(

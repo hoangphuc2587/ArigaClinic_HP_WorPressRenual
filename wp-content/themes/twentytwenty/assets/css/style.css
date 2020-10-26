@@ -402,7 +402,7 @@ p.info-dr{
     position: absolute;
     width: 75px;
     border: 1px solid #ccc;
-    left: 35px;
+    left: 55px;
     top: 40px;
 }
 
@@ -486,7 +486,7 @@ p.info-dr{
 
 #fifth .circle{
   height: 176px;
-  border: 1px solid #8B8679;
+  border: 1px solid #fff;/* #8B8679*/
   border-radius: 50%;
   margin: 0px 20px;
 }
@@ -574,12 +574,15 @@ p.info-dr{
 
 /* care top */
 .care-top{
-  background: #fff;
-  color: #8B8679 !important;
+ /* background: #fff;
+  color: #8B8679 !important;*/
+   background: #8B8679;
+  color: #fff !important;
   padding-top: 30px;
 }
 .care-top .top-headline-care{
-  color: #8B8679;
+  /*color: #8B8679;*/
+   color: #fff;
 }
 
 .care-top .top-headline-care span:after{
@@ -587,7 +590,8 @@ p.info-dr{
 }
 
 .care-top .top-headline-care-text{
-  color:#8B8679;
+/*  color:#8B8679;*/
+  color: #fff;
   margin-bottom: 100px;
   margin-top: 40px;
 }
@@ -600,7 +604,7 @@ p.info-dr{
 
 .news-top ul li
 {
-  padding: 10px 0px;
+  padding: 10px 0px 0px 30px;
 }
 
 .news-top ul li a:hover, .news-top ul li a:hover span
