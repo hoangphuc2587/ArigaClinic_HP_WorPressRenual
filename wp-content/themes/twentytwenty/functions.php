@@ -907,3 +907,33 @@ function prefix_load_cat_posts () {
    echo $response;
    die(1);
 }
+
+
+
+add_filter( 'manage_post_posts_columns', 'smashing_post_columns' );
+function smashing_post_columns( $columns ) {
+ 
+    $columns = array(
+      'cb' => $columns['cb'],
+      'title' => __( 'Title' ),
+      'author' => __( 'Author' ),     
+      'categories' => __( 'Categories'),
+      'show_post_homepage' => __( 'Show HomePage' ),
+      'tags' => __( 'Tags'),
+      'date' => __( 'Date'),
+      
+    );
+  
+  
+  return $columns;
+}
+
+add_action( 'manage_post_posts_custom_column', 'smashing_post_column', 10, 2);
+function smashing_post_column( $column, $post_id ) {
+  // Image column
+  if ( 'show_post_homepage' === $column ) {
+     if (!empty(get_post_meta( $post_id, 'show_post_homepage', true ))){
+         echo 'X';
+     }
+  }
+}
