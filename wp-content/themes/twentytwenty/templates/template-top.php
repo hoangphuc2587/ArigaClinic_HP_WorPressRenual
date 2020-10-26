@@ -64,35 +64,44 @@ get_header();
           </div>
        </div>
     </div>
-   </section>   
+   </section>
+  <?php 
+         $args = array(
+            'post_status' => array('publish'),                  
+            'meta_query' => array(
+                array(
+                    'key'     => 'show_post_homepage',
+                    'value'   => '',
+                    'compare' => '!=',
+                ),
+            ),
+            'posts_per_page' => 3,
+            'orderby' => 'post_date', 
+            'order' => 'DESC'
+         );
+         $arrPosts = new WP_query($args);
+    ?>
+    <?php if (!empty($arrPosts->have_posts())):?>
    <section class="news-top">
     <div id="third" class="container">
        <div class="row">
         <div class="col-xs-120 no-padding">
           <h3 class="text-center text-header"><span class="news-text">お知らせ &nbsp;&nbsp;<span>NEWS</span></span></h3>
+         
           <div class="amore-section amore-section-list">
-            <?php 
-               $args = array(
-                  'post_status' => array('publish'), 
-                  'meta_key'     => 'show_post_homepage',
-                  'meta_value'   => '',
-                  'meta_compare' => '!=',
-                  'posts_per_page' => 3,
-                  'orderby' => 'post_date', 
-                  'order' => 'DESC'
-               );
-               $arrPosts = new WP_query($args);
-            ?>
+            
             <ul>
                 <?php while ( $arrPosts->have_posts() ) : $arrPosts->the_post(); ?>
                 <li><a href="<?php the_permalink() ?>"><span><?php echo get_the_date('Y.m.d');?></span> <?php the_title(); ?></a></li>                
                 <?php endwhile; ?>
             </ul>          
          </div>
+          
         </div>
        </div>
     </div>
    </section>
+   <?php endif; ?>
    <section>
     <div id="fourth" class="container greeting-top">
        <div class="row">         
