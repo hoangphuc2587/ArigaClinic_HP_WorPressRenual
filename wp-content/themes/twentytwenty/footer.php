@@ -308,7 +308,7 @@ if(is_category()){
          jQuery("a[href*=#]:not([href=#])").click(function(){
            if(location.pathname.replace(/^\//,"")==this.pathname.replace(/^\//,"")&&location.hostname==this.hostname){
              var e=jQuery(this.hash);
-             if(e=e.length?e:jQuery("[name="+this.hash.slice(1)+"]"),e.length)return jQuery("html,body").animate({scrollTop:e.offset().top},1e3),!1
+             if(e=e.length?e:jQuery("[name="+this.hash.slice(1)+"]"),e.length)return jQuery("html,body").animate({scrollTop:e.offset().top - 150},1e3),!1
            }
          })
 

@@ -22,7 +22,7 @@
         $post_slug = $post->post_name;        
         ?>
         <link rel="profile" href="https://gmpg.org/xfn/11">       
-        <?php if (in_array($post_slug, array("first-visit", "staff","about-medical-expenses", "support","promise"))):?>
+        <?php if (!in_array($post_slug, array("top", "category"))):?>
         <link media="all" href="<?php echo home_url(); ?>/wp-content/themes/twentytwenty/assets/css/autoptimize_742f7556a3c461fdfc23fddade51da38.css" rel="stylesheet" />
         <?php else:?>
         <link media="all" href="<?php echo home_url(); ?>/wp-content/themes/twentytwenty/assets/css/autoptimize_e19808f538a9ee2c513ec2f55d2b1c57.css" rel="stylesheet" />
@@ -94,7 +94,7 @@
                         </div>
                         <a href="#" class="menu_button"></a>
                         <div id="global_menu" class="clearfix">
-                           <ul id="menu-mobile" class="menu">
+                           <ul id="menu-mobile" class="menu" style="list-style: none;">
                               <?php                              
                                   wp_nav_menu(
                                     array(

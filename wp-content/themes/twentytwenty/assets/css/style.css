@@ -769,6 +769,19 @@ h3.ppt:before {
   cursor: pointer;
 }
 
+img.stick-greeting:hover, img.stick-care:hover, img.stick-support:hover, img.stick-contact:hover{
+  opacity: 0.7;
+}
+
+h3 .stick-greeting:hover, h3 .stick-care:hover,  h3 .stick-support:hover , .stick-contact:hover{
+  font-weight: 700;
+  font-size: 23px;
+}
+
+h2 .stick-greeting:hover, h2 .stick-care:hover,  h2 .stick-support:hover, h2 .stick-contact:hover{
+  font-size: 17px;
+}
+
 .stick-contact{
   color: #8B8679;
   text-decoration: none;
@@ -777,6 +790,50 @@ h3.ppt:before {
 .stick-contact:hover{
   color: #8B8679;
   text-decoration: none;
+}
+
+/* page trouble */
+.care-trouble {
+    background: #fff !important;
+    color: #8B8679 !important;
+    padding-top: 0px;
+}
+
+.care-trouble .top-headline-care{
+   color: #8B8679 !important;
+   border-bottom: none;
+   padding-bottom: 0px;
+   margin-bottom: 0px;
+}
+
+.care-trouble .top-headline-care-text{
+  color: #8B8679 !important;
+  background: #fff !important;
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+
+.care-trouble h3{
+   border-bottom: none;
+   padding-bottom: 0px;
+   margin-bottom: 0px;
+   color: #8B8679 !important;
+}
+
+.care-trouble a:hover{
+    text-decoration: none;
+}
+
+.care-trouble a:hover img, .care-trouble a:hover h3{
+    opacity: 0.6;
+}
+
+.care-trouble #fifth .circle{
+  border: 1px solid #8B8679 !important;
+}
+
+.care-trouble #fifth .circle .text-inline{
+  margin-top: 10px;
 }
 
 

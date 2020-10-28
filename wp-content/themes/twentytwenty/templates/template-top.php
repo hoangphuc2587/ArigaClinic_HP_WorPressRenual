@@ -361,6 +361,7 @@ get_header();
     </div>
    </section>
   </div>
+</div>  
   <script>jQuery('.heightasviewport').css('height', jQuery(window).height())</script> 
 
 <?php get_footer(); ?>
