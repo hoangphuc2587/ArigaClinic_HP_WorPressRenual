@@ -78,9 +78,9 @@
                            <ul id="main-menu" class="nav navbar-nav">
                                 <?php
                                   $arrMenu  = wp_get_nav_menu_items('main-menu');
-                                  foreach ($arrMenu as $menu) {
+                                  foreach ($arrMenu as $menu) {                                    
                                 ?>
-                                <li id="menu-item-<?php echo $menu->ID; ?>" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-<?php echo $menu->ID; ?>">
+                                <li id="menu-item-<?php echo $menu->ID; ?>" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-<?php echo $menu->ID; ?><?php echo $menu->title == get_the_title() ? ' active' : '';?>">
                                   <a href="<?php echo $menu->url; ?>"><?php echo $menu->title;?></a>
                                 </li>  
                                 <?php  } ?>

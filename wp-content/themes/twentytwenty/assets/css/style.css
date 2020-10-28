@@ -867,6 +867,10 @@ h2 .stick-greeting:hover, h2 .stick-care:hover,  h2 .stick-support:hover, h2 .st
     color: #6A614A !important;
   }
 
+  #main-menu .active a {
+    color: #d6c77e !important;
+}
+
   #main-menu>li>a:hover{
     color: #d6c77e !important;
   }
