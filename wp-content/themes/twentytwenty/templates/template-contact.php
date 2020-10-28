@@ -15,7 +15,7 @@ get_header();
  <div class="container">
     <div class="row">
        <div class="col-xs-120 no-padding">
-          <h1 class="top-headline" style="margin-top: 50px; margin-bottom: -20px;">お問い合わせ</h1>
+          <h1 class="top-headline"><?php the_title()?></h1>
        </div>
     </div>
  </div>
@@ -23,7 +23,7 @@ get_header();
 <div class="container amore-inner-container" style="margin-bottom:0px">
  <div class="row">
     <div class="col-sm-120 col-xs-120 no-padding single-page support-page">
-       <header class="breadcrumb mb20"> <a href="<?php echo home_url(); ?>"><span><img src="<?php echo home_url(); ?>/wp-content/themes/twentytwenty/assets/images/home.png" class="breadcrumb-home"></span></a> <span class="fa fa-chevron-right text-muted" style="font-size:10px">&nbsp;</span> <span>お問い合わせ</span></header>
+       <header class="breadcrumb mb20"> <a href="<?php echo home_url(); ?>"><span><img src="<?php echo home_url(); ?>/wp-content/themes/twentytwenty/assets/images/home.png" class="breadcrumb-home"></span></a> <span class="fa fa-chevron-right text-muted" style="font-size:10px">&nbsp;</span> <span><?php the_title()?></span></header>
        <div class="row article" style="margin:auto 0;">
          <h4 class="padding-left-title">電話でのお問い合わせ/予約</h4>
          <div class="text-padding-left">

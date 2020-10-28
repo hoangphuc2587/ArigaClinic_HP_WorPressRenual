@@ -83,7 +83,7 @@
                                 <li id="menu-item-<?php echo $menu->ID; ?>" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-<?php echo $menu->ID; ?>">
                                   <a href="<?php echo $menu->url; ?>"><?php echo $menu->title;?></a>
                                 </li>  
-                                <?php     if ($menu->title === '歯の悩み') { ?>
+                                <?php     if ($menu->title === 'NEWS') { ?>
                                 <li id="menu-item-0" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-0">    
                                   <a href="<?php echo home_url(); ?>/" title="ベトナム ホーチミンでの歯医者(歯科) 虫歯,ホワイトニング,インプラント,歯周病,こども矯正　ありが歯科" data-label="ベトナム ホーチミンでの歯医者(歯科) 虫歯,ホワイトニング,インプラント,歯周病,こども矯正　ありが歯科"><img class="h_logo" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/logo.png" alt="ベトナム ホーチミンでの歯医者(歯科) 虫歯,ホワイトニング,インプラント,歯周病,こども矯正　ありが歯科" title="ベトナム ホーチミンでの歯医者(歯科) 虫歯,ホワイトニング,インプラント,歯周病,こども矯正　ありが歯科" /></a>
                                 </li>  

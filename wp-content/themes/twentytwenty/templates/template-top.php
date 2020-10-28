@@ -42,24 +42,24 @@ get_header();
        <div class="text-center container amore-welcome-top">
           <div class="row">
            <div class="col-sm-30 col-xs-58">
-              <h4><img src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/top_1_1.png"></h4>
-              <h3>ご挨拶</h3>
-              <h2>GREETING</h2>
+              <h4><img class="stick-greeting" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/top_1_1.png"></h4>
+              <h3><span class="stick-greeting">ご挨拶</span></h3>
+              <h2><span class="stick-greeting">GREETING</span></h2>
            </div>
            <div class="col-sm-30 col-xs-58">
-              <h4><img src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/top_1_2.png"></h4>
-              <h3>治療一覧</h3>
-              <h2>CARE</h2>
+              <h4><img class="stick-care" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/top_1_2.png"></h4>
+              <h3><span class="stick-care">治療一覧</span></h3>
+              <h2><span class="stick-care">CARE</span></h2>
            </div>
            <div class="col-sm-30 col-xs-58">
-              <h4><img class="mt10" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/top_1_3.png"></h4>
-              <h3>サポート一覧</h3>
-              <h2>SUPPORT</h2>
+              <h4><img class="mt10 stick-support" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/top_1_3.png"></h4>
+              <h3><span class="stick-support">サポート一覧</span></h3>
+              <h2><span class="stick-support">SUPPORT</span></h2>
            </div>
            <div class="col-sm-30 col-xs-58">
-              <h4><img class="mt15" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/top_1_4.png"></h4>
-              <h3>お問い合わせ</h3>
-              <h2>CONTACT</h2>
+              <h4><a href="<?php echo home_url(); ?>/contact/"><img class="mt15 stick-contact" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/top_1_4.png"></a></h4>
+              <h3><a class="stick-contact" href="<?php echo home_url(); ?>/contact/">お問い合わせ</a></h3>
+              <h2><a class="stick-contact" href="<?php echo home_url(); ?>/contact/">CONTACT</a></h2>
            </div>
           </div>
        </div>
@@ -102,7 +102,7 @@ get_header();
     </div>
    </section>
    <?php endif; ?>
-   <section>
+   <section id="section-greeting">
     <div id="fourth" class="container greeting-top">
        <div class="row">         
          <div class="col-xs-120 no-padding">
@@ -123,7 +123,7 @@ get_header();
        </div>
     </div>
    </section>
-   <section class="care-top">
+   <section id="section-care" class="care-top">
     <div id="fifth" class="container">
        <div class="row">
         <div class="col-xs-120 no-padding text-center">
@@ -207,7 +207,7 @@ get_header();
        </div>
     </div>
    </section>
-   <section class="support-top">
+   <section id="section-support" class="support-top">
     <div id="sixth" class="container">
        <div class="row">         
          <div class="col-xs-120 no-padding">

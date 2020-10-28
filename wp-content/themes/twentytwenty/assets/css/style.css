@@ -13,6 +13,11 @@ body.home{
   color: #8B8679;
 }
 
+.top-headline{
+  margin-top: 100px;
+  margin-bottom: -20px;
+}
+
 #footer{
   background: #fff;
 }
@@ -325,7 +330,7 @@ p.info-dr{
  }
 
  .amore-welcome-top {
-    padding: 30px 0;
+    padding: 10px 0px 0px 0px;
  }
  .top-second{
     background: #E8E4DC;
@@ -345,6 +350,7 @@ p.info-dr{
     font-size: 18px;
     font-weight: 700;
     margin-top: 0px;
+    margin-bottom: 0px;
  }
 
  h3.text-header{
@@ -759,6 +765,20 @@ h3.ppt:before {
     font-family: '游明朝';
 }
 
+.stick-greeting, .stick-care, .stick-support{
+  cursor: pointer;
+}
+
+.stick-contact{
+  color: #8B8679;
+  text-decoration: none;
+}
+
+.stick-contact:hover{
+  color: #8B8679;
+  text-decoration: none;
+}
+
 
 @media only screen and (min-width: 991px){
   .navbar-collapse {
@@ -801,7 +821,7 @@ h3.ppt:before {
     padding-left: 0px;
   }
   #main-menu li:last-child a {
-    padding-right: 0px;
+    padding-right: 15px;
   }
 
   .is-mobile{
@@ -912,12 +932,12 @@ h3.ppt:before {
     padding: 0px;
   }
   #main-menu>li>a {
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 24px;
+    padding-right: 22px;
   }
 
    #menu-footer-pc li a {
-    padding: 10px 56px;
+    padding: 10px 44px;
   }
 
   .footer-icon-phone{

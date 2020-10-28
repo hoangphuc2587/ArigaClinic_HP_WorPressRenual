@@ -374,6 +374,24 @@ if(is_category()){
          
            })
          })
+
+        $(".stick-greeting").click(function() {
+            $([document.documentElement, document.body]).animate({
+                scrollTop: $("#section-greeting").offset().top - 60
+            }, 2000);
+        });
+
+        $(".stick-care").click(function() {
+            $([document.documentElement, document.body]).animate({
+                scrollTop: $("#section-care").offset().top - 120
+            }, 2000);
+        });
+
+        $(".stick-support").click(function() {
+            $([document.documentElement, document.body]).animate({
+                scrollTop: $("#section-support").offset().top - 60
+            }, 2000);
+        });
         
       </script>
       <script defer src="<?php echo home_url(); ?>/wp-content/themes/twentytwenty/assets/js/autoptimize_b29c772d238f4707fabd394edbc70dfc.js"></script>
