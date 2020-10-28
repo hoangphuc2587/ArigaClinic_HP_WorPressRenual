@@ -504,11 +504,13 @@ p.info-dr{
 #fifth .circle .text-inline{
   font-size: 11px;
   font-weight: 700;
+  color: #fff;
 }
 
 #fifth .text-outline{
   font-size: 14px;
   margin-bottom: 40px;
+  color: #fff;
 }
 
 .tb120{
@@ -820,11 +822,11 @@ h2 .stick-greeting:hover, h2 .stick-care:hover,  h2 .stick-support:hover, h2 .st
    color: #8B8679 !important;
 }
 
-.care-trouble a:hover{
+.care-trouble a:hover, .care-top a:hover{
     text-decoration: none;
 }
 
-.care-trouble a:hover img, .care-trouble a:hover h3{
+.care-top a:hover img, .care-top a:hover h3, .care-trouble a:hover img, .care-trouble a:hover h3{
     opacity: 0.6;
 }
 

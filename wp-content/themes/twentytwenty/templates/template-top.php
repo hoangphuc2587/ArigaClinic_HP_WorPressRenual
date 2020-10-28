@@ -131,76 +131,96 @@ get_header();
          <h4 class="top-headline-care-text">治療一覧</h4>
          <div class="row">
             <div class="col-xs-120 col-sm-24">
+              <a href="<?php echo home_url(); ?>/trouble/#a1">
                <div class="circle">
                  <img src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/care_1_1.png">
                  <h3 class="text-inline">CLEANING</h3>
                </div>
                <h3 class="text-outline">掃除・クリーニング</h3>
+              </a> 
             </div>
             <div class="col-xs-120 col-sm-24">
+              <a href="<?php echo home_url(); ?>/trouble/#a2">
                <div class="circle">
                  <img style="margin-top: 45px;" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/care_1_2.png">
                  <h3 class="text-inline">PREVENTION</h3>
                </div>
                <h3 class="text-outline">虫歯・歯周病予防</h3>
+              </a> 
             </div>
             <div class="col-xs-120 col-sm-24">
+              <a href="<?php echo home_url(); ?>/trouble/#a3">
                <div class="circle">
                  <img style="margin-top: 30px;" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/care_1_3.png">
                  <h3 class="text-inline">PAIN</h3>
                </div>
                <h3 class="text-outline">痛い・しみる</h3>
+              </a> 
             </div>
             <div class="col-xs-120 col-sm-24">
+              <a href="<?php echo home_url(); ?>/trouble/#a4">
                <div class="circle">
                  <img style="margin-top: 45px;" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/care_1_4.png">
                  <h3 class="text-inline">WHITENING</h3>
                </div>
                <h3 class="text-outline">白くしたい</h3>
+              </a> 
             </div>
             <div class="col-xs-120 col-sm-24">
+              <a href="<?php echo home_url(); ?>/trouble/#a5">
                <div class="circle">
                  <img style="margin-top: 35px;" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/care_1_5.png">
                  <h3 class="text-inline">PERIODONTITIS</h3>
                </div>
                <h3 class="text-outline">歯周病治療</h3>
+              </a> 
             </div>  
       <!--    </div>
           <div class="row pb40"> -->
             <div class="col-xs-120 col-sm-24">
+              <a href="<?php echo home_url(); ?>/trouble/#a6">
                <div class="circle">
                  <img style="margin-top:40px" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/care_1_6.png">
                  <h3 class="text-inline">BREATH</h3>
                </div>
                <h3 class="text-outline">口臭対策</h3>
+              </a> 
             </div>
            <div class="col-xs-120 col-sm-24">
+              <a href="<?php echo home_url(); ?>/trouble/#a7">
                <div class="circle">
                  <img style="margin-top:60px" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/care_1_7.png">
                  <h3 class="text-inline">WISDOM TOOTH</h3>
                </div>
                <h3 class="text-outline">親知らずが痛い</h3>
+              </a> 
             </div>
             <div class="col-xs-120 col-sm-24">
+              <a href="<?php echo home_url(); ?>/trouble/#a8">
                <div class="circle">
                  <img style="margin-top:70px" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/care_1_8.png">
                  <h3 class="text-inline">ORTHODONIC</h3>
                </div>
                <h3 class="text-outline">歯並び・歯科矯正</h3>
+              </a> 
             </div>
             <div class="col-xs-120 col-sm-24">
+              <a href="<?php echo home_url(); ?>/trouble/#a9">
                <div class="circle">
                  <img style="margin-top:28px" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/care_1_9.png">
                  <h3 class="text-inline">SECOND OPINION</h3>
                </div>
                <h3 class="text-outline">セカンドオピニオン</h3>
+              </a> 
             </div>
             <div class="col-xs-120 col-sm-24">
+              <a href="<?php echo home_url(); ?>/trouble/#a10">
                <div class="circle">
                  <img style="margin-top:40px" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/care_1_10.png">
                  <h3 class="text-inline">IMPLANT</h3>
                </div>
                <h3 class="text-outline">インプラント</h3>
+              </a> 
             </div>  
          <!-- </div> -->
         </div>
