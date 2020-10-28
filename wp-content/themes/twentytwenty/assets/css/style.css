@@ -839,7 +839,15 @@ h2 .stick-greeting:hover, h2 .stick-care:hover,  h2 .stick-support:hover, h2 .st
 }
 
 
-@media only screen and (min-width: 991px){
+@media only screen and (min-width: 768px) {
+  .navbar-header {
+    float: left;
+    width: 180px;
+  }
+}
+
+
+@media only screen and (min-width: 991px){ 
   .navbar-collapse {
     padding-right: 0 !important;
     background: 0 0 !important;
@@ -985,6 +993,11 @@ h2 .stick-greeting:hover, h2 .stick-care:hover,  h2 .stick-support:hover, h2 .st
 @media only screen and (min-width: 1366px){
   .container {
     width: 1200px;
+  }
+
+   .navbar-header {
+    float: left;
+    width: unset;
   }
 
   #header .container {

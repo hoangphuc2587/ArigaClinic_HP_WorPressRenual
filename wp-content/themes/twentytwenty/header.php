@@ -65,11 +65,11 @@
          <div class="container">
             <div class="row">
                <div class="site-navigation-inner col-xs-120 no-padding" style="padding:0px">
-                  <div class="navbar navbar-default">                     
-                     <div class="navbar-header is-mobile">
+                  <div class="navbar navbar-default">
+                     <div class="navbar-header">
                         <div id="logo-area">
                            <div id='logo_image'>
-                              <h2 id="logo" style="top:5px; left:0px;"><a href="<?php echo home_url(); ?>/" title="ベトナム ホーチミンでの歯医者(歯科) 虫歯,ホワイトニング,インプラント,歯周病,こども矯正　ありが歯科" data-label="ベトナム ホーチミンでの歯医者(歯科) 虫歯,ホワイトニング,インプラント,歯周病,こども矯正　ありが歯科"><img class="h_logo" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/logo.png?1601524837" alt="ベトナム ホーチミンでの歯医者(歯科) 虫歯,ホワイトニング,インプラント,歯周病,こども矯正　ありが歯科" title="ベトナム ホーチミンでの歯医者(歯科) 虫歯,ホワイトニング,インプラント,歯周病,こども矯正　ありが歯科" /></a></h2>
+                              <h2 id="logo" style="top:50px; left:0px;"><a href="<?php echo home_url(); ?>/" title="ベトナム ホーチミンでの歯医者(歯科) 虫歯,ホワイトニング,インプラント,歯周病,こども矯正　ありが歯科" data-label="ベトナム ホーチミンでの歯医者(歯科) 虫歯,ホワイトニング,インプラント,歯周病,こども矯正　ありが歯科"><img class="h_logo" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/logo.png?1601524837" alt="ベトナム ホーチミンでの歯医者(歯科) 虫歯,ホワイトニング,インプラント,歯周病,こども矯正　ありが歯科" title="ベトナム ホーチミンでの歯医者(歯科) 虫歯,ホワイトニング,インプラント,歯周病,こども矯正　ありが歯科" /></a></h2>
                            </div>
                         </div>
                      </div>                   
@@ -83,12 +83,6 @@
                                 <li id="menu-item-<?php echo $menu->ID; ?>" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-<?php echo $menu->ID; ?>">
                                   <a href="<?php echo $menu->url; ?>"><?php echo $menu->title;?></a>
                                 </li>  
-                                <?php     if ($menu->title === 'NEWS') { ?>
-                                <li id="menu-item-0" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-0">    
-                                  <a href="<?php echo home_url(); ?>/" title="ベトナム ホーチミンでの歯医者(歯科) 虫歯,ホワイトニング,インプラント,歯周病,こども矯正　ありが歯科" data-label="ベトナム ホーチミンでの歯医者(歯科) 虫歯,ホワイトニング,インプラント,歯周病,こども矯正　ありが歯科"><img class="h_logo" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/logo.png" alt="ベトナム ホーチミンでの歯医者(歯科) 虫歯,ホワイトニング,インプラント,歯周病,こども矯正　ありが歯科" title="ベトナム ホーチミンでの歯医者(歯科) 虫歯,ホワイトニング,インプラント,歯周病,こども矯正　ありが歯科" /></a>
-                                </li>  
-                                <?php     } ?>
-                                 
                                 <?php  } ?>
                             </ul>
                         </div>
