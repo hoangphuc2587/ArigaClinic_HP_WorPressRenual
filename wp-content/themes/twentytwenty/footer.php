@@ -171,10 +171,11 @@ if(is_category()){
                   </div> 
                </div> 
             </div>
+            <div class="scrolltotop">
+            <a href="#verytop"> <img src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/arrow.png"></a></div>
+            </div>
          </div>
-         <!-- <div class="scrolltotop">
-            <div class="scrolltotop_arrow"><a href="#verytop">&#xe911;</a></div>
-         </div> -->
+         
       </div>    
       <div id="return_top"> <a href="#header_top" style="bottom: 50px;"><span>PAGE TOP</span></a></div>
 

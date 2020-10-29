@@ -13,8 +13,18 @@ body.home{
   color: #8B8679;
 }
 
+.scrolltotop {
+    position: absolute;
+    right: -100px;
+    bottom: 50px;
+}
+
 .footer_main, .scrolltotop {
     background-color: #A8A294;
+}
+
+.scrolltotop a:hover img {
+  opacity: 0.4;
 }
 
 .top-headline{
@@ -81,6 +91,7 @@ body .breadcrumb{
 
 .footer_main .amore-section{
   padding: 0px 0px 30px;
+  position: relative;
 }
 
 .footer-menu #menu-footer-pc li a span{
@@ -852,6 +863,13 @@ h2 .stick-greeting:hover, h2 .stick-care:hover,  h2 .stick-support:hover, h2 .st
 
 
 @media only screen and (min-width: 991px){ 
+
+  .scrolltotop {
+    position: absolute;
+    right: 50%;
+    bottom: 50px;
+  }
+
   .navbar-collapse {
     padding-right: 0 !important;
     background: 0 0 !important;
@@ -997,6 +1015,14 @@ h2 .stick-greeting:hover, h2 .stick-care:hover,  h2 .stick-support:hover, h2 .st
     position: absolute;
   }
 
+}
+
+@media only screen and (min-width: 1200px){
+   .scrolltotop {
+    position: absolute;
+    right: -60px;
+    bottom: 50px;
+  }
 }
 
 @media only screen and (min-width: 1366px){
