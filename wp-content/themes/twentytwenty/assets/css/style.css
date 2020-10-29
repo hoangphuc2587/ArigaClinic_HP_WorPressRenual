@@ -13,6 +13,10 @@ body.home{
   color: #8B8679;
 }
 
+.footer_main, .scrolltotop {
+    background-color: #A8A294;
+}
+
 .top-headline{
   margin-top: 100px;
   margin-bottom: -20px;
@@ -648,7 +652,7 @@ p.info-dr{
 
 .support-top .view-more{
   border: 1px solid #8B8679;
-  padding: 15px 100px;
+  padding: 15px 40px;
   border-radius: 55px;
   color: #8B8679;
   text-decoration: none;
@@ -903,7 +907,7 @@ h2 .stick-greeting:hover, h2 .stick-care:hover,  h2 .stick-support:hover, h2 .st
   }  
 
   #menu-footer-pc li a {
-    padding: 10px 41px;
+    padding: 10px 24px;
   }
   #menu-footer-pc li:first-child a {
     padding-left: 0px;
@@ -990,6 +994,7 @@ h2 .stick-greeting:hover, h2 .stick-care:hover,  h2 .stick-support:hover, h2 .st
     font-weight: 700;
     line-height: 50px;
     margin-top: 12px;
+    position: absolute;
   }
 
 }
@@ -1013,7 +1018,7 @@ h2 .stick-greeting:hover, h2 .stick-care:hover,  h2 .stick-support:hover, h2 .st
   }
 
    #menu-footer-pc li a {
-    padding: 10px 44px;
+    padding: 10px 42px;
   }
 
   .footer-icon-phone{
@@ -1200,17 +1205,25 @@ h2 .stick-greeting:hover, h2 .stick-care:hover,  h2 .stick-support:hover, h2 .st
   }
 
   .footer-pr-code h3{
-    font-size: 11px;
+    font-size: 10px;
     color: #fff;
     font-weight: 700;
     line-height: 50px;
     margin-top: 12px;
+    position: absolute;
+    width: 200px;
   }
 }
 
 @media only screen and (max-width: 1024px){
-#menu-footer-pc li a {
-    padding: 10px 33px;
+  #menu-footer-pc li a {
+    padding: 10px 23px;
+  }
+
+  .navbar-collapse {
+    background: transparent !important;
+    border-top: none;
+    box-shadow: none;
   }
 }
 
@@ -1258,12 +1271,15 @@ h2 .stick-greeting:hover, h2 .stick-care:hover,  h2 .stick-support:hover, h2 .st
      padding-bottom: 40px;
   }
 }
-
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 767px) {
 
   #fifth .row .row .col-xs-120{
     width: 100% !important;
+  }
+
+  .footer-pr-code h3{
+    width: 100px
   }
  
   .slideshow-container .mySlides img {
@@ -1373,5 +1389,4 @@ h2 .stick-greeting:hover, h2 .stick-care:hover,  h2 .stick-support:hover, h2 .st
   .footer_main , .footer_mobile_menu_wrapper, .footer_social_link_wrapper, .front_mobile_footer{
     background: #A8A294 !important;
   }
-
  }
