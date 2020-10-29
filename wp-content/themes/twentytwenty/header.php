@@ -40,7 +40,7 @@
         <meta name="msapplication-config" content="<?php echo home_url(); ?>/wp-content/uploads/fbrfg/browserconfig.xml">
 
         <?php //wp_head(); ?>
-        <title>ホーチミンの日系歯科医院のありが歯科　こども矯正歯科、インプラントにも対応しています</title>
+        <title><?php echo get_the_title() !== 'Top' ? get_the_title().' - ': ''?>ホーチミンの日系歯科医院のありが歯科　こども矯正歯科、インプラントにも対応しています</title>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js?ver=4.9.15'></script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBI_ctL4EoMtRLUIgnCZmAlQ2JOxpweHGo"></script> <script type="text/javascript">jQuery(function() {
