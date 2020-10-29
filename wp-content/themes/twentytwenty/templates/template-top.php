@@ -131,7 +131,7 @@ get_header();
          <h4 class="top-headline-care-text">治療一覧</h4>
          <div class="row">
             <div class="col-xs-120 col-sm-24">
-              <a href="<?php echo home_url(); ?>/trouble/#a1">
+              <a href="<?php echo home_url(); ?>/trouble/cleaning">
                <div class="circle">
                  <img src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/care_1_1.png">
                  <h3 class="text-inline">CLEANING</h3>
@@ -140,7 +140,7 @@ get_header();
               </a> 
             </div>
             <div class="col-xs-120 col-sm-24">
-              <a href="<?php echo home_url(); ?>/trouble/#a2">
+              <a href="<?php echo home_url(); ?>/trouble/prevention">
                <div class="circle">
                  <img style="margin-top: 45px;" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/care_1_2.png">
                  <h3 class="text-inline">PREVENTION</h3>
@@ -149,7 +149,7 @@ get_header();
               </a> 
             </div>
             <div class="col-xs-120 col-sm-24">
-              <a href="<?php echo home_url(); ?>/trouble/#a3">
+              <a href="<?php echo home_url(); ?>/trouble/pain">
                <div class="circle">
                  <img style="margin-top: 30px;" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/care_1_3.png">
                  <h3 class="text-inline">PAIN</h3>
@@ -158,7 +158,7 @@ get_header();
               </a> 
             </div>
             <div class="col-xs-120 col-sm-24">
-              <a href="<?php echo home_url(); ?>/trouble/#a4">
+              <a href="<?php echo home_url(); ?>/trouble/whitening">
                <div class="circle">
                  <img style="margin-top: 45px;" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/care_1_4.png">
                  <h3 class="text-inline">WHITENING</h3>
@@ -167,7 +167,7 @@ get_header();
               </a> 
             </div>
             <div class="col-xs-120 col-sm-24">
-              <a href="<?php echo home_url(); ?>/trouble/#a5">
+              <a href="<?php echo home_url(); ?>/trouble/periodontitis">
                <div class="circle">
                  <img style="margin-top: 35px;" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/care_1_5.png">
                  <h3 class="text-inline">PERIODONTITIS</h3>
@@ -178,7 +178,7 @@ get_header();
       <!--    </div>
           <div class="row pb40"> -->
             <div class="col-xs-120 col-sm-24">
-              <a href="<?php echo home_url(); ?>/trouble/#a6">
+              <a href="<?php echo home_url(); ?>/trouble/breath">
                <div class="circle">
                  <img style="margin-top:40px" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/care_1_6.png">
                  <h3 class="text-inline">BREATH</h3>
@@ -187,7 +187,7 @@ get_header();
               </a> 
             </div>
            <div class="col-xs-120 col-sm-24">
-              <a href="<?php echo home_url(); ?>/trouble/#a7">
+              <a href="<?php echo home_url(); ?>/trouble/wisdom-tooth">
                <div class="circle">
                  <img style="margin-top:60px" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/care_1_7.png">
                  <h3 class="text-inline">WISDOM TOOTH</h3>
@@ -196,7 +196,7 @@ get_header();
               </a> 
             </div>
             <div class="col-xs-120 col-sm-24">
-              <a href="<?php echo home_url(); ?>/trouble/#a8">
+              <a href="<?php echo home_url(); ?>/trouble/orthodonic">
                <div class="circle">
                  <img style="margin-top:70px" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/care_1_8.png">
                  <h3 class="text-inline">ORTHODONIC</h3>
@@ -205,7 +205,7 @@ get_header();
               </a> 
             </div>
             <div class="col-xs-120 col-sm-24">
-              <a href="<?php echo home_url(); ?>/trouble/#a9">
+              <a href="<?php echo home_url(); ?>/trouble/second-opinion">
                <div class="circle">
                  <img style="margin-top:28px" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/care_1_9.png">
                  <h3 class="text-inline">SECOND OPINION</h3>
@@ -214,7 +214,7 @@ get_header();
               </a> 
             </div>
             <div class="col-xs-120 col-sm-24">
-              <a href="<?php echo home_url(); ?>/trouble/#a10">
+              <a href="<?php echo home_url(); ?>/trouble/implant">
                <div class="circle">
                  <img style="margin-top:40px" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/care_1_10.png">
                  <h3 class="text-inline">IMPLANT</h3>
