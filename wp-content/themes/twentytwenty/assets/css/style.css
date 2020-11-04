@@ -1439,4 +1439,8 @@ h2 .stick-greeting:hover, h2 .stick-care:hover,  h2 .stick-support:hover, h2 .st
   .footer_main , .footer_mobile_menu_wrapper, .footer_social_link_wrapper, .front_mobile_footer{
     background: #A8A294 !important;
   }
+
+  .support-page .map{
+    padding: 0px;
+  }
  }
