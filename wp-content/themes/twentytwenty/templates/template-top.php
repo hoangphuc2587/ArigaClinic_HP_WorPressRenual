@@ -14,11 +14,11 @@ get_header();
 <div class="main-content">
    <div id="site-cover"></div>
    <section>
-     <div class="slider heightasviewport has-background" data-order='0' data-parallax="scroll" data-image-src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/banner_1.png"></div>
-    <div class="slider heightasviewport has-background" data-order='1' data-parallax="scroll" data-image-src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/top3.jpg"></div>
-    <div class="slider heightasviewport has-background" data-order='2' data-parallax="scroll" data-image-src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/banner_1.png"></div>
-    <div class="slider heightasviewport has-background" data-order='3' data-parallax="scroll" data-image-src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/city-1557668_19201.jpg"></div>
-    <div class="slider heightasviewport has-background" data-order='4' data-parallax="scroll" data-image-src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/top2.png"></div>
+     <div class="slider heightasviewport has-background" data-order='0' data-parallax="scroll" data-image-src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/banner_1.jpg"></div>
+     <div class="slider heightasviewport has-background" data-order='1' data-parallax="scroll" data-image-src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/banner_2.jpg"></div>
+     <div class="slider heightasviewport has-background" data-order='2' data-parallax="scroll" data-image-src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/banner_3.jpg"></div>
+     <div class="slider heightasviewport has-background" data-order='3' data-parallax="scroll" data-image-src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/banner_4.jpg"></div>
+     <div class="slider heightasviewport has-background" data-order='4' data-parallax="scroll" data-image-src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/banner_5.jpg"></div>
 
     <div id="topcover" class="topcover heightasviewport">
        <div class="text-center verticalcentersplash amore-welcome-center">        

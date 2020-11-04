@@ -58,7 +58,7 @@ get_header();
             </div>
             <h4 class="circle">経 歴</h4>
             <div class="row">
-               <div class="col-sm-95 col-xs-120">
+               <div class="col-sm-80 col-xs-120">
                   <ul class="list-item">
                      <li>愛知学院大学歯学部　卒業</li>
                      <li>歯科医師免許取得</li>
@@ -69,8 +69,8 @@ get_header();
                      <li>ベトナム医師免許</li>
                   </ul>
                </div>
-               <div class="col-sm-25 col-xs-120 right-thumbnail">
-                  <img class="wp-image-1799 size-thumbnail" src="<?php echo home_url(); ?>/wp-content/uploads/2020/10/license.A-150x150.png" alt="" width="150" height="150" />
+               <div class="col-sm-40 col-xs-120 right-thumbnail">
+                  <img class="wp-image-1799 size-thumbnail" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/license.png" alt="" />
                </div>
             </div>
             <h4 class="circle">STUDY</h4>
@@ -105,23 +105,10 @@ get_header();
                      <li>Japan Invisalign Ortodontic Certificate</li>
                   </ul>
                   <div class="slideshow-container">
-
-				<div class="mySlides fade">				  
-				  <img src="https://arigadc.com/wp-content/uploads/2018/08/スライド1-1024x709.jpg">				  
-				</div>
-
-				<div class="mySlides fade">				  
-				  <img src="https://www.w3schools.com/howto/img_snow_wide.jpg">				 
-				</div>
-
-				<div class="mySlides fade">				  
-				  <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg">				  
-				</div>
-
-				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-				<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-				</div>
+            				<div class="mySlides" style="text-align: center;">				  
+            				  <img src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/スライド1-1024x709.jpg">				  
+            				</div>
+            			</div>
                </div>
             </div>
             <h4 class="circle">活動</h4>
