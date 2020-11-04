@@ -341,7 +341,9 @@ p.info-dr{
  }
 
  .support-page .map{
-  text-align: center; width:700px; margin: 0 auto;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 50px;
  }
 
  .amore-welcome-top {
@@ -853,6 +855,10 @@ h2 .stick-greeting:hover, h2 .stick-care:hover,  h2 .stick-support:hover, h2 .st
   margin-top: 10px;
 }
 
+.thumb:hover:after {
+    box-shadow: inset 0 0 0 7px #E8E4DC;
+}
+
 
 @media only screen and (min-width: 768px) {
   .navbar-header {
@@ -1299,6 +1305,23 @@ h2 .stick-greeting:hover, h2 .stick-care:hover,  h2 .stick-support:hover, h2 .st
 }
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 767px) {
+
+  .site-navigation{
+    background-color: #F2F0ED;
+  }
+
+  .mobile #global_menu a{
+    background-color: #F2F0ED !important;
+    color: #6A614A !important;
+  }
+
+  a.menu_button:hover, a.menu_button.active {
+    background: #F2F0ED;
+  }
+
+  a.menu_button:hover:before, a.menu_button.active:before {
+    color: #888;
+  }
 
   #fifth .row .row .col-xs-120{
     width: 100% !important;

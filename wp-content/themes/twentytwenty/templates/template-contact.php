@@ -57,21 +57,21 @@ get_header();
             <div class="alignleft wp-image-251 size-thumbnail">
                <img width="180" src="<?php echo home_url(); ?>/wp-content/uploads/2020/10/PIp-mJw6A.png" alt="qr-code">
             </div>
-            <br /><p>友達追加後、以下情報をお送りください <br />【ご予約日】<br />【お名前】<br />【 治療内容】</p>
+            <br /><p>友達追加後、以下情報をお送りください <br />【ご希望のご予約日】<br />【お名前】</p>
          </div>
          <h4 class="padding-left-title">住所</h4>
          <h2 class="text-address">住所：140 Ký Con, Phường Nguyễn Thái Bình, Quận 1, Thành phố Hồ Chí Minh</h2>
          <div class="map" >
-         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15678.257174442704!2d106.697798!3d10.768024000000002!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f3fda4c70ff%3A0x41f9fe114ec78365!2zMTQwIEvDvSBDb24sIFBoxrDhu51uZyBOZ3V54buFbiBUaMOhaSBCw6xuaCwgUXXhuq1uIDEsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwg44OZ44OI44OK44Og!5e0!3m2!1sja!2sus!4v1601975422919!5m2!1sja!2sus" width="700" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d979.8910740781357!2d106.69725122658447!3d10.768023792327199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f3fda4c70ff%3A0x41f9fe114ec78365!2zMTQwIEvDvSBDb24sIFBoxrDhu51uZyBOZ3V54buFbiBUaMOhaSBCw6xuaCwgUXXhuq1uIDEsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaA!5e0!3m2!1sen!2s!4v1604464337556!5m2!1sen!2s" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
          
-         <div class="fb-gg-fw">
+         <!-- <div class="fb-gg-fw">
     
             <a class="button_share share twitter" href="#"><i class="fa fa-twitter"></i> Tweet</a>
       
             <a class="button_share share facebook button_share1" href="#"><i class="fa fa-facebook"></i> Share</a>  
       
             <a class="button_share share gplus button_share1" href="#"><i class="fa fa-google-plus"></i> +1 </a>
-         </div>  
+         </div>   -->
 
          </div>
           

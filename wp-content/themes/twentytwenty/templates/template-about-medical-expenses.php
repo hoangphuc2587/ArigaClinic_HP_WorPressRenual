@@ -105,7 +105,7 @@ get_header();
                           コンポジットレジン（樹脂の詰め物）
                       </div>
                       <div class="col-sm-35 col-xs-40">
-                          1,100,000d～
+                          1,260,000d～
                       </div>
                     </div>
                      <div class="row">
@@ -142,17 +142,13 @@ get_header();
                       </div>
                     </div>
                     <div class="row">
-                       <div class="col-sm-80 col-sm-offset-5 col-xs-80">
-                          ＳＲＰ
-                      </div>
+                       <div class="col-sm-80 col-sm-offset-5 col-xs-80">ＳＲＰ</div>
                       <div class="col-sm-35 col-xs-40">
                           880,000d
                       </div>
                     </div>
                     <div class="row">
-                       <div class="col-sm-80 col-sm-offset-5 col-xs-80">
-                          FOP
-                      </div>
+                       <div class="col-sm-80 col-sm-offset-5 col-xs-80">ＦＯＰ</div>
                       <div class="col-sm-35 col-xs-40">
                           5,500,000d
                       </div>
@@ -163,7 +159,7 @@ get_header();
                           根管貼薬
                       </div>
                       <div class="col-sm-35 col-xs-40">
-                          220,000d～
+                          330,000d～
                       </div>
                     </div> 
                     <div class="row">
@@ -171,7 +167,7 @@ get_header();
                           根管充填
                       </div>
                       <div class="col-sm-35 col-xs-40">
-                          1,760,000d～
+                          2,200,000d～
                       </div>
                     </div>                                                          
                     <h5>外科処置</h5>
@@ -180,7 +176,7 @@ get_header();
                           抜歯
                       </div>
                       <div class="col-sm-35 col-xs-40">
-                          440,000d～
+                          660,000d～
                       </div>
                     </div> 
                     <div class="row">

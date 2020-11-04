@@ -19,10 +19,11 @@
 
         <?php 
         global $post;
-        $post_slug = $post->post_name;        
+        $post_slug = $post->post_name;
+        $category = get_category( get_query_var( 'cat' ) );
         ?>
-        <link rel="profile" href="https://gmpg.org/xfn/11">       
-        <?php if (!in_array($post_slug, array("top", "category"))):?>
+        <link rel="profile" href="https://gmpg.org/xfn/11">
+        <?php if (!in_array($post_slug, array("top", "news"))  & empty($category->cat_ID)):?>
         <link media="all" href="<?php echo home_url(); ?>/wp-content/themes/twentytwenty/assets/css/autoptimize_742f7556a3c461fdfc23fddade51da38.css" rel="stylesheet" />
         <?php else:?>
         <link media="all" href="<?php echo home_url(); ?>/wp-content/themes/twentytwenty/assets/css/autoptimize_e19808f538a9ee2c513ec2f55d2b1c57.css" rel="stylesheet" />
