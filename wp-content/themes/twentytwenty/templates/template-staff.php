@@ -70,7 +70,7 @@ get_header();
                   </ul>
                </div>
                <div class="col-sm-40 col-xs-120 right-thumbnail">
-                  <img class="wp-image-1799 size-thumbnail" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/license.png" alt="" />
+                  <img class="wp-image-1799 size-thumbnail" width="170" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/license.png" alt="" />
                </div>
             </div>
             <h4 class="circle">STUDY</h4>
@@ -106,7 +106,7 @@ get_header();
                   </ul>
                   <div class="slideshow-container">
             				<div class="mySlides" style="text-align: center;">				  
-            				  <img src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/スライド1-1024x709.jpg">				  
+            				  <img width="800" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/スライド1-1024x709.jpg">				  
             				</div>
             			</div>
                </div>
