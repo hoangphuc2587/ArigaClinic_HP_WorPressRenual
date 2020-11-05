@@ -22,7 +22,7 @@ get_header();
 
 ?>
 <div class="main-content">
-<div class="amore-divider romaji" data-parallax="scroll" data-image-src="<?php echo home_url(); ?>/wp-content/uploads/2020/10/baby-2859633_1920.jpg">
+<div class="amore-divider romaji" data-parallax="scroll" data-image-src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/first_visit.jpg">
  <div class="container">
     <div class="row">
        <div class="col-xs-120 no-padding">
