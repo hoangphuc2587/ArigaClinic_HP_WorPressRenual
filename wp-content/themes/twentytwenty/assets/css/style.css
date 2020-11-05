@@ -861,6 +861,15 @@ h2 .stick-greeting:hover, h2 .stick-care:hover,  h2 .stick-support:hover, h2 .st
   margin-bottom: 30px;
 }
 
+h4.underline-hover{
+  background: none;
+}
+
+.no-padd {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 
 @media only screen and (min-width: 768px) {
   .navbar-header {
@@ -1442,5 +1451,5 @@ h2 .stick-greeting:hover, h2 .stick-care:hover,  h2 .stick-support:hover, h2 .st
 
   .support-page .map{
     padding: 0px;
-  }
+  }  
  }
