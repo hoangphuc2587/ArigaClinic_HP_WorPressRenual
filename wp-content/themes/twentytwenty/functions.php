@@ -937,3 +937,59 @@ function smashing_post_column( $column, $post_id ) {
      }
   }
 }
+
+
+function wporg_add_custom_box() {
+    $screens = [ 'post' ];
+    foreach ( $screens as $screen ) {
+        add_meta_box(
+            'trouble_box_id',                 // Unique ID
+            'Tooth trouble',      // Box title
+            'wporg_custom_box_html',  // Content callback, must be of type callable
+            $screen,                           // Post type
+            'side'
+        );
+    }
+}
+add_action( 'add_meta_boxes', 'wporg_add_custom_box' );
+
+
+function wporg_custom_box_html( $post ) {
+    $value = get_post_meta( $post->ID, 'trouble_meta_key', true );
+    $args=array(
+        'name' => 'trouble',
+        'post_type' => 'page',
+        'post_status' => 'publish'
+    );
+    $trouble_posts = get_posts( $args );
+
+    if (!empty($trouble_posts )){
+        $post_parent = $trouble_posts[0]->ID;
+        $args=array(
+        'post_parent' =>  $post_parent,
+        'post_type' => 'page',
+        'post_status' => 'publish'
+	    );
+	    $troubles = get_posts( $args );
+	    $arrTroubleSelected = explode(',', $value);
+	    echo '<ul>';
+	    foreach ($troubles as $key => $trouble) {
+	    	 echo '<li><label><input type="checkbox"'. (in_array($trouble->ID, $arrTroubleSelected) ? ' checked="checked"' : '') .' value="'.$trouble->ID.'" name="trouble_meta_key[]">'.$trouble->post_title.'</label></li>';
+	    }
+        echo '</ul>';
+    }   
+    ?>
+    <?php
+}
+
+/**
+ * Save meta box content.
+ *
+ * @param int $post_id Post ID
+ */
+function wpdocs_save_meta_box( $post_id ) {
+	if(isset($_POST['trouble_meta_key'])){ 
+        update_post_meta($post_id,'trouble_meta_key', implode(',', $_POST['trouble_meta_key']));
+    }
+}
+add_action( 'save_post', 'wpdocs_save_meta_box' );

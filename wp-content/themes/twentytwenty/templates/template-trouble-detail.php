@@ -33,6 +33,45 @@ get_header();
           <h3 class="ppt" style="margin-bottom: 60px"><?php the_title()?></h3>
           <?php the_content();?>          
        </div>
+       <?php 
+         $args = array(
+            'post_status' => array('publish'),
+            'meta_query' => array(
+                array(
+                    'key'     => 'trouble_meta_key',
+                    'value'   => get_the_ID(),
+                    'compare' => 'LIKE',
+                ),
+            ),            
+            'orderby' => 'post_date', 
+            'order' => 'DESC'
+         );
+         $arrPosts = new WP_query($args);
+       ?>
+       <?php if (!empty($arrPosts->have_posts())):?>
+       <?php while ( $arrPosts->have_posts() ) : $arrPosts->the_post(); ?>
+       <div class="cardlink">
+        <a href="<?php the_permalink() ?>"></a>
+        <div class="cardlink_thumbnail">
+          <a href="<?php the_permalink() ?>">
+            <img src="<?php echo wp_get_attachment_image_src(get_post_thumbnail_id(get_the_ID()), 'relative-thumb')[0];?>" alt="<?php the_title(); ?>" width="120" height="120">
+          </a>
+        </div>
+        <div class="cardlink_content">
+          <span class="fa fa-clock-o"></span><span class="timestamp"><?php echo get_the_date('Y.m.d');?></span>
+          <div class="cardlink_title">
+            <a href="<?php the_permalink() ?>"><?php the_title(); ?> </a></div>
+            <div class="cardlink_excerpt">
+             <?php if(has_excerpt()){ the_excerpt(); }else{ new_excerpt( 100); }; ?>...
+            </div>
+        </div>
+        <div class="cardlink_footer">
+            
+        </div>
+       </div>
+       <?php endwhile; ?>
+       <?php endif; ?>
+
     </div>
  </div>
 </div>
