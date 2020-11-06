@@ -968,7 +968,8 @@ function wporg_custom_box_html( $post ) {
         $args=array(
         'post_parent' =>  $post_parent,
         'post_type' => 'page',
-        'post_status' => 'publish'
+        'post_status' => 'publish',
+        'posts_per_page' => 20,
 	    );
 	    $troubles = get_posts( $args );
 	    $arrTroubleSelected = explode(',', $value);
