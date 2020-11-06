@@ -40,7 +40,8 @@ get_header();
              <div class="expense-item mt-60">
                 <div class="row">
                   <div class="col-sm-110 col-sm-offset-5">
-                    <img class="aligncenter wp-image-221 size-full" src="<?php echo home_url(); ?>/wp-content/uploads/2020/10/ethtiryouhi-2.jpg" alt="" width="300" height="200"/>
+                    <img class="aligncenter wp-image-221 size-full" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/expense-1.jpg" alt="" width="300" height="200"/>
+                    <h3>一般治療</h3>
                     <h4><span>一般的な歯科治療</span></h4>
                     <div class="row">
                        <div class="col-sm-80 col-sm-offset-5 col-xs-80">
@@ -244,7 +245,8 @@ get_header();
              <div class="expense-item mt-100">
                 <div class="row">
                   <div class="col-sm-110 col-sm-offset-5">
-                    <img class="aligncenter wp-image-221 size-full" src="<?php echo home_url(); ?>/wp-content/uploads/2020/10/ethtiryouhi.png" alt="" width="300" height="200"/>
+                    <img class="aligncenter wp-image-221 size-full" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/expense-2.jpg" alt="" width="300" height="200"/>
+                    <h3>審美歯科</h3>
                     <div class="row">
                        <div class="col-sm-80 col-sm-offset-5 col-xs-80">
                           ジルコニアオールセラミックスクラウン
@@ -286,7 +288,8 @@ get_header();
               <div class="expense-item mt-60">
                 <div class="row">
                   <div class="col-sm-110 col-sm-offset-5">
-                    <img class="aligncenter wp-image-221 size-full" src="<?php echo home_url(); ?>/wp-content/uploads/2020/10/ethtiryouhi-1.jpg" alt="" width="300" height="200"/>
+                    <img class="aligncenter wp-image-221 size-full" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/expense-3.jpg" alt="" width="300" height="200"/>
+                    <h3>ホワイトニング</h3>
                     <div class="row">
                        <div class="col-sm-80 col-sm-offset-5 col-xs-80">
                           ホームホワイトニング
@@ -304,7 +307,8 @@ get_header();
               <div class="expense-item mt-185">
                 <div class="row">
                   <div class="col-sm-110 col-sm-offset-5">
-                    <img class="aligncenter wp-image-221 size-full" src="<?php echo home_url(); ?>/wp-content/uploads/2020/10/imptiryouhi.png" alt="" width="300" height="200"/>
+                    <img class="aligncenter wp-image-221 size-full" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/expense-4.jpg" alt="" width="300" height="200"/>
+                    <h3>インプラント</h3>
                     <div class="row">
                        <div class="col-sm-80 col-sm-offset-5 col-xs-80">
                           CT撮影
@@ -355,7 +359,8 @@ get_header();
               <div class="expense-item mt-185">
                 <div class="row">
                   <div class="col-sm-110 col-sm-offset-5">
-                    <img class="aligncenter wp-image-221 size-full" src="<?php echo home_url(); ?>/wp-content/uploads/2020/10/ethtiryouhi.jpg" alt="" width="300" height="200"/>
+                    <img class="aligncenter wp-image-221 size-full" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/expense-5.jpg" alt="" width="300" height="200"/>
+                    <h3>こども矯正</h3>
                     <div class="row">
                        <div class="col-sm-80 col-sm-offset-5 col-xs-80">
                           床矯正
@@ -384,7 +389,8 @@ get_header();
               <div class="expense-item mt-185">
                 <div class="row">
                   <div class="col-sm-110 col-sm-offset-5">
-                    <img class="aligncenter wp-image-221 size-full" src="<?php echo home_url(); ?>/wp-content/uploads/2020/10/kyouseitiryouhi.png" alt="" width="300" height="200"/>
+                    <img class="aligncenter wp-image-221 size-full" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/expense-6.jpg" alt="" width="300" height="200"/>
+                    <h3>矯正治療</h3>
                     <div class="row">
                        <div class="col-sm-80 col-sm-offset-5 col-xs-80">
                           マルチブラケット

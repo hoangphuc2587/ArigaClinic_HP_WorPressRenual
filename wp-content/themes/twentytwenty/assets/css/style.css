@@ -286,6 +286,18 @@ p.info-dr{
   font-family: georgia, palatino, serif;
 }
 
+.expense-page .expense-item h3{
+  position: absolute;
+  border: none;
+  top: -25px;
+  left: -30px;
+  width: 300px;
+  text-align: center;
+  color: #fff;
+  text-shadow: -1px 0 #666, 0 1px #666, 1px 0 #666, 0 -1px #666;
+}
+
+
 .expense-page .expense-item .row .row{
   padding: 5px 0px;
 }
