@@ -93,7 +93,7 @@ if(is_category()){
             </div>            
             <div class="row mt40 visible-xs" style="margin-bottom: 30px">
               <div class="col-xs-120 no-padding">
-                  <div id="map-canvas-footer" class="visible-xs" style="width:100%; height:380px; border:4px solid white; border-radius:2px;"></div>
+                  <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Farigadc&tabs=timeline&width=300&height=380&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="300" height="380" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
               </div>
             </div> 
          </div>
@@ -160,15 +160,15 @@ if(is_category()){
                    <img src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/footer_1_5.png">
                </div>
                <div class="col-xs-30 text-center romaji">
-                  <div id="map-canvas" style="width:100%; height:380px; border:4px solid white; border-radius:2px;"></div>
-                  <div class="row">
+                  <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Farigadc&tabs=timeline&width=300&height=380&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="300" height="380" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                <!--   <div class="row">
                     <div class="col-xs-25 footer-icon-address">
                       <img src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/footer_1_2.png">
                     </div>
                     <div class="col-xs-95 footer-address-2">
                      <h3>140 Ký Con, Quận 1, Thành Phố Hồ Chí Minh</h3>
                     </div>
-                  </div> 
+                  </div>  -->
                </div> 
             </div>
             <div class="scrolltotop">
@@ -347,33 +347,33 @@ if(is_category()){
          })
          })
                    
-           google.maps.event.addDomListener(window, 'load', function(){
-           var geocoder = new google.maps.Geocoder();
+         //   google.maps.event.addDomListener(window, 'load', function(){
+         //   var geocoder = new google.maps.Geocoder();
          
-                 geocoder.geocode({'address':'140 Ký Con, Quận 1 THÀNH PHỐ HỒ CHÍ MINH71010'}, function(results, status) {
-                   if (status == google.maps.GeocoderStatus.OK){
-               var mapOptions = {
-                 center: results[0].geometry.location,
-                 zoom: 18,
-                 mapTypeId: google.maps.MapTypeId.ROADMAP,
-                 scrollwheel: false,
-                           }
+         //         geocoder.geocode({'address':'140 Ký Con, Quận 1 THÀNH PHỐ HỒ CHÍ MINH71010'}, function(results, status) {
+         //           if (status == google.maps.GeocoderStatus.OK){
+         //       var mapOptions = {
+         //         center: results[0].geometry.location,
+         //         zoom: 18,
+         //         mapTypeId: google.maps.MapTypeId.ROADMAP,
+         //         scrollwheel: false,
+         //                   }
          
-         　        var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions)
-               var marker = new google.maps.Marker({
-                   map: map,
-                                 position: results[0].geometry.location
-                             })
+         // 　        var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions)
+         //       var marker = new google.maps.Marker({
+         //           map: map,
+         //                         position: results[0].geometry.location
+         //                     })
 
-                   var map2 = new google.maps.Map(document.getElementById('map-canvas-footer'), mapOptions)
-               var marker2 = new google.maps.Marker({
-                   map: map2,
-                                 position: results[0].geometry.location
-                             })              
-             }
+         //           var map2 = new google.maps.Map(document.getElementById('map-canvas-footer'), mapOptions)
+         //       var marker2 = new google.maps.Marker({
+         //           map: map2,
+         //                         position: results[0].geometry.location
+         //                     })              
+         //     }
          
-           })
-         })
+         //   })
+         // })
 
         $(".stick-greeting").click(function() {
             $([document.documentElement, document.body]).animate({
@@ -395,6 +395,5 @@ if(is_category()){
         
       </script>
       <script defer src="<?php echo home_url(); ?>/wp-content/themes/twentytwenty/assets/js/autoptimize_b29c772d238f4707fabd394edbc70dfc.js"></script>
-
 	</body>
 </html>
