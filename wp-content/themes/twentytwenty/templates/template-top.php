@@ -15,10 +15,10 @@ get_header();
    <div id="site-cover"></div>
    <section>
      <div class="slider heightasviewport has-background" data-order='0' data-parallax="scroll" data-image-src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/banner_1.jpg"></div>
-     <div class="slider heightasviewport has-background" data-order='1' data-parallax="scroll" data-image-src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/banner_2.jpg"></div>
+     <!-- <div class="slider heightasviewport has-background" data-order='1' data-parallax="scroll" data-image-src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/banner_2.jpg"></div>
      <div class="slider heightasviewport has-background" data-order='2' data-parallax="scroll" data-image-src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/banner_3.jpg"></div>
      <div class="slider heightasviewport has-background" data-order='3' data-parallax="scroll" data-image-src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/banner_4.jpg"></div>
-     <div class="slider heightasviewport has-background" data-order='4' data-parallax="scroll" data-image-src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/banner_5.jpg"></div>
+     <div class="slider heightasviewport has-background" data-order='4' data-parallax="scroll" data-image-src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/banner_5.jpg"></div> -->
 
     <div id="topcover" class="topcover heightasviewport">
        <div class="text-center verticalcentersplash amore-welcome-center">        
@@ -27,7 +27,7 @@ get_header();
     <div class="topcover heightasviewport" style="opacity:1;-ms-transform:translate(0px,0px);-webkit-transform:translate(0px,0px);transform:translate(0px,0px);"></div>
     <div id="top" class="heightasviewport" style="opacity:1; background:transparent">
     </div>
-    <div class="button-slider hidden-xs">
+   <!--  <div class="button-slider hidden-xs">
       <ul>
           <li class="slider-item-0 active" data-order='0'></li>
           <li class="slider-item-1" data-order='1'></li>
@@ -35,7 +35,7 @@ get_header();
           <li class="slider-item-3" data-order='3'></li>
           <li class="slider-item-4" data-order='4'></li>
       </ul>  
-    </div>  
+    </div>  --> 
    </section>
    <section class="top-second">
     <div id="second">

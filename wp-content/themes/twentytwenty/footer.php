@@ -275,16 +275,16 @@ if(is_category()){
 
           //setInterval(nextSlide, 3000);
 
-          setInterval(function(){
-            nextSlide();
-            jQuery( ".button-slider ul li" ).each(function( index ) {
-               if (jQuery(this).hasClass("active")){
-                  jQuery(this).removeClass("active");
-               }      
-            }); 
-            jQuery(".slider-item-"+currentSlide).addClass("active"); 
+          // setInterval(function(){
+            // nextSlide();
+            // jQuery( ".button-slider ul li" ).each(function( index ) {
+            //    if (jQuery(this).hasClass("active")){
+            //       jQuery(this).removeClass("active");
+            //    }      
+            // }); 
+            // jQuery(".slider-item-"+currentSlide).addClass("active"); 
 
-          }, 5000)
+          // }, 5000)
          
          
           setInterval(function(){
