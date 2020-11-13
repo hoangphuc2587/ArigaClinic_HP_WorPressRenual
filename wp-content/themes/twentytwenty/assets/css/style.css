@@ -497,7 +497,7 @@ p.info-dr{
 }
 
 .top-headline-category span:after{
-    left: 20px;
+    left: -5px;
 }
 
 .greeting-top{
@@ -1463,5 +1463,16 @@ h4.underline-hover{
 
   .support-page .map{
     padding: 0px;
-  }  
+  }
+  .top-headline-greeting{
+    text-align: center;
+  }
+
+  .top-headline-greeting span:after{
+    left: 18px;
+  } 
+
+  .greeting-top h3 {
+    text-align: center;
+  } 
  }

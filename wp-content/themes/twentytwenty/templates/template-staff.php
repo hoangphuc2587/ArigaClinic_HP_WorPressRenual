@@ -62,11 +62,11 @@ get_header();
                   <ul class="list-item">
                      <li>愛知学院大学歯学部　卒業</li>
                      <li>歯科医師免許取得</li>
-                     <li>南カルフォルニア大学歯学部　短期留学</li>
-                     <li>南カルフォルニア大学客員研究員</li>
+                     <li>南カリフォルニア大学歯学部　短期留学</li>
+                     <li>南カリフォルニア大学客員研究員</li>
                      <li>日本審美歯科学会所属</li>
                      <li>JBH　ビヨンドホワイトニングインストラクター</li>
-                     <li>ベトナム医師免許</li>
+                     <li>ベトナム医師免許　歯科医師免許</li>
                   </ul>
                </div>
                <div class="col-sm-40 col-xs-120 right-thumbnail">
@@ -82,7 +82,7 @@ get_header();
                     <li>東京SJCD アドバンスコース修了</li>
                     <li>SJCD Summer Seminar 2008 in Berlin参加</li>
                     <li>Prof.Dr.Dr.Rainer Schmelzeisen Dr.Axel Kirsch</li>
-                    <li>Augmentation &amp; Implants Live Surjery &amp; Hands-On Course in Freiburg Certificate取得/li>
+                    <li>Augmentation &amp; Implants Live Surjery &amp; Hands-On Course in Freiburg Certificate取得</li>
                     <li>名古屋SJCD主催　土屋賢司先生プライベートコース受講</li>
                     <li>小濱忠一先生プライベートコース受講</li>
                   </ul>
@@ -120,8 +120,11 @@ get_header();
 		                    <img class="alignleft wp-image-251 size-thumbnail" src="<?php echo home_url(); ?>/wp-content/uploads/2020/10/IMG_3978-150x150.jpg" alt="" width="150" height="150"/>
 		                  </div>
 		                  <div class="item-img">
-		                    <img class="alignleft wp-image-251 size-thumbnail" src="<?php echo home_url(); ?>/wp-content/uploads/2020/10/IMG_3978-150x150.jpg" alt="" width="150" height="150"/>
+		                    <img class="alignleft wp-image-251 size-thumbnail" src="<?php echo home_url(); ?>/wp-content/uploads/2020/11/a3e889ccf2c4bbb7beba8d7f6e4a52ea-640x480-150x150.jpg" alt="" width="150" height="150"/>
 		                  </div>
+                      <div class="item-img">
+                        <img class="alignleft wp-image-251 size-thumbnail" src="<?php echo home_url(); ?>/wp-content/uploads/2020/11/E58699E79C9F-12-e1534319258988-150x150.jpg" alt="" width="150" height="150"/>
+                      </div>
 		               </div>
 		               <div class="col-sm-70 col-xs-120">
 		                  <div class="item-text">
@@ -140,6 +143,10 @@ get_header();
 		                  	２０１９年６月２４日　Liberty Central Saigon Citypoint<br/>
 		                  	『GPでもできるマウスピース矯正GIKOアライナー』講演
 		                  </div> 
+                      <div class="item-text">
+                        <strong>USC（南カリフォルニア大学)</strong><br/>
+                        USC(南カルフォルニア大学)でのPorcelain laminate veneerの講演
+                      </div> 
 
 		               </div>
 		               <div class="col-sm-25 col-xs-120 r-block">
@@ -147,7 +154,7 @@ get_header();
 		                    <img class="alignleft wp-image-251 size-thumbnail" src="<?php echo home_url(); ?>/wp-content/uploads/2020/10/IMG_0458-1-150x150.jpg" alt="" width="150" height="150"/>
 		                  </div>
 		                  <div class="item-img">
-		                    <img class="alignleft wp-image-251 size-thumbnail" src="<?php echo home_url(); ?>/wp-content/uploads/2020/10/IMG_0458-1-150x150.jpg" alt="" width="150" height="150"/>
+		                    <img class="alignleft wp-image-251 size-thumbnail" src="<?php echo home_url(); ?>/wp-content/uploads/2020/11/usc-150x150.jpg" alt="" width="150" height="150"/>
 		                  </div>         
 		               </div>
 		            </div>
@@ -175,7 +182,7 @@ get_header();
 		            </div>
 		            <div class="row">
 		               <div class="col-xs-120">
-		                    <img class="alignleft wp-image-251 size-thumbnail" src="<?php echo home_url(); ?>/wp-content/uploads/2020/10/IMG_3978-150x150.jpg" alt="" width="150" height="150"/>		                 		                
+		                    <img class="alignleft wp-image-251 size-thumbnail" src="<?php echo home_url(); ?>/wp-content/uploads/2020/11/a3e889ccf2c4bbb7beba8d7f6e4a52ea-640x480-150x150.jpg" alt="" width="150" height="150"/>		                 		                
 		               </div>
 		               <div class="col-xs-120">
 		                  	２０１８年１月１１日　JW マリオット ホテル ハノイ<br/>
@@ -184,13 +191,22 @@ get_header();
 		            </div>
 		            <div class="row">
 		               <div class="col-xs-120">
-		                    <img class="alignleft wp-image-251 size-thumbnail" src="<?php echo home_url(); ?>/wp-content/uploads/2020/10/IMG_0458-1-150x150.jpg" alt="" width="150" height="150"/>		                 		                
+		                    <img class="alignleft wp-image-251 size-thumbnail" src="<?php echo home_url(); ?>/wp-content/uploads/2020/11/usc-150x150.jpg" alt="" width="150" height="150"/>		                 		                
 		               </div>
 		               <div class="col-xs-120">
 		                  	２０１９年６月２４日　Liberty Central Saigon Citypoint<br/>
 		                  	『GPでもできるマウスピース矯正GIKOアライナー』講演
 		               </div>
 		            </div>
+                <div class="row">
+                   <div class="col-xs-120">
+                        <img class="alignleft wp-image-251 size-thumbnail" src="<?php echo home_url(); ?>/wp-content/uploads/2020/11/E58699E79C9F-12-e1534319258988-150x150.jpg" alt="" width="150" height="150"/>                                       
+                   </div>
+                   <div class="col-xs-120">
+                        <strong>USC（南カリフォルニア大学)</strong><br/>
+                        USC(南カルフォルニア大学)でのPorcelain laminate veneerの講演
+                   </div>
+                </div>
                 </div>
            </div>       
          </div>

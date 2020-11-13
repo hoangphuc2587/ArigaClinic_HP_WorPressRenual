@@ -53,8 +53,8 @@ get_header();
            </div>
            <div class="col-sm-30 col-xs-58">
               <h4><img class="mt10 stick-support" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/top_1_3.png"></h4>
-              <h3><span class="stick-support">サポート一覧</span></h3>
-              <h2><span class="stick-support">SUPPORT</span></h2>
+              <h3><span class="stick-support">当院について</span></h3>
+              <h2><span class="stick-support">ABOUT US</span></h2>
            </div>
            <div class="col-sm-30 col-xs-58">
               <h4><a href="<?php echo home_url(); ?>/contact/"><img class="mt15 stick-contact" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/top_1_4.png"></a></h4>
@@ -231,8 +231,8 @@ get_header();
     <div id="sixth" class="container">
        <div class="row">         
          <div class="col-xs-120 no-padding">
-         <h3 class="lead romaji text-center top-headline-center top-headline-support top-headline2"><span>SUPPORT</span></h3>
-         <h4 class="text-center top-title">サポート一覧</h4>
+         <h3 class="lead romaji text-center top-headline-center top-headline-support top-headline2"><span>ABOUT US</span></h3>
+         <h4 class="text-center top-title">当院について</h4>
 
          <div class="row">
           <div class="col-xs-120 col-sm-50 col-sm-offset-5">
@@ -335,8 +335,8 @@ get_header();
     <div id="seventh" class="container">
        <div class="row">         
          <div class="col-xs-120 no-padding">
-         <h3 class="lead romaji text-center top-headline-center top-headline-category top-headline2"><span>Category</span></h3>
-         <h4 class="text-center top-title">カテゴリ</h4>
+         <h3 class="lead romaji text-center top-headline-center top-headline-category top-headline2"><span>NEWS</span></h3>
+         <h4 class="text-center top-title">NEWS</h4>
 
          <div class="row">
           <div class="col-sm-120 padding030">
