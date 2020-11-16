@@ -204,7 +204,7 @@ get_header();
                    </div>
                    <div class="col-xs-120">
                         <strong>USC（南カリフォルニア大学)</strong><br/>
-                        USC(南カルフォルニア大学)でのPorcelain laminate veneerの講演
+                        USC(南カリフォルニア大学)でのPorcelain laminate veneerの講演
                    </div>
                 </div>
                 </div>

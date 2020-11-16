@@ -840,6 +840,8 @@ h2 .stick-greeting:hover, h2 .stick-care:hover,  h2 .stick-support:hover, h2 .st
   background: #fff !important;
   margin-bottom: 60px;
   margin-top: 30px;
+  padding-right: 0px;
+  display: block;
 }
 
 .care-trouble h3{
