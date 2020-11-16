@@ -11,7 +11,7 @@
 get_header();
 ?>
 <div class="main-content">
-<div class="amore-divider romaji" data-parallax="scroll" data-image-src="<?php echo home_url(); ?>/wp-content/uploads/2020/10/surface-945444_1920.jpg">
+<div class="amore-divider romaji" data-parallax="scroll" data-image-src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/bg_contact.jpg">
  <div class="container">
     <div class="row">
        <div class="col-xs-120 no-padding">

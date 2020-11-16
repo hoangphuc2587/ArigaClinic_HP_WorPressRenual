@@ -12,7 +12,7 @@ get_header();
 ?>
 
 <div class="main-content">
-<div class="amore-divider romaji" data-parallax="scroll" data-image-src="<?php echo home_url(); ?>/wp-content/uploads/2020/10/i-beg-your-pardon-9277510_1920.png">
+<div class="amore-divider romaji" data-parallax="scroll" data-image-src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/bg_staff.jpg">
    <div class="container">
       <div class="row">
          <div class="col-xs-120 no-padding">
