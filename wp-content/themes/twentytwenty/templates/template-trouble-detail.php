@@ -39,9 +39,7 @@ $page_slug = $post->post_name;
           <?php if ($page_slug === 'implant'):?>
           <center style="font-size: 20px;">インプラント治療で大切なこと<br> それは<br> 治療で残せるような歯を<br> 簡単にインプラントの選択をしてはいけません。</center>
           <?php elseif ($page_slug === 'orthodonic'):?>
-          ホーチミンありが歯科のこども矯正歯科
-          <?php elseif ($page_slug === 'periodontitis'):?>
-          本当の審美歯科治療
+          ホーチミンありが歯科のこども矯正歯科          
           <?php else:?>   
           <?php the_title()?>
           <?php endif;?> 
