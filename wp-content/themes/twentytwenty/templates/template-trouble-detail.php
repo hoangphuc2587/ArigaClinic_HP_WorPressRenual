@@ -32,12 +32,9 @@ $page_slug = $post->post_name;
         <span class="fa fa-chevron-right text-muted" style="font-size:10px">&nbsp;</span> <span><?php the_title()?></span>
         </header>
        <div class="row article" style="margin:auto 0;">
-          <?php if ($page_slug === 'implant'):?>
-          <h1 style="margin-bottom: 30px;">インプラントで大切な事。治療で残せる歯を簡単にインプラントの選択してはいけません。</h1>
-          <?php endif;?>  
           <h3 class="ppt" style="margin-bottom: 60px">
           <?php if ($page_slug === 'implant'):?>
-          <center style="font-size: 20px;">インプラント治療で大切なこと<br> それは<br> 治療で残せるような歯を<br> 簡単にインプラントの選択をしてはいけません。</center>
+          インプラントで大切な事。治療で残せる歯を簡単にインプラントの選択してはいけません。
           <?php elseif ($page_slug === 'orthodonic'):?>
           ホーチミンありが歯科のこども矯正歯科          
           <?php else:?>   

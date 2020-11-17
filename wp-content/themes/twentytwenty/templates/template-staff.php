@@ -112,103 +112,74 @@ get_header();
                </div>
             </div>
             <h4 class="circle">活動</h4>
-            <div class="row col-xs-pc">
-            	<div class="col-sm-90 col-sm-offset-15">
+            <div class="row">
+            	<div class="col-sm-120">
 		            <div class="row activities">
-		              <div class="col-sm-25 col-xs-120 l-block">
-		              	  <div class="item-img">
-		                    <img class="alignleft wp-image-251 size-thumbnail" src="<?php echo home_url(); ?>/wp-content/uploads/2020/10/IMG_3978-150x150.jpg" alt="" width="150" height="150"/>
-		                  </div>
-		                  <div class="item-img">
-		                    <img class="alignleft wp-image-251 size-thumbnail" src="<?php echo home_url(); ?>/wp-content/uploads/2020/11/a3e889ccf2c4bbb7beba8d7f6e4a52ea-640x480-150x150.jpg" alt="" width="150" height="150"/>
-		                  </div>
-                      <div class="item-img">
-                        <img class="alignleft wp-image-251 size-thumbnail" src="<?php echo home_url(); ?>/wp-content/uploads/2020/11/E58699E79C9F-12-e1534319258988-150x150.jpg" alt="" width="150" height="150"/>
-                      </div>
-		               </div>
-		               <div class="col-sm-70 col-xs-120">
-		                  <div class="item-text">
-		                  	２０１７年８月８日　Liberty Central Saigon Citypoint<br/>
-		                  	『GPでもできるマウスピース矯正アソアライナー』講演
-		                  </div>
-		                  <div class="item-text">
-		                  	２０１８年１月７日　Renaissance Riverside Hotel Saigon<br/>
-		                  	『Welcome Porcelain laminate veneer』講演
-		                  </div> 
-		                  <div class="item-text">
-		                  	２０１８年１月１１日　JW マリオット ホテル ハノイ<br/>
-		                  	『Welcome Porcelain laminate veneer』講演
-		                  </div> 
-		                  <div class="item-text">
-		                  	２０１９年６月２４日　Liberty Central Saigon Citypoint<br/>
-		                  	『GPでもできるマウスピース矯正GIKOアライナー』講演
-		                  </div> 
+                
+                  <div class="col-sm-120 col-xs-120 pt-35">
                       <div class="item-text">
-                        <strong>USC（南カリフォルニア大学)</strong><br/>
-                        USC(南カリフォルニア大学)でのPorcelain laminate veneerの講演     
-                      </div> 
+                        ２０１７年８月８日　Liberty Central Saigon Citypoint<br/>
+                        『GPでもできるマウスピース矯正アソアライナー』講演
+                      </div>
+                      <div class="item-text">
+                        ２０１８年１月７日　Renaissance Riverside Hotel Saigon<br/>
+                        『Welcome Porcelain laminate veneer』講演
+                      </div>
+                   </div>
 
-		               </div>
-		               <div class="col-sm-25 col-xs-120 r-block">
-		               	  <div class="item-img first-item-img">
-		                    <img class="alignleft wp-image-251 size-thumbnail" src="<?php echo home_url(); ?>/wp-content/uploads/2020/10/IMG_0458-1-150x150.jpg" alt="" width="150" height="150"/>
-		                  </div>
-		                  <div class="item-img">
-		                    <img class="alignleft wp-image-251 size-thumbnail" src="<?php echo home_url(); ?>/wp-content/uploads/2020/11/usc-150x150.jpg" alt="" width="150" height="150"/>
-		                  </div>         
-		               </div>
+                   <div class="col-sm-120 col-xs-120 l-block">
+                      <div class="item-img">
+                        <img class="alignleft wp-image-251 size-thumbnail" src="<?php echo home_url(); ?>/wp-content/uploads/2020/10/IMG_3978-150x150.jpg" alt="" width="150" height="150"/>
+                      </div>
+                   </div>
+
+                   <div class="col-sm-120 col-xs-120 pt-35">
+                     <div class="item-text">
+                        ２０１８年１月１１日　JW マリオット ホテル ハノイ<br/>
+                        『Welcome Porcelain laminate veneer』講演
+                      </div> 
+                      <div class="item-text">
+                        ２０１９年６月２４日　Liberty Central Saigon Citypoint<br/>
+                        『GPでもできるマウスピース矯正GIKOアライナー』講演
+                      </div>
+                   </div>
+
+                   <div class="col-sm-120 col-xs-120 l-block">
+                      <div class="item-img">
+                        <img class="alignleft wp-image-251 size-thumbnail" src="<?php echo home_url(); ?>/wp-content/uploads/2020/10/IMG_0458-1-150x150.jpg" alt="" width="150" height="150"/>
+                      </div>
+                   </div>
+
+                   <div class="col-sm-120 col-xs-120 pt-35">
+                      <div class="item-text">
+                        <strong>USC（南カリフォルニア大学)</strong>
+                      </div> 
+                   </div>
+
+                   <div class="col-sm-120 col-xs-120 l-block">
+                      <div class="item-img">
+                        <img class="alignleft wp-image-251 size-thumbnail" src="<?php echo home_url(); ?>/wp-content/uploads/2020/11/a3e889ccf2c4bbb7beba8d7f6e4a52ea-640x480-150x150.jpg" alt="" width="150" height="150"/>
+                        <img class="alignleft wp-image-251 size-thumbnail" src="<?php echo home_url(); ?>/wp-content/uploads/2020/11/topi05b-150x150.jpg" alt="" width="150" height="150"/>
+                        <img class="alignleft wp-image-251 size-thumbnail" src="<?php echo home_url(); ?>/wp-content/uploads/2020/11/usc-150x150.jpg" alt="" width="150" height="150"/>
+                      </div>                
+                   </div>
+
+                   <div class="col-sm-120 col-xs-120 pt-35">
+                      <div class="item-text">
+                        USC(南カリフォルニア大学)でのPorcelain laminate veneerの講演
+                      </div> 
+                   </div>
+
+                   <div class="col-sm-120 col-xs-120 l-block">
+                      <div class="item-img">
+                         <img class="alignleft wp-image-251 size-thumbnail" src="<?php echo home_url(); ?>/wp-content/uploads/2020/11/E58699E79C9F-12-e1534319258988-150x150.jpg" alt="" width="150" height="150"/>
+                      </div>
+                   </div>
 		            </div>
+
                 </div>
            </div>
-           <div class="row col-xs-sp">
-            	<div class="col-xs-120 activities">
-		            <div class="row">
-		               <div class="col-xs-120">
-		                    <img class="alignleft wp-image-251 size-thumbnail" src="<?php echo home_url(); ?>/wp-content/uploads/2020/10/IMG_3978-150x150.jpg" alt="" width="150" height="150"/>		                 		                
-		               </div>
-		               <div class="col-xs-120">
-		                  	２０１７年８月８日　Liberty Central Saigon Citypoint<br/>
-		                  	『GPでもできるマウスピース矯正アソアライナー』講演
-		               </div>
-		            </div>
-		            <div class="row">
-		               <div class="col-xs-120">
-		                    <img class="alignleft wp-image-251 size-thumbnail" src="<?php echo home_url(); ?>/wp-content/uploads/2020/10/IMG_0458-1-150x150.jpg" alt="" width="150" height="150"/>		                 		                
-		               </div>
-		               <div class="col-xs-120">
-		                  	２０１８年１月７日　Renaissance Riverside Hotel Saigon<br/>
-		                  	『Welcome Porcelain laminate veneer』講演
-		               </div>
-		            </div>
-		            <div class="row">
-		               <div class="col-xs-120">
-		                    <img class="alignleft wp-image-251 size-thumbnail" src="<?php echo home_url(); ?>/wp-content/uploads/2020/11/a3e889ccf2c4bbb7beba8d7f6e4a52ea-640x480-150x150.jpg" alt="" width="150" height="150"/>		                 		                
-		               </div>
-		               <div class="col-xs-120">
-		                  	２０１８年１月１１日　JW マリオット ホテル ハノイ<br/>
-		                  	『Welcome Porcelain laminate veneer』講演
-		               </div>
-		            </div>
-		            <div class="row">
-		               <div class="col-xs-120">
-		                    <img class="alignleft wp-image-251 size-thumbnail" src="<?php echo home_url(); ?>/wp-content/uploads/2020/11/usc-150x150.jpg" alt="" width="150" height="150"/>		                 		                
-		               </div>
-		               <div class="col-xs-120">
-		                  	２０１９年６月２４日　Liberty Central Saigon Citypoint<br/>
-		                  	『GPでもできるマウスピース矯正GIKOアライナー』講演
-		               </div>
-		            </div>
-                <div class="row">
-                   <div class="col-xs-120">
-                        <img class="alignleft wp-image-251 size-thumbnail" src="<?php echo home_url(); ?>/wp-content/uploads/2020/11/E58699E79C9F-12-e1534319258988-150x150.jpg" alt="" width="150" height="150"/>                                       
-                   </div>
-                   <div class="col-xs-120">
-                        <strong>USC（南カリフォルニア大学)</strong><br/>
-                        USC(南カリフォルニア大学)でのPorcelain laminate veneerの講演
-                   </div>
-                </div>
-                </div>
-           </div>       
+
          </div>
       </div>
    </div>
