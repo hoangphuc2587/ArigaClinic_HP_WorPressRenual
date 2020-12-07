@@ -252,39 +252,58 @@ if(is_category()){
          
          
          var nextSlide = function(){      
-           currentSlide++
+           currentSlide++;
          
            if(jQuery("[data-order='" + currentSlide + "']").length == 0) currentSlide = 0
          
-                 // if( $( window ).width() > 767 ){
-             jQuery('.parallax-mirror[data-order]').fadeOut("slow");
-           // } else {
-                 // }
+                 if( $( window ).width() > 767 ){
+                   jQuery('.parallax-mirror[data-order]').fadeOut("slow");
+                 } else {
+                      jQuery( ".section-banner .slider" ).each(function( index ) {
+                           jQuery(this).fadeOut("slow");
+                      }); 
+                 }
+           // if( $( window ).width() > 767 ){
+              jQuery("[data-order='" + currentSlide + "']").fadeIn("slow");
+           // }else{
+           //    jQuery(".section-banner .item"+currentSlide).fadeIn("slow");
+           // }
+
+           if (currentSlide > 0){
+              jQuery(".verticalcentersplash").hide();
+            }
+            else{
+              jQuery(".verticalcentersplash").show();
+            }
            
-           jQuery("[data-order='" + currentSlide + "']").fadeIn("slow");
+           
          }
          
-                 // if( $( window ).width() > 767 ){
-             jQuery('.parallax-mirror[data-order]').hide();
-           // } else {
-                 // }
+                 if( $( window ).width() > 767 ){
+                     jQuery('.parallax-mirror[data-order]').hide();
+                 } else {
+                    jQuery( ".section-banner .slider" ).each(function( index ) {
+                           jQuery(this).hide();
+                      }); 
+                 }
           
            fixStuff();
            nextSlide();
 
 
-          //setInterval(nextSlide, 3000);
+          // setInterval(nextSlide, 3000);
 
-          // setInterval(function(){
-            // nextSlide();
-            // jQuery( ".button-slider ul li" ).each(function( index ) {
-            //    if (jQuery(this).hasClass("active")){
-            //       jQuery(this).removeClass("active");
-            //    }      
-            // }); 
-            // jQuery(".slider-item-"+currentSlide).addClass("active"); 
+          setInterval(function(){
+            nextSlide();
+            jQuery( ".button-slider ul li" ).each(function( index ) {
+               if (jQuery(this).hasClass("active")){
+                  jQuery(this).removeClass("active");
+               }      
+            }); 
+            jQuery(".slider-item-"+currentSlide).addClass("active");            
 
-          // }, 5000)
+
+          }, 5000)
          
          
           setInterval(function(){

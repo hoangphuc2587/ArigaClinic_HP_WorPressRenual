@@ -13,6 +13,10 @@ body.home{
   color: #8B8679;
 }
 
+.parallax-mirror:nth-child(3) .parallax-slider {
+   margin-top: 150px;
+}
+
 .scrolltotop {
     position: absolute;
     right: -100px;
@@ -380,6 +384,13 @@ p.info-dr{
     margin-bottom: 0px;
  }
 
+  .amore-welcome-top h1{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 0px;
+ }
+
  h3.text-header{
     color: #8B8679;
     font-size: 32px;
@@ -415,6 +426,16 @@ p.info-dr{
     margin-right: 10px;
  }
 
+ .title-news{
+    font-size: 30px;
+ }
+
+ .topcover h2, .topcover h3{
+    color: #fee59b;
+    font-size: 60px;
+    font-weight: 700;
+ }
+
  .amore-section-list ul li a{
     color: #8B8679;
     font-size: 18px;
@@ -424,6 +445,7 @@ p.info-dr{
  .top-headline2 {
     font-size: 20px !important;
     font-weight: 700;
+    line-height: 40px;
 }
 
 .text-header span.news-text{
@@ -763,6 +785,7 @@ p.info-dr{
 .category-top .text-content span{
   line-height: 45px;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 /* update color vs font*/
@@ -1286,6 +1309,16 @@ h4.underline-hover{
 }
 
 @media only screen and (max-width: 771px){
+
+  .topcover h2, .topcover h3{   
+    font-size: 25px;
+    margin-top: 0px;
+  }
+
+  .verticalcentersplash {
+    padding-top: 150px !important; 
+  }
+
   #logo_image #logo img {
     height: 44px !important;
   }
@@ -1331,6 +1364,19 @@ h4.underline-hover{
 }
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 767px) {
+
+  .section-banner{
+    position: relative;
+  }
+
+  .section-banner .slider.heightasviewport{
+    background-size: contain !important;
+    top: 40px; 
+  }
+
+  .button-slider{
+    bottom : 0px;
+  }
 
   .entry-content h3, .single-page h3 {
     font-size: 20px;

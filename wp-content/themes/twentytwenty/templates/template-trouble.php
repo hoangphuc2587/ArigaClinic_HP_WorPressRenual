@@ -101,10 +101,10 @@ get_header();
                         </a> 
                       </div>
                       <div class="col-xs-120 col-sm-24">
-                        <a href="/trouble/orthodonic">
+                        <a href="/trouble/orthodontic">
                          <div class="circle">
                            <img style="margin-top:70px" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/trouble_1_8.png">
-                           <h3 class="text-inline">ORTHODONIC</h3>
+                           <h3 class="text-inline">ORTHODONTIC</h3>
                          </div>
                          <h3 class="text-outline">歯並び・歯科矯正</h3>
                         </a> 

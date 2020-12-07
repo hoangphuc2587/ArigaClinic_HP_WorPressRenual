@@ -35,10 +35,10 @@ get_header();
          <div class="row article">
             <h3 class="ppt">プロフィール</h3>
             <div class="row pt-20">
-               <div class="col-sm-25 col-xs-120">
-                  <img class="alignleft wp-image-251 size-thumbnail" src="<?php echo home_url(); ?>/wp-content/uploads/2020/10/IMG_13351-150x150.jpg" alt="" width="150" height="150"/> 
+               <div class="col-sm-35 col-xs-120">
+                  <img class="alignleft wp-image-251 size-thumbnail" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/images_1.jpg" alt=""/> 
                </div>
-               <div class="col-sm-95 col-xs-120">
+               <div class="col-sm-85 col-xs-120">
                   院長　有賀　智哉　(ARIGA TOMOYA)<br />
                   <p class="info-dr">
                      【ご挨拶】<br />
@@ -179,6 +179,13 @@ get_header();
 
                 </div>
            </div>
+
+           <h4 class="circle">スタッフ紹介</h4>
+            <div class="row">
+              <div class="col-sm-120">
+                <img style="margin-top: 15px" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/staff_6.jpg">
+              </div>
+            </div>    
 
          </div>
       </div>

@@ -13,29 +13,29 @@ get_header();
 
 <div class="main-content">
    <div id="site-cover"></div>
-   <section>
-     <div class="slider heightasviewport has-background" data-order='0' data-parallax="scroll" data-image-src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/banner_1.jpg"></div>
-     <!-- <div class="slider heightasviewport has-background" data-order='1' data-parallax="scroll" data-image-src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/banner_2.jpg"></div>
-     <div class="slider heightasviewport has-background" data-order='2' data-parallax="scroll" data-image-src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/banner_3.jpg"></div>
-     <div class="slider heightasviewport has-background" data-order='3' data-parallax="scroll" data-image-src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/banner_4.jpg"></div>
-     <div class="slider heightasviewport has-background" data-order='4' data-parallax="scroll" data-image-src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/banner_5.jpg"></div> -->
+   <section class="section-banner">
+     <div class="item-0 slider heightasviewport has-background" data-order='0' data-parallax="scroll" data-image-src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/T1.jpg"></div>
+     <div class="item-1 slider heightasviewport has-background" data-order='1' data-parallax="scroll" data-image-src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/T2.jpg"></div>
+     <div class="item-2 slider heightasviewport has-background" data-order='2' data-parallax="scroll" data-image-src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/T3.jpg"></div>
+     <div class="item-3 slider heightasviewport has-background" data-order='3' data-parallax="scroll" data-image-src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/T4.jpg"></div>
 
     <div id="topcover" class="topcover heightasviewport">
-       <div class="text-center verticalcentersplash amore-welcome-center">        
+       <div class="text-center verticalcentersplash amore-welcome-center"> 
+        <h2>日本の「あんしん」歯科治療を</h2>
+        <h3>ホーチミンで </h3>
        </div>
     </div>
     <div class="topcover heightasviewport" style="opacity:1;-ms-transform:translate(0px,0px);-webkit-transform:translate(0px,0px);transform:translate(0px,0px);"></div>
     <div id="top" class="heightasviewport" style="opacity:1; background:transparent">
     </div>
-   <!--  <div class="button-slider hidden-xs">
+    <div class="button-slider">
       <ul>
           <li class="slider-item-0 active" data-order='0'></li>
           <li class="slider-item-1" data-order='1'></li>
           <li class="slider-item-2" data-order='2'></li>
-          <li class="slider-item-3" data-order='3'></li>
-          <li class="slider-item-4" data-order='4'></li>
+          <li class="slider-item-3" data-order='3'></li>       
       </ul>  
-    </div>  --> 
+    </div>  
    </section>
    <section class="top-second">
     <div id="second">
@@ -44,22 +44,22 @@ get_header();
            <div class="col-sm-30 col-xs-58">
               <h4><img class="stick-greeting" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/top_1_1.png"></h4>
               <h3><span class="stick-greeting">ご挨拶</span></h3>
-              <h2><span class="stick-greeting">GREETING</span></h2>
+              <h1><span class="stick-greeting">GREETING</span></h1>
            </div>
            <div class="col-sm-30 col-xs-58">
               <h4><img class="stick-care" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/top_1_2.png"></h4>
               <h3><span class="stick-care">治療一覧</span></h3>
-              <h2><span class="stick-care">CARE</span></h2>
+              <h1><span class="stick-care">CARE</span></h1>
            </div>
            <div class="col-sm-30 col-xs-58">
               <h4><img class="mt10 stick-support" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/top_1_3.png"></h4>
               <h3><span class="stick-support">当院について</span></h3>
-              <h2><span class="stick-support">ABOUT US</span></h2>
+              <h1><span class="stick-support">ABOUT US</span></h1>
            </div>
            <div class="col-sm-30 col-xs-58">
               <h4><a href="<?php echo home_url(); ?>/contact/"><img class="mt15 stick-contact" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/top_1_4.png"></a></h4>
               <h3><a class="stick-contact" href="<?php echo home_url(); ?>/contact/">お問い合わせ</a></h3>
-              <h2><a class="stick-contact" href="<?php echo home_url(); ?>/contact/">CONTACT</a></h2>
+              <h1><a class="stick-contact" href="<?php echo home_url(); ?>/contact/">CONTACT</a></h1>
            </div>
           </div>
        </div>
@@ -106,7 +106,7 @@ get_header();
     <div id="fourth" class="container greeting-top">
        <div class="row">         
          <div class="col-xs-120 no-padding">
-         <h3 class="lead romaji top-headline-center top-headline-greeting col-sm-offset-5 top-headline2 mb50"><span>GREETING</span></h3>
+         <h1 class="lead romaji top-headline-center top-headline-greeting col-sm-offset-5 top-headline2 mb50"><span>GREETING</span></h1>
          <div class="row">
           <div class="col-xs-120 col-sm-50 col-sm-offset-5">
             <h3>日本人歯科医師がいる <br/>安心の歯科医院</h3>
@@ -116,7 +116,7 @@ get_header();
             <p>最新の歯科用CTも完備されており、インプラントや親知らずの抜歯、歯の根の治療などで利用でき、施設面でも充実しております。</p>
           </div>
           <div class="col-xs-120 col-sm-55 col-sm-offset-5 col-sm-offset-5-right">
-              <img src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/images_1.png">
+              <img src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/images_1.jpg" style="margin-top: 20px">
           </div>
          </div>
         </div>
@@ -196,10 +196,10 @@ get_header();
               </a> 
             </div>
             <div class="col-xs-120 col-sm-24">
-              <a href="<?php echo home_url(); ?>/trouble/orthodonic">
+              <a href="<?php echo home_url(); ?>/trouble/orthodontic">
                <div class="circle">
                  <img style="margin-top:70px" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/care_1_8.png">
-                 <h3 class="text-inline">ORTHODONIC</h3>
+                 <h3 class="text-inline">ORTHODONTIC</h3>
                </div>
                <h3 class="text-outline">歯並び・歯科矯正</h3>
               </a> 
@@ -268,13 +268,13 @@ get_header();
           </div>
 
            <div class="col-xs-120 col-sm-55 col-sm-offset-5 col-sm-offset-5-right">
-              <img src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/images_3.png">
+              <img src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/images_3.jpg" style="margin-top: 30px">
           </div>
          </div>
 
          <div class="row pt100 visible-xs">
           <div class="col-xs-120 col-sm-50 col-sm-offset-5">
-              <img  src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/images_3.png">
+              <img  src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/images_3.jpg">
           </div>
           <div class="col-xs-120 col-sm-55 col-sm-offset-5 col-sm-offset-5-right">
             <h3 class="title-header-first" style="">スタッフ紹介</h3>
@@ -345,7 +345,7 @@ get_header();
                    'orderby' => 'id',
                    'order'   => 'ASC',
                    'hide_empty' => '0',
-                   'posts_per_page' => 6,
+                   'number' => 6,
                 ));
                 $index = 0;
               ?>
@@ -358,8 +358,9 @@ get_header();
               }
               ?>              
                 <div class="col-sx-60 col-sm-40 no-padding">
-                  <a href="<?php echo home_url(); ?>/<?php echo $category->taxonomy ?>/<?php echo $category->slug;?>">
-                    <img class="category-img"  src="<?php echo wp_get_attachment_image_src(get_term_meta($category->term_id, 'featured_image_id', true), 'full')[0];?>" />
+                  <a href="<?php echo home_url(); ?>/<?php echo $category->slug;?>">
+                    <img class="category-img"  src="<?php echo(wp_get_attachment_image_src( get_term_meta($category->term_id, 'featured_image_id', true), 'news-thumb' )[0]) ?>" />
+
                     <div class="caption-text"></div> 
                     <div class="text-center text-content">
                       <?php echo $category->name;?> <br/>
@@ -382,7 +383,14 @@ get_header();
    </section>
   </div>
 </div>  
-  <script>jQuery('.heightasviewport').css('height', jQuery(window).height())</script> 
+  <script>
+  if (jQuery(window).width() > 767){
+    jQuery('.heightasviewport').css('height', jQuery(window).height());
+  }else{
+    jQuery('.heightasviewport').css('height', "350");
+  }
+  
+ </script> 
 
 <?php get_footer(); ?>
  

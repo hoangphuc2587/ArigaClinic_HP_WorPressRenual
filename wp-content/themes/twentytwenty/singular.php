@@ -149,13 +149,12 @@ get_header();
               
                 <div class="col-sm-60 col-xs-120 p0">
                    <article id="post-1844" class="post-1844 post type-post status-publish format-standard has-post-thumbnail hentry category-51">
-                      <div class='col-xs-45' style='padding-right:0px'>
+                      <div class='col-xs-35' style='padding-right:0px'>
                          <a href="<?php echo get_permalink($p_id); ?>">
                             <div class="thumb"><img src="<?php echo wp_get_attachment_image_src(get_post_thumbnail_id($p_id), 'relative-thumb')[0];?>" alt=""></div>
                          </a>
                       </div>
-                      <div class='col-xs-75'>
-                         <span class='fa fa-clock-o'></span><span class='timestamp romaji'>&nbsp;<?php echo get_the_date('Y.m.d', $p_id); ?></span>　
+                      <div class='col-xs-85'>                        
                          <h4 class='underline-hover' style='display:block; margin-bottom:10px; margin-top:10px'>
                           <a class='content_links' href='<?php echo get_permalink($p_id); ?>'>
                             <?php echo get_the_title();?>
