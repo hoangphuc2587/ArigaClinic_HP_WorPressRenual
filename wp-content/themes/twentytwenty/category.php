@@ -16,6 +16,7 @@ $category = get_category( get_query_var( 'cat' ) );
 
   if( $cat_id ){
     $cat_id = $cat_id;
+    $h1_title_cat = get_term_meta($cat_id, 'h1_title_cat', true);
   } else {
     $cat_id = 'null';
   }
@@ -38,7 +39,7 @@ $category = get_category( get_query_var( 'cat' ) );
 					  <?php get_template_part('breadcrumb'); ?>
 				   <?php endif; ?>
 					  <header class="breadcrumb mb20"> <a href="<?php echo home_url(); ?>"><span><img src="<?php echo home_url(); ?>/wp-content/themes/twentytwenty/assets/images/home.png" class="breadcrumb-home"></span></a> <span class="fa fa-chevron-right text-muted" style="font-size:10px">&nbsp;</span> <span><?php echo get_cat_name($cat_id); ?> </span></header>
-					  <h1><?php echo get_cat_name($cat_id); ?></h1>
+					  <h1><?php echo empty($h1_title_cat) ? get_cat_name($cat_id) : $h1_title_cat; ?></h1>
 					  <?php if(is_category()&&category_description()) : ?>
 					  <div class="cate-desc mb50"><?php echo category_description(); ?></div>
 				   <?php endif; ?>

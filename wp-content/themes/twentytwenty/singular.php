@@ -34,6 +34,7 @@ get_header();
                 $title_post =  get_the_title($post_id);
                 $url_post = get_permalink($post_id);
                 $categories_post = get_the_category($post_id);
+                $h1_title =  get_post_meta( $post_id, 'h1_title', true );
                 $arr_cat_id = array();
           ?>
           <article id="post-1858" class="post-1858 post type-post status-publish format-standard has-post-thumbnail hentry category-51">
@@ -50,7 +51,7 @@ get_header();
                         foreach ($categories_post as $cate) {
                            $arr_cat_id[] = $cate->cat_ID;
                       ?>
-                        <a itemprop="url" href="<?php echo home_url().'/'.$cate->taxonomy.'/'.$cate->slug; ?>/">
+                        <a itemprop="url" href="<?php echo home_url().'/'.$cate->slug; ?>/">
                           <span itemprop="title"><?php echo $cate->name?><?php echo ($i < count($categories_post) -1 ) ? ',' : '';?></span>
                         </a>
                       <?php
@@ -60,14 +61,14 @@ get_header();
                     </li>
                    <li class="last"><?php echo $title_post; ?></li>
                 </ul>
-                <h1 class="page-title mt40 mb10"><?php echo $title_post; ?></h1>
+                <h1 class="page-title mt40 mb10"><?php echo empty($h1_title) ? $title_post : $h1_title; ?></h1>
                 <div class="entry-meta mb45">
                   <span class="categories-wrap">
                       <?php
                         $i = 0;
                         foreach ($categories_post as $cate) {
                       ?>                        
-                        <a href="<?php echo home_url().'/'.$cate->taxonomy.'/'.$cate->slug; ?>/" rel="category tag"><?php echo $cate->name?><?php echo ($i < count($categories_post) -1 ) ? ',' : '';?></a>   
+                        <a href="<?php echo home_url().'/'.$cate->slug; ?>/" rel="category tag"><?php echo $cate->name?><?php echo ($i < count($categories_post) -1 ) ? ',' : '';?></a>   
                       <?php
                         $i++;
                         }

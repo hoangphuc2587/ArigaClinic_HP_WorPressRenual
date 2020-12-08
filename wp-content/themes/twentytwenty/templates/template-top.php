@@ -44,22 +44,22 @@ get_header();
            <div class="col-sm-30 col-xs-58">
               <h4><img class="stick-greeting" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/top_1_1.png"></h4>
               <h3><span class="stick-greeting">ご挨拶</span></h3>
-              <h1><span class="stick-greeting">GREETING</span></h1>
+              <h2><span class="stick-greeting">GREETING</span></h2>
            </div>
            <div class="col-sm-30 col-xs-58">
               <h4><img class="stick-care" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/top_1_2.png"></h4>
               <h3><span class="stick-care">治療一覧</span></h3>
-              <h1><span class="stick-care">CARE</span></h1>
+              <h2><span class="stick-care">CARE</span></h2>
            </div>
            <div class="col-sm-30 col-xs-58">
               <h4><img class="mt10 stick-support" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/top_1_3.png"></h4>
               <h3><span class="stick-support">当院について</span></h3>
-              <h1><span class="stick-support">ABOUT US</span></h1>
+              <h2><span class="stick-support">ABOUT US</span></h2>
            </div>
            <div class="col-sm-30 col-xs-58">
               <h4><a href="<?php echo home_url(); ?>/contact/"><img class="mt15 stick-contact" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/top_1_4.png"></a></h4>
               <h3><a class="stick-contact" href="<?php echo home_url(); ?>/contact/">お問い合わせ</a></h3>
-              <h1><a class="stick-contact" href="<?php echo home_url(); ?>/contact/">CONTACT</a></h1>
+              <h2><a class="stick-contact" href="<?php echo home_url(); ?>/contact/">CONTACT</a></h2>
            </div>
           </div>
        </div>
