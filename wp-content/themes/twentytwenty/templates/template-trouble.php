@@ -9,6 +9,8 @@
  */
 
 get_header();
+$post_id = get_the_ID();
+$h1_title =  get_post_meta( $post_id, 'h1_title_page', true );
 ?>
 
 <div class="main-content">
@@ -25,8 +27,9 @@ get_header();
  <div class="row">
     <div class="col-sm-120 col-xs-120 no-padding single-page">
        <header class="breadcrumb mb20"> <a href="<?php echo home_url(); ?>"><span><img src="<?php echo home_url(); ?>/wp-content/themes/twentytwenty/assets/images/home.png" class="breadcrumb-home"></span></a> <span class="fa fa-chevron-right text-muted" style="font-size:10px">&nbsp;</span> <span><?php the_title()?></span></header>
-       <div class="row article" style="margin:auto 0;">
-          <h3 class="ppt">ホーチミンのありが歯科ではこのような１０の歯のお悩みにも対応しています。</h3><br />
+       <div class="row article" style="margin:auto 0;">        
+          <h1 class="ppt"><?php echo empty($h1_title) ? 'ホーチミンのありが歯科ではこのような１０の歯のお悩みにも対応しています。' : $h1_title; ?></h1>
+          <br />
 
           <section id="section-care" class="care-top care-trouble">
               <div id="fifth" class="container">

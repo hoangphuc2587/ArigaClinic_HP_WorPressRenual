@@ -11,6 +11,8 @@
 get_header();
 global $post;
 $page_slug = $post->post_name;
+$post_id = get_the_ID();
+$h1_title =  get_post_meta( $post_id, 'h1_title_page', true );
 ?>
 
 <div class="main-content">
@@ -41,15 +43,15 @@ $page_slug = $post->post_name;
         <span class="fa fa-chevron-right text-muted" style="font-size:10px">&nbsp;</span> <span><?php the_title()?></span>
         </header>
        <div class="row article" style="margin:auto 0;">
-          <h3 class="ppt" style="margin-bottom: 60px">
-          <?php if ($page_slug === 'implant'):?>
-          インプラントで大切な事。治療で残せる歯を簡単にインプラントの選択してはいけません。
+          <h1 class="ppt" style="margin-bottom: 60px">
+          <?php if ($page_slug === 'implant'):?>          
+          <?php echo empty($h1_title) ? 'インプラントで大切な事。治療で残せる歯を簡単にインプラントの選択してはいけません。' : $h1_title; ?>
           <?php elseif ($page_slug === 'orthodonic'):?>
-          ホーチミンありが歯科のこども矯正歯科          
-          <?php else:?>   
-          <?php the_title()?>
+          <?php echo empty($h1_title) ? 'ホーチミンありが歯科のこども矯正歯科' : $h1_title; ?>
+          <?php else:?>            
+          <?php echo empty($h1_title) ? the_title() : $h1_title; ?>
           <?php endif;?> 
-          </h3>
+          </h1>
           <?php the_content();?> 
 
           

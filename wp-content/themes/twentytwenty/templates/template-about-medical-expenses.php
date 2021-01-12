@@ -9,6 +9,8 @@
  */
 
 get_header();
+$post_id = get_the_ID();
+$h1_title =  get_post_meta( $post_id, 'h1_title_page', true );
 ?>
 
 <div class="main-content">
@@ -32,8 +34,8 @@ get_header();
         </a> 
         <span class="fa fa-chevron-right text-muted" style="font-size:10px">&nbsp;</span> <span><?php the_title()?></span>
        </header>
-       <div class="row article">
-          <h3 class="ppt">ホーチミンのありが歯科の治療費</h3>
+       <div class="row article">        
+          <h1 class="ppt"><?php echo empty($h1_title) ? 'ホーチミンのありが歯科の治療費' : $h1_title; ?></h1>
           <p class="pt-20">ホーチミンのありが歯科では治療費をご明確に提示することで患者様にご不安のない様、そしてご理解いただけるよう明確に提示させていただきます。</p>
           <p>海外での歯科治療、歯科治療費でいろいろな不安が解消できるように努力してまいります。</p>
           <div class="col-sm-60 col-xs-120 pt-20">

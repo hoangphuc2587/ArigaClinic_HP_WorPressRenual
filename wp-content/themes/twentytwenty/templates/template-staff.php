@@ -9,6 +9,8 @@
  */
 
 get_header();
+$post_id = get_the_ID();
+$h1_title =  get_post_meta( $post_id, 'h1_title_page', true );
 ?>
 
 <div class="main-content">
@@ -33,7 +35,7 @@ get_header();
             <span class="fa fa-chevron-right text-muted" style="font-size:10px">&nbsp;</span> <span><?php the_title()?></span>
          </header>
          <div class="row article">
-            <h3 class="ppt">プロフィール</h3>
+            <h1 class="ppt"><?php echo empty($h1_title) ? 'プロフィール' : $h1_title; ?></h1>
             <div class="row pt-20">
                <div class="col-sm-35 col-xs-120">
                   <img class="alignleft wp-image-251 size-thumbnail" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/images_1.jpg" alt=""/> 

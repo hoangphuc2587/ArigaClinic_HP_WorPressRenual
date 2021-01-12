@@ -116,7 +116,7 @@ get_header();
             <p>最新の歯科用CTも完備されており、インプラントや親知らずの抜歯、歯の根の治療などで利用でき、施設面でも充実しております。</p>
           </div>
           <div class="col-xs-120 col-sm-55 col-sm-offset-5 col-sm-offset-5-right">
-              <img src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/images_1.jpg" style="margin-top: 20px">
+              <img alt="ホーチミン 歯医者 有賀智哉院長" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/images_1.jpg" style="margin-top: 20px">
           </div>
          </div>
         </div>
@@ -236,7 +236,7 @@ get_header();
 
          <div class="row">
           <div class="col-xs-120 col-sm-50 col-sm-offset-5">
-              <img  src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/images_2.png">
+              <img alt="ホーチミン ありが歯科の診療室内" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/images_2.png">
           </div>
           <div class="col-xs-120 col-sm-55 col-sm-offset-5 col-sm-offset-5-right">
             <h3 class="title-header-first" style="">はじめてのありが歯科</h3>
@@ -268,13 +268,13 @@ get_header();
           </div>
 
            <div class="col-xs-120 col-sm-55 col-sm-offset-5 col-sm-offset-5-right">
-              <img src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/images_3.jpg" style="margin-top: 30px">
+              <img alt="ホーチミン ありが歯科のスタッフ" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/images_3.jpg" style="margin-top: 30px">
           </div>
          </div>
 
          <div class="row pt100 visible-xs">
           <div class="col-xs-120 col-sm-50 col-sm-offset-5">
-              <img  src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/images_3.jpg">
+              <img  alt="ホーチミン ありが歯科のスタッフ" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/images_3.jpg">
           </div>
           <div class="col-xs-120 col-sm-55 col-sm-offset-5 col-sm-offset-5-right">
             <h3 class="title-header-first" style="">スタッフ紹介</h3>
@@ -293,7 +293,7 @@ get_header();
 
          <div class="row pt100">
           <div class="col-xs-120 col-sm-50 col-sm-offset-5">
-              <img src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/images_4.png">
+              <img alt="ホーチミン ありが歯科 最新の歯科用医療機器" src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/images_4.png">
           </div>
           <div class="col-xs-120 col-sm-55 col-sm-offset-5 col-sm-offset-5-right">
             <h3 class="title-header-promise">ありが歯科の5つのお約束</h3>

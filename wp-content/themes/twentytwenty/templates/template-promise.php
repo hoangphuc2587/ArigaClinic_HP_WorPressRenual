@@ -9,6 +9,8 @@
  */
 
 get_header();
+$post_id = get_the_ID();
+$h1_title =  get_post_meta( $post_id, 'h1_title_page', true );
 ?>
 <div class="main-content">
 <div class="amore-divider romaji" data-parallax="scroll" data-image-src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/promise.jpg">
@@ -24,8 +26,9 @@ get_header();
  <div class="row">
     <div class="col-sm-120 col-xs-120 no-padding single-page">
        <header class="breadcrumb mb20"> <a href="<?php echo home_url(); ?>"><span><img src="<?php echo home_url(); ?>/wp-content/themes/twentytwenty/assets/images/home.png" class="breadcrumb-home"></span></a> <span class="fa fa-chevron-right text-muted" style="font-size:10px">&nbsp;</span> <span><?php the_title()?></span></header>
-       <div class="row article" style="margin:auto 0;">
-          <h3 class="ppt">ホーチミンのありが歯科では患者様に５つのお約束をいたします！</h3><br />
+       <div class="row article" style="margin:auto 0;">         
+          <h1 class="ppt"><?php echo empty($h1_title) ? 'ホーチミンのありが歯科では患者様に５つのお約束をいたします！' : $h1_title; ?></h1>
+          <br />
           <p>ホーチミンに関わる一人でも多くの方が、一生自分の歯で、美しく、楽しく、健康で、幸せに過ごしていただく為のサポートをしていくことが、わたしたちホーチミンのありが歯科の使命だと考えています。
           <br /><br />そしてホーチミンのかかりつけ歯科医として皆様の健康を守っていきたいと考えています。</p>        
           <h4>ホーチミンありが歯科の５つのお約束</h4>

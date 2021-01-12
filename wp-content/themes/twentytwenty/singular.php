@@ -78,9 +78,14 @@ get_header();
              </header>
              <div class="entry-content">
                 <?php get_template_part( 'template-parts/share-top', null, array('title_post' => $title_post, 'url_post' => $url_post));?>
+
+                <?php
+                    $thumbnail_id = get_post_thumbnail_id($post_id);
+                    $alt = get_post_meta($thumbnail_id, '_wp_attachment_image_alt', true);              
+                ?>
               
                 <div class="entry-content-thumbnail"> 
-                 <img src="<?php echo wp_get_attachment_image_src(get_post_thumbnail_id($post_id), 'full')[0];?>" style="margin-bottom:40px">
+                 <img src="<?php echo wp_get_attachment_image_src($thumbnail_id, 'full')[0];?>" alt="<?php echo $alt;?>" style="margin-bottom:40px">
                 </div>
 
                 <?php the_content(); ?> 

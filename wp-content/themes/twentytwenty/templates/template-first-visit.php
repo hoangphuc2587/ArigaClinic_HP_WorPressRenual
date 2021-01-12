@@ -19,7 +19,8 @@ get_header();
 			
 	// 	}
 	// }
-
+$post_id = get_the_ID();
+$h1_title =  get_post_meta( $post_id, 'h1_title_page', true );
 ?>
 <div class="main-content">
 <div class="amore-divider romaji" data-parallax="scroll" data-image-src="<?php echo home_url(); ?>/wp-content/uploads/tcd-w/first_visit.jpg">
@@ -36,7 +37,7 @@ get_header();
     <div class="col-sm-120 col-xs-120 no-padding single-page">
        <header class="breadcrumb mb20"> <a href="<?php echo home_url(); ?>"><span><img src="<?php echo home_url(); ?>/wp-content/themes/twentytwenty/assets/images/home.png" class="breadcrumb-home"></span></a> <span class="fa fa-chevron-right text-muted" style="font-size:10px">&nbsp;</span> <span><?php the_title()?></span></header>
        <div class="row article" style="margin:auto 0;">
-          <h3 class="ppt">Welcome ホーチミンのありが歯科へ</h3><br />
+          <h1 class="ppt"><?php echo empty($h1_title) ? 'Welcome ホーチミンのありが歯科へ' : $h1_title; ?></h1><br />
           <p>ホーチミンのありが歯科では患者様の声に耳を傾け、ご希望やご要望を知る。<br /> 何気ない言動から患者様の真意を知る努力をする。<br /> そして歯科医師としての専門家から意見を述べさせていただき、治療方針を立てる。<br />このような医療人として当たり前の行為をきちんとこなす。<br /><br />これが『<b>ありが歯科スタイル</b>』<br /><br />せっかく治療をするならきちんと綺麗に治して欲しい。
           <br />ホーチミンのありが歯科では、ご要望にお応えし、患者様に安心して歯科治療をホーチミンで受けていただけるように私たちは努力します。</p>        
           <h4 class="padding-left-title">初めてのホーチミンありが歯科ご来院の流れ</h4>

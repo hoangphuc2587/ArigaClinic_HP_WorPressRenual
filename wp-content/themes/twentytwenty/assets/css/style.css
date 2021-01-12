@@ -795,12 +795,42 @@ h3.ppt{
   padding: 1px 0px 0px 48px;
 }
 
-/*h3.ppt:after {
-    border-left: 1px solid #E8E4DC;
-}*/
 
-h3.ppt:before {
+
+h1.ppt:before, h1.ppt:after {
+    content: "";
+    display: block;
+    position: absolute;
+}
+
+h1.ppt:before {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
     border: 1px solid #E8E4DC;
+    bottom: -16px;
+    left: 8px;
+}
+
+
+h1.ppt {
+    position: relative;
+    border-bottom: 2px solid #E8E4DC;
+    padding: 1px 0px 0px 48px;
+    font-weight: lighter;
+    font-size: 32px;
+}
+
+
+h1.ppt:before {
+    border: 1px solid #E8E4DC;
+}
+
+h1.ppt:after {
+    height: 64px;
+    border-left: 1px solid #b8ab6c;
+    bottom: -32px;
+    left: 24px;
 }
 
 .entry-content h3, .single-page h3 {
